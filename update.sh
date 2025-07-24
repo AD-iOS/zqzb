@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /var/mobile/zqzb
 
-# 生成索引
+# 生成索引文件
 dpkg-scanpackages -m debs /dev/null > Packages
 gzip -c9 Packages > Packages.gz
 
@@ -12,8 +12,10 @@ md5_gz=$(md5sum Packages.gz | cut -d' ' -f1)
 size_gz=$(wc -c < Packages.gz)
 
 # 更新Release文件
-awk -v md5_pkg="$md5_pkg" -v size_pkg="$size_pkg" \
-    -v md5_gz="$md5_gz" -v size_gz="$size_gz" '
+awk -v md5_pkg="$md5_pkg" \
+    -v size_pkg="$size_pkg" \
+    -v md5_gz="$md5_gz" \
+    -v size_gz="$size_gz" '
 BEGIN {print_flag=0}
 /MD5Sum:/ {print; print_flag=1; next}
 print_flag==1 && /Packages$/ { 
@@ -32,9 +34,3 @@ print_flag==1 && /Packages.gz$/ {
 git add .
 git commit -m "Auto-update $(date +'%Y-%m-%d %H:%M')"
 git push origin main
-# 在脚本末尾添加：
-echo "验证校验值..."
-if ! grep -q $(md5sum Packages.gz | cut -d' ' -f1) Release; then
-  echo "错误：校验值不匹配！"
-  exit 1
-fi
