@@ -1,0 +1,13 @@
+Package: OpenSSH-Settings
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: AD <3897069329>
+Filename: debs/OpenSSH-Settings_1.2.0_iphoneos-arm64.deb
+Size: 33820
+MD5sum: c70d3b4e36c3274c4ecd110654750b67
+SHA1: 34b6f47d5ba1b8d033279214aa8dcd46f4e8dd90
+SHA256: c70549cfd0b8c275980b14f5bfb51a5d541f9d37e3e8439e0ff0487f48ed646c
+Section: Networking
+Description: OpenSSH 管理插件 (AD(3897069329)对BlanxdH的OpenSSH进行汉化的版本)。支持端口修改、Root登录控制等功能。和原版OpenSSH功能相同仅汉化
+Author: AD
+
