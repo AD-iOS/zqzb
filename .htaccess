@@ -1,1 +1,2 @@
 AddType text/plain .gz
+AddType text/plain Packages
