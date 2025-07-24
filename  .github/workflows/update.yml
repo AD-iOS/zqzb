@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 3 * * *'  # 每天UTC时间3:00自动运行
+    - cron: '0 3 * * *'
 
 jobs:
   build:
@@ -25,12 +25,14 @@ jobs:
           # 计算校验值
           md5_pkg=$(md5sum Packages | cut -d' ' -f1)
           size_pkg=$(wc -c < Packages)
-          md5_gz=$(md5sum Packages.gz | cut -d' ' -f1) 
+          md5_gz=$(md5sum Packages.gz | cut -d' ' -f1)
           size_gz=$(wc -c < Packages.gz)
 
           # 更新Release文件
-          awk -v md5_pkg="$md5_pkg" -v size_pkg="$size_pkg" \
-              -v md5_gz="$md5_gz" -v size_gz="$size_gz" '
+          awk -v md5_pkg="$md5_pkg" \
+              -v size_pkg="$size_pkg" \
+              -v md5_gz="$md5_gz" \
+              -v size_gz="$size_gz" '
           BEGIN {print_flag=0}
           /MD5Sum:/ {print; print_flag=1; next}
           print_flag==1 && /Packages$/ { 
@@ -45,10 +47,17 @@ jobs:
           {print}
           ' Release > Release.new && mv Release.new Release
 
+      - name: Validate Checksums
+        run: |
+          if ! grep -q $(md5sum Packages.gz | cut -d' ' -f1) Release; then
+            echo "::error::Checksum mismatch!"
+            exit 1
+          fi
+
       - name: Commit changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add .
-          git commit -m "Auto-update Packages"
+          git commit -m "Auto-update $(date +'%Y-%m-%d %H:%M')"
           git push

@@ -32,3 +32,9 @@ print_flag==1 && /Packages.gz$/ {
 git add .
 git commit -m "Auto-update $(date +'%Y-%m-%d %H:%M')"
 git push origin main
+# 在脚本末尾添加：
+echo "验证校验值..."
+if ! grep -q $(md5sum Packages.gz | cut -d' ' -f1) Release; then
+  echo "错误：校验值不匹配！"
+  exit 1
+fi
