@@ -2,6 +2,10 @@ Origin: iOS-GM Repo
 Label: iOS-GM
 Suite: stable
 Version: 1.0
+Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: iOS-GM Cydia Repository
+Description: iOS越狱软件源
+MD5Sum:
+ bc9e1a78800d34bc0bdd5ec6884c2c23 541 Packages
+ cd9a052b20a1b2b2f42ddee4e2ef0c6e 463 Packages.gz
