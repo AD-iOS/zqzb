@@ -7,7 +7,7 @@ Components: main
 Description: iOS越狱软件源
 MD5Sum:
  bc9e1a78800d34bc0bdd5ec6884c2c23 541 Packages
- 9b759ab18247e90f004f18e22b2df7d7 463 Packages.gz
+ 0bf13b719e62a05a9858a9fc8a3cbabf 463 Packages.gz
  bc9e1a78800d34bc0bdd5ec6884c2c23 541 Packages
  0d30970c9d2419d823e5069df2b43bd3 463 Packages.gz
  $(md5sum Packages | awk '{print $1 " " $2 " Packages"}')

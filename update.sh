@@ -11,7 +11,7 @@ size_pkg=$(wc -c < Packages)
 md5_gz=$(md5sum Packages.gz | cut -d' ' -f1)
 size_gz=$(wc -c < Packages.gz)
 
-# 更新Release文件
+# 更新Release文件（修正后的awk命令）
 awk -v md5_pkg="$md5_pkg" \
     -v size_pkg="$size_pkg" \
     -v md5_gz="$md5_gz" \
