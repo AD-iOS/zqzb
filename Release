@@ -3,9 +3,12 @@ Label: iOS-GM
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm64
 Components: main
 Description: iOS越狱软件源
 MD5Sum:
  bc9e1a78800d34bc0bdd5ec6884c2c23 541 Packages
- cd9a052b20a1b2b2f42ddee4e2ef0c6e 463 Packages.gz
+ a541e805373d236ac4fb0f97776b0755 463 Packages.gz
+SHA256:
+ 49b5c74e983866e34a8c05298dfaaf239c1b8e3aee0c8bda66068505ab893ba1 541 Packages
+ 843a859b9d69fec198d608d8c36a031aee057c96c3d1db076604fc0898040f43 463 Packages.gz
