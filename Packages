@@ -11,3 +11,19 @@ Section: Networking
 Description: OpenSSH 管理插件 (AD(3897069329)对BlanxdH的OpenSSH进行汉化的版本)。支持端口修改、Root登录控制等功能。和原版OpenSSH功能相同仅汉化
 Author: AD
 
+Package: me.tomt000.stageduo
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 4900
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Filename: debs/DynamicStage-灵动分屏-中文版-arm64-rootless.deb
+Size: 3073076
+MD5sum: 73c0a143c966072817662509ac203d1b
+SHA1: f34eda70a3a45d6d5ffe8959a0665e0f31212c14
+SHA256: 7c86c53d607cc57b25b79640f7c6dd0caf56899775c32837e3b382e517a42904
+Section: Tweaks
+Description: 适用于 iPhone 的全新后台分屏器！现在，它是免费的！LF也为它提供了免费的中文版本！Enjoy！
+Author: tomt000
+Name: DynamicStage-灵动分屏
+
