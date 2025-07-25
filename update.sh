@@ -1,4 +1,5 @@
 #!/bin/bash
+
 cd /var/mobile/zqzb
 
 # 生成索引文件
