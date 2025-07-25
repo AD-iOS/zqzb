@@ -2,25 +2,6 @@
 
 cd /var/mobile/zqzb
 
-# 更新Release文件
-awk -v md5_pkg="$md5_pkg" \
-    -v size_pkg="$size_pkg" \
-    -v md5_gz="$md5_gz" \
-    -v size_gz="$size_gz" '
-BEGIN {print_flag=0}
-/MD5Sum:/ {print; print_flag=1; next}
-print_flag==1 && /Packages$/ { 
-    print " " md5_pkg " " size_pkg " Packages"
-    next
-}
-print_flag==1 && /Packages.gz$/ { 
-    print " " md5_gz " " size_gz " Packages.gz"
-    print_flag=0
-    next
-}
-{print}
-' Release > Release.new && mv Release.new Release
-
 # 生成索引文件
 dpkg-scanpackages -m . /dev/null > Packages
 gzip -c Packages > Packages.gz
