@@ -6,8 +6,8 @@ Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: iOS越狱软件源
 MD5Sum:
- 7d511d71acb4395238a01f32b6b3e3f3 1172 Packages
- 0095ed955e0d4b1c08f2bef28652c99f 827 Packages.gz
+ 53700aeb1995c31be13e8ac81eb28463 4564 Packages
+ 8be1b1e2784c2079c0467e3716842a96 2442 Packages.gz
 SHA256:
  49b5c74e983866e34a8c05298dfaaf239c1b8e3aee0c8bda66068505ab893ba1            541 Packages
  e16dac8edd45edf1591ca46751db8b10b45a5626e817bf728edcf2d00d7675c0            463 Packages.gz

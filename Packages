@@ -11,6 +11,99 @@ Section: Networking
 Description: OpenSSH 管理插件 (AD(3897069329)对BlanxdH的OpenSSH进行汉化的版本)。支持端口修改、Root登录控制等功能。和原版OpenSSH功能相同仅汉化
 Author: AD
 
+Package: PlumpyBar
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/PlumpyBar_1.1.deb
+Size: 102360
+MD5sum: 7a4b919bda6d36f21b9fe4a031c0ac2d
+SHA1: f9659a5ad1c52b91bd8c8ed9be5bb74c4f37ada9
+SHA256: 1f2d8a59d00c80d6e69d79cf17db8691f8b75eed30414bb0a9d8c4641803e2f4
+Section: Theme
+Description: 舒服的Plumpy风格状态栏，由LF支持电话助手，此为无根越狱版本
+Author: LF
+Name: PlumpyBar
+
+Package: complicationsnext
+Version: 4.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 3022
+Depends: mobilesubstrate
+Filename: debs/Complications_AppleWatch小组件锁屏（汉化➕修复）.deb
+Size: 656584
+MD5sum: f1091fe3cf0728a04dce90d94e209c5b
+SHA1: b173317b5131f74bdaeee6218d2c1d222bfc3c50
+SHA256: 0ba775c57bf39b7c0a38414310a8b7bc8f816483f707db22ee8c51edb0a7bfdb
+Section: 杂七杂八
+Description: 在iOS锁屏上的watchOS小组件修复支持iOS15～16 Rootless，无需补依赖，已汉化！Patch by LF！Enjoy！
+Author: Ben Giannis
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: ComplicationsNext
+Sponsor: LF
+
+Package: iOS26e
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: com.spark.snowboard
+Filename: debs/iOS26e_1.1_iphoneos-arm64.deb
+Size: 4003584
+MD5sum: bb473f3cf7a09648d93999c45223a9d2
+SHA1: ff84d2255333be75a04580704b5f51d7ca413cb6
+SHA256: d67d4195bf75df3cc4b2e39534373ca74fce09356c9b7a72349e8b6e0eef95f1
+Section: 主题
+Description: 真的iOS26主题！名为iOS26e！这里的「e」指的是「experience」！没想到新系统刚发布3天，就有主题了！毕竟是首发，不太完善！就如iOS26 BETA1一样，有很多问题，喜欢的自行体验吧！Enjoy！
+Author: LF
+Name: iOS26e
+
+Package: iperformancetweak
+Version: 1.0.0Beta
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: bash
+Filename: debs/iPerformanceTweak性能调整1.0.0Beta.deb
+Size: 9020
+MD5sum: 335f0a0587fedaa39963b15690595fe1
+SHA1: 801144cc3a09e6445109c539edc6ebfa548fbb1d
+SHA256: e2e7e6ba147f570329350ffaa4bae40495521a0200ad08810b1be3b945e6afa9
+Section: System
+Description: boost game performance.提高游戏性能
+Author: Moose
+Name: iPerformanceTweak
+
+Package: itheosmaker
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/itheosmaker_1.1_iphoneos-arm64.deb
+Size: 1219512
+MD5sum: c3a4cf6ec6fea079d03b64699563cec9
+SHA1: 9e4b83369c3a3e5a5a65b8e766eb932ffa76cca7
+SHA256: 812bb252b7352991ba9732792bbbe7c6ca2a9f0680159ee3e1f3bde12a431ca6
+Section: Builder
+Description: 在iOS上编译插件（由LF加入无根越狱支持）
+Author: crazymind90
+Name: iTheosMaker
+
+Package: lottiestatusbar
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.cephei-compat, xyz.cypwn.onboardingkitfix | firmware (<< 16.0), xyz.cypwn.xinam1ne
+Filename: debs/lottie状态栏-rootless-arm64-1.0.8.deb
+Size: 1013328
+MD5sum: 68db4c67c91eef097b2a8cac551212db
+SHA1: d2226869e08ec836ce56c17351de3d66e42a91b3
+SHA256: c6e2df74d6da535799efcf318b1f671b8477735ffa7a4d2251f7b6702ed3fae5
+Section: Tweaks
+Description: 年度最佳免费状态栏插件！需要转插！LF汉化！已经尽力汉化了！如果显示找不到依赖，请添加国外依赖源repo.cypwn.xyz！重新到搬运工源安装会自动补依赖！
+Author: MiRO
+Name: Lottie状态栏
+
 Package: me.tomt000.stageduo
 Version: 1.2
 Architecture: iphoneos-arm64
