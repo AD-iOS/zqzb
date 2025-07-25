@@ -7,13 +7,10 @@ Components: main
 Description: iOS越狱软件源
 MD5Sum:
    Packages
+ 06e507796e20c2902f85b92a8bd89a05
    Packages.gz
- 5142c1989fbe43aada650505c03fb377 Packages.xz
- d41d8cd98f00b204e9800998ecf8427e Packages.bz2
- d41d8cd98f00b204e9800998ecf8427e Packages.zst
+ 5142c1989fbe43aada650505c03fb377 
 SHA256:
- 27f3a5e2e3d8f535f835f65ce50664c54ae59cdca119a0fddc2810d2719900a3 Packages
- cea1ca2b9cbafd833e653999860877fd0cbdf5a4cdda5839dfefe922e11fba1e Packages.gz
- c85676845b6ab392583043177c2bcd291d30cece3862f202c1f723de3f7fe508 Packages.xz
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 Packages.bz2
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 Packages.zst
+27f3a5e2e3d8f535f835f65ce50664c54ae59cdca119a0fddc2810d2719900a3 Packages
+
+cea1ca2b9cbafd833e653999860877fd0cbdf5a4cdda5839dfefe922e11fba1e Packages.gz
