@@ -1,3 +1,22 @@
+Package: 10086-iOS-GM-Repo
+Version: 999.0
+Architecture: all
+Maintainer: iOS-GM Repo <admin@ios-gm.github.io>
+Depends: firmware (>= 1.0), this-package-does-not-exist (>> 999.9)
+Filename: debs/10086-iOS-GM Repo置顶群公告.deb
+Size: 884
+MD5sum: 5309318c8393ed438f58e58774b6d5fc
+SHA1: 1be6a6ce4cb5e8699ba36f39b59a79ad4082f720
+SHA256: 75ed1766ead57f063bd928ad2af1251df5bd3e72a62086cd3316e48c0eabbf62
+Section: Announcements
+Priority: required
+Description: ━━━━ iOS-GM Repo源公告 ━━━━
+ ・欢迎来到iOS-GM Repo源
+ ・本源不搞会员制
+  ・本源的插件来源于群友、源主以及其他人员
+ ・QQ群: 1030152896
+ ・QQ群: 837894083
+
 Package: OpenSSH-Settings
 Version: 1.2.0
 Architecture: iphoneos-arm64
