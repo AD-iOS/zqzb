@@ -1,23 +1,19 @@
 #!/bin/bash
 cd /var/mobile/zqzb
 
-# 1. 生成索引文件（确保删除旧文件）
+# 1. 清理旧文件
 rm -f Packages Packages.*
+
+# 2. 生成原始索引文件
 dpkg-scanpackages -m . /dev/null > Packages
 
-# 2. 生成压缩文件（同时保留xz和gz格式）
-xz -c9 Packages > Packages.xz
+# 3. 生成所有压缩格式
 gzip -c9 Packages > Packages.gz
+xz -c9 Packages > Packages.xz
+bzip2 -c9 Packages > Packages.bz2
+zstd -c19 Packages > Packages.zst
 
-# 3. 计算校验值（修正变量名）
-md5_pkg=$(md5sum Packages | awk '{print $1}')
-size_pkg=$(stat -c%s Packages)
-md5_xz=$(md5sum Packages.xz | awk '{print $1}')
-size_xz=$(stat -c%s Packages.xz)
-md5_gz=$(md5sum Packages.gz | awk '{print $1}')
-size_gz=$(stat -c%s Packages.gz)
-
-# 4. 更新Release文件（完整重写更可靠）
+# 4. 计算所有校验值
 {
   echo "Origin: iOS-GM Repo"
   echo "Label: iOS-GM"
@@ -26,21 +22,21 @@ size_gz=$(stat -c%s Packages.gz)
   echo "Architectures: iphoneos-arm iphoneos-arm64"
   echo "Components: main"
   echo "Description: iOS越狱软件源"
+  
+  # MD5Sum 区块
   echo "MD5Sum:"
-  echo " $md5_pkg $size_pkg Packages"
-  echo " $md5_xz $size_xz Packages.xz"
-  echo " $md5_gz $size_gz Packages.gz"
+  for file in Packages Packages.{gz,xz,bz2,zst}; do
+    [ -f "$file" ] && echo " $(md5sum "$file" | awk '{print $1, $2}')"
+  done
+  
+  # SHA256 区块
   echo "SHA256:"
-  sha256sum Packages Packages.xz Packages.gz | awk '{print " " $1 " " $2 " " $3}'
+  for file in Packages Packages.{gz,xz,bz2,zst}; do
+    [ -f "$file" ] && echo " $(sha256sum "$file" | awk '{print $1, $2}')"
+  done
 } > Release
 
-# 5. 提交更新（添加错误检查）
-if git add . && \
-   git commit -m "Auto-update $(date +'%Y-%m-%d %H:%M')" && \
-   git push origin main
-then
-    echo "✅ 更新成功"
-else
-    echo "❌ 更新失败，请检查git状态"
-    exit 1
-fi
+# 5. 提交更新
+git add .
+git commit -m "更新索引文件（全格式支持）"
+git push origin main
