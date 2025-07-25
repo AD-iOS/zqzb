@@ -3,7 +3,7 @@ Version: 999.0
 Architecture: all
 Maintainer: iOS-GM Repo <admin@ios-gm.github.io>
 Depends: firmware (>= 1.0), this-package-does-not-exist (>> 999.9)
-Filename: debs/10086-iOS-GM-Repo源的公告.deb
+Filename: ./debs/10086-iOS-GM-Repo源的公告.deb
 Size: 884
 MD5sum: 8def84921feead111a0b724aec3450b7
 SHA1: 10f2f11c70e3041c07bb123cb919f2b4861ee005
@@ -16,7 +16,7 @@ Package: OpenSSH-Settings
 Version: 1.2.0
 Architecture: iphoneos-arm64
 Maintainer: AD <3897069329>
-Filename: debs/OpenSSH-Settings_1.2.0_iphoneos-arm64.deb
+Filename: ./debs/OpenSSH-Settings_1.2.0_iphoneos-arm64.deb
 Size: 33820
 MD5sum: c70d3b4e36c3274c4ecd110654750b67
 SHA1: 34b6f47d5ba1b8d033279214aa8dcd46f4e8dd90
@@ -30,7 +30,7 @@ Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/PlumpyBar_1.1.deb
+Filename: ./debs/PlumpyBar_1.1.deb
 Size: 102360
 MD5sum: 7a4b919bda6d36f21b9fe4a031c0ac2d
 SHA1: f9659a5ad1c52b91bd8c8ed9be5bb74c4f37ada9
@@ -46,7 +46,7 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Installed-Size: 3022
 Depends: mobilesubstrate
-Filename: debs/Complications_AppleWatch小组件锁屏（汉化➕修复）.deb
+Filename: ./debs/Complications_AppleWatch小组件锁屏（汉化➕修复）.deb
 Size: 656584
 MD5sum: f1091fe3cf0728a04dce90d94e209c5b
 SHA1: b173317b5131f74bdaeee6218d2c1d222bfc3c50
@@ -63,7 +63,7 @@ Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: com.spark.snowboard
-Filename: debs/iOS26e_1.1_iphoneos-arm64.deb
+Filename: ./debs/iOS26e_1.1_iphoneos-arm64.deb
 Size: 4003584
 MD5sum: bb473f3cf7a09648d93999c45223a9d2
 SHA1: ff84d2255333be75a04580704b5f51d7ca413cb6
@@ -78,7 +78,7 @@ Version: 1.0.0Beta
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: bash
-Filename: debs/iPerformanceTweak性能调整1.0.0Beta.deb
+Filename: ./debs/iPerformanceTweak性能调整1.0.0Beta.deb
 Size: 9020
 MD5sum: 335f0a0587fedaa39963b15690595fe1
 SHA1: 801144cc3a09e6445109c539edc6ebfa548fbb1d
@@ -93,7 +93,7 @@ Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/itheosmaker_1.1_iphoneos-arm64.deb
+Filename: ./debs/itheosmaker_1.1_iphoneos-arm64.deb
 Size: 1219512
 MD5sum: c3a4cf6ec6fea079d03b64699563cec9
 SHA1: 9e4b83369c3a3e5a5a65b8e766eb932ffa76cca7
@@ -108,7 +108,7 @@ Version: 1.0.8
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.cephei-compat, xyz.cypwn.onboardingkitfix | firmware (<< 16.0), xyz.cypwn.xinam1ne
-Filename: debs/lottie状态栏-rootless-arm64-1.0.8.deb
+Filename: ./debs/lottie状态栏-rootless-arm64-1.0.8.deb
 Size: 1013328
 MD5sum: 68db4c67c91eef097b2a8cac551212db
 SHA1: d2226869e08ec836ce56c17351de3d66e42a91b3
@@ -124,7 +124,7 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Installed-Size: 4900
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
-Filename: debs/DynamicStage-灵动分屏-中文版-arm64-rootless.deb
+Filename: ./debs/DynamicStage-灵动分屏-中文版-arm64-rootless.deb
 Size: 3073076
 MD5sum: 73c0a143c966072817662509ac203d1b
 SHA1: f34eda70a3a45d6d5ffe8959a0665e0f31212c14

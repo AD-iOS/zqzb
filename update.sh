@@ -2,8 +2,8 @@
 cd /var/mobile/zqzb
 
 # 生成索引文件
-dpkg-scanpackages -m debs /dev/null > Packages
-gzip -c9 Packages > Packages.gz
+dpkg-scanpackages -m . /dev/null > Packages
+xz -c9 Packages > Packages.xz
 
 # 计算校验值
 md5_pkg=$(md5sum Packages | cut -d' ' -f1)
