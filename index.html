@@ -34,14 +34,30 @@
             text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
         }
         
-        .cloud-disk-btn, .btn {
+        h2 {
+            margin: 25px 0 15px;
+        }
+        
+        /* 新增：分割线样式 */
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #d23669, transparent);
+            margin: 30px 20px;
+        }
+        
+        .divider-thin {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #ff9a9e, transparent);
+            margin: 20px 40px;
+        }
+        
+        .cloud-disk-btn, .btn, .store-btn {
             display: inline-block;
             padding: 18px 40px;
-            background: linear-gradient(to right, #ff758c, #ff7eb3);
             color: white;
             text-decoration: none;
             border-radius: 50px;
-            margin: 30px 0;
+            margin: 15px 0;
             font-size: 22px;
             font-weight: bold;
             width: 80%;
@@ -52,7 +68,70 @@
             cursor: pointer;
         }
         
-        .cloud-disk-btn:hover, .btn:hover {
+        .cloud-disk-btn {
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+        }
+        
+        .btn {
+            background: linear-gradient(to right, #7f7fd5, #86a8e7);
+        }
+        
+        .zebra-btn {
+            background: linear-gradient(to right, #4CAF50, #8BC34A);
+        }
+        
+        .saily-btn {
+            background: linear-gradient(to right, #FF5722, #FF9800);
+        }
+        
+        /* Sileo部分灰色蒙版 */
+        .sileo-section {
+            position: relative;
+            margin-top: 30px;
+            padding: 15px;
+            border-radius: 15px;
+        }
+        
+        .sileo-section::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(128, 128, 128, 0.3);
+            border-radius: 15px;
+            pointer-events: none;
+            z-index: 0;
+        }
+        
+        .sileo-content {
+            position: relative;
+            z-index: 1;
+            padding: 15px;
+            background: rgba(255,255,255,0.7);
+            border-radius: 10px;
+        }
+        
+        .sileo-disabled-text {
+            color: #888;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        
+        .qq-group-btn {
+            background: linear-gradient(to right, #2196F3, #03A9F4);
+            display: inline-block;
+            padding: 12px 30px;
+            margin: 10px 0;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 18px;
+            box-shadow: 0 5px 15px rgba(33, 150, 243, 0.4);
+        }
+        
+        .cloud-disk-btn:hover, .btn:hover, .store-btn:hover {
             transform: translateY(-3px);
             box-shadow: 0 8px 20px rgba(255, 105, 180, 0.6);
         }
@@ -72,6 +151,10 @@
             color: #888;
         }
         
+        .store-buttons {
+            margin: 30px 0;
+        }
+        
         @media (max-width: 600px) {
             .container {
                 margin: 15px;
@@ -82,7 +165,7 @@
                 font-size: 20px;
             }
             
-            .cloud-disk-btn, .btn {
+            .cloud-disk-btn, .btn, .store-btn {
                 padding: 15px 30px;
                 font-size: 18px;
             }
@@ -93,7 +176,38 @@
     <div class="container">
         <h1>欢迎来到iOS-GM Repo源</h1>
         <h1>iOS-GM Repo源的别名是zqzb源</h1>
-        <h2>添加软件源至sileo</h2>
+        
+        <div class="divider"></div>
+        
+        <h2>iOS-GM Repo源地址：</h2>
+        <h3>https://ios-gm.github.io/zqzb/</h3>
+        
+        <div class="divider-thin"></div>
+        
+        <div class="store-buttons">
+            <h2>一键添加软件源</h2>
+            <a href="zbra://sources/add/https://ios-gm.github.io/zqzb/" class="store-btn zebra-btn">
+                添加到 Zebra 商店
+            </a>
+            <a href="saily://source/add/https://ios-gm.github.io/zqzb/" class="store-btn saily-btn">
+                添加到 Saily 商店
+            </a>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <!-- Sileo部分 -->
+        <div class="sileo-section">
+            <h2>添加软件源至Sileo</h2>
+            <div class="sileo-content">
+                <p class="sileo-disabled-text">当前Sileo商店暂时不支持使用</p>
+                <p class="sileo-disabled-text">若添加软件源到Sileo则无法显示本源的插件</p>
+                <p class="sileo-disabled-text">建议通过Zebra或者Saily商店来使用本源</p>
+            </div>
+        </div>
+        
+        <div class="divider"></div>
+        
         <h1>iOS-GM Repo源的123云盘</h1>
         <a href="https://www.123865.com/s/sg3zjv-5Dbcv" 
            class="cloud-disk-btn"
@@ -102,20 +216,45 @@
             打开123云盘
         </a>
         
-        <h2>资源网盘中心</h2>
+        <div class="divider-thin"></div>
         
+        <h2>资源网盘中心</h2>
         <a href="cloud.html" class="btn">
             查看所有网盘资源
         </a>
         
+        <div class="divider"></div>
+        
         <h1>建议与反馈</h1>
         <span class="qq-number">QQ账号: 3897069329</span>
-        <span class="qq-number">QQ交流群: 1030152896</span>
+        <a href="https://qm.qq.com/q/uvx4QijcEo" class="store-btn qq-group-btn" target="_blank">
+            QQ交流群: 1030152896
+        </a>
+        
+        <div class="divider-thin"></div>
         
         <p class="copyright">© 2025 iOS-GM Repo源版权所有</p>
     </div>
-</div>
-<script>
-alert("1")
+
+    <script>
+        // 添加点击事件处理，如果直接打开失败则提示用户手动添加
+        document.querySelector('.zebra-btn').addEventListener('click', function(e) {
+            setTimeout(function() {
+                if(!window.hasOpened) {
+                    alert('如果Zebra商店没有自动打开，请手动添加以下源地址:\n\nhttps://ios-gm.github.io/zqzb/');
+                }
+            }, 500);
+            window.hasOpened = true;
+        });
+        
+        document.querySelector('.saily-btn').addEventListener('click', function(e) {
+            setTimeout(function() {
+                if(!window.hasOpened) {
+                    alert('如果Saily商店没有自动打开，请手动添加以下源地址:\n\nhttps://ios-gm.github.io/zqzb/');
+                }
+            }, 500);
+            window.hasOpened = true;
+        });
+    </script>
 </body>
 </html>
