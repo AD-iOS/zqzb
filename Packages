@@ -12,34 +12,6 @@ Section: Announcements
 Priority: required
 Description: 欢迎来到iOS-GM Repo源。本源不搞会员制--插件来源：本源的插件来源于群友、源主以及其他人员。我们源的交流群QQ1群: 1030152896-QQ2群: 837894083
 
-Package: OpenSSH-Settings
-Version: 1.2.0
-Architecture: iphoneos-arm64
-Maintainer: AD <3897069329>
-Filename: ./debs/OpenSSH-Settings_1.2.0_iphoneos-arm64.deb
-Size: 33820
-MD5sum: c70d3b4e36c3274c4ecd110654750b67
-SHA1: 34b6f47d5ba1b8d033279214aa8dcd46f4e8dd90
-SHA256: c70549cfd0b8c275980b14f5bfb51a5d541f9d37e3e8439e0ff0487f48ed646c
-Section: Networking
-Description: OpenSSH 管理插件 (AD(3897069329)对BlanxdH的OpenSSH进行汉化的版本)。支持端口修改、Root登录控制等功能。和原版OpenSSH功能相同仅汉化
-Author: AD
-
-Package: PlumpyBar
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: LF
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/PlumpyBar_1.1.deb
-Size: 102360
-MD5sum: 7a4b919bda6d36f21b9fe4a031c0ac2d
-SHA1: f9659a5ad1c52b91bd8c8ed9be5bb74c4f37ada9
-SHA256: 1f2d8a59d00c80d6e69d79cf17db8691f8b75eed30414bb0a9d8c4641803e2f4
-Section: Theme
-Description: 舒服的Plumpy风格状态栏，由LF支持电话助手，此为无根越狱版本
-Author: LF
-Name: PlumpyBar
-
 Package: complicationsnext
 Version: 4.0
 Architecture: iphoneos-arm64
@@ -102,21 +74,6 @@ Section: Builder
 Description: 在iOS上编译插件（由LF加入无根越狱支持）
 Author: crazymind90
 Name: iTheosMaker
-
-Package: lottiestatusbar
-Version: 1.0.8
-Architecture: iphoneos-arm64
-Maintainer: LF
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.cephei-compat, xyz.cypwn.onboardingkitfix | firmware (<< 16.0), xyz.cypwn.xinam1ne
-Filename: ./debs/lottie状态栏-rootless-arm64-1.0.8.deb
-Size: 1013328
-MD5sum: 68db4c67c91eef097b2a8cac551212db
-SHA1: d2226869e08ec836ce56c17351de3d66e42a91b3
-SHA256: c6e2df74d6da535799efcf318b1f671b8477735ffa7a4d2251f7b6702ed3fae5
-Section: Tweaks
-Description: 年度最佳免费状态栏插件！需要转插！LF汉化！已经尽力汉化了！如果显示找不到依赖，请添加国外依赖源repo.cypwn.xyz！重新到搬运工源安装会自动补依赖！
-Author: MiRO
-Name: Lottie状态栏
 
 Package: me.tomt000.stageduo
 Version: 1.2
