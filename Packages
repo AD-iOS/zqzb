@@ -12,6 +12,19 @@ Section: Announcements
 Priority: required
 Description: 欢迎来到iOS-GM Repo源。本源不搞会员制--插件来源：本源的插件来源于群友、源主以及其他人员。我们源的交流群QQ1群: 1030152896-QQ2群: 837894083
 
+Package: TrollStor
+Version: 7.25
+Architecture: iphoneos-arm64
+Maintainer: AD <3897069329>
+Filename: ./debs/TrollStor_7.25自带idid的两个分身版.deb
+Size: 6456820
+MD5sum: 0437e37b6c9424b4965510d2bdf7f03d
+SHA1: 5ba28b82f0434079d6ba1e715b6d7d8247b9d1d5
+SHA256: 30d412d5344694c3699e67c53ad2fb68b76659b2cf7d495d7ade74d1fe564fc2
+Section: Apply
+Description: TrollStor(巨魔商店)魔改版的分身7.2.5版本。（此版本与原版冲突但是这个版本是两个巨魔商店并且自带Idid你可以不需要安装idid即可使用因为自带idid）以下是新加的功能和修复的bug 1.增强安装包页跟插件页的文件管理功能(支持多格式解压IPA、TIPA、RAR、TAR、ZIP、7z等)，增加文本编辑功能(可以直接查看和修改文本类文件比如(PLIST、STRINGS、TXT等)2.修复上个版本中语言跟随系统出现的语言显示异常3.增加安装包页跟插件页长按多选或单个文件压缩为ZIP功能4.增加安装包页跟插件页长按显示文件详情功能5.修复上个版本中安装时无应用所需权限显示的异常6.修复上个版本中越狱源无法添加HTTP链接7.修复上个版本中越狱源显示架构异常8.修复上个版本中部分越狱源识别异常9.优化越狱源加载速度(主要还是取决于自身网络和添加的越狱源列表文件)10.增加越狱源批量添加(可选手动输入或剪贴板识别)11.增加越狱源列表可自定义图标12.增加软件源功能可添加软件源(只支持未加密的软件源)13.增加App动态脱壳，TrollStore 安装的应用不会显示解密按钮(暂时不能解密扩展)14.修复单文件进行压缩时闪退问题15.修复上个版本中安装应用时显示所需权限的弹窗布局部分格式不对问题16.修复.上个版本中分享安装包到TrollStore时重复保存安装包到安装包页17.优化压缩文件时新ZIP压缩文件或解压后文件夹在原文件位置下方插入18.修复重建图标缓存不生效问题19.单列基础增加双列模式，设置切换20.增加自定义调整低栏左右大小以及上下位
+Author: AD
+
 Package: complicationsnext
 Version: 4.0
 Architecture: iphoneos-arm64
