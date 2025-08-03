@@ -31,10 +31,11 @@ Architecture: iphoneos-arm64
 Maintainer: AD <3897069329@qq.com>
 Depends: firmware (>= 15.0)
 Filename: ./debs/com.AD.Saily_3.0_iphoneos-arm64.deb
-Size: 3402288
-MD5sum: de3e6e69313c20be2242d7f2f2ebb611
-SHA1: f1574cfba33211326af57dbab49ca17a951c100c
-SHA256: c35986bff7879c4fcb0a021e52c1ff7c34f51611aab8dd946d3bf22f5cbf719d
+Size: 3402584
+MD5sum: df9a6d3fa79d92a33b615280bd405041
+SHA1: b534d836281593124ab508ecff551453f3740dab
+SHA256: ba8b30a3634eba6d76584c33f62796da56206540aec848d3200ece6148ea5562
+Section: Apply
 Description: Saily一种新的现代越狱商店
 Name: Saily越狱商店
 
