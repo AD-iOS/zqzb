@@ -1,16 +1,9 @@
-Origin: iOS-GM Repo
-Label: iOS-GM
+Origin: iOS-AD Repo
+Label: iOS-AD Repo
 Suite: stable
-Version: 1.0
+Version: 1.2
+Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: iOS越狱软件源
-MD5Sum:
-   Packages
- 06e507796e20c2902f85b92a8bd89a05
-   Packages.gz
- 5142c1989fbe43aada650505c03fb377 
-SHA256:
-27f3a5e2e3d8f535f835f65ce50664c54ae59cdca119a0fddc2810d2719900a3 Packages
-
-cea1ca2b9cbafd833e653999860877fd0cbdf5a4cdda5839dfefe922e11fba1e Packages.gz
+Description: iOS-AD Repo
+Suite: stable
