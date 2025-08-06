@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>网盘资源 | iOS-Ad Repo</title>
+  <title>资源中心 | iOS-Ad Repo</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <style>
     :root {
@@ -29,60 +29,70 @@
     .container {
       max-width: 900px;
       margin: 0 auto;
-      padding: 40px 30px;
+      padding: 30px;
       background-color: rgba(255, 255, 255, 0.9);
       border-radius: 25px;
       box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-      margin-top: 40px;
-      margin-bottom: 40px;
+      margin-top: 30px;
+      margin-bottom: 30px;
       animation: fadeIn 0.8s ease-out;
     }
     
-    h1 {
-      color: var(--primary-color);
-      margin: 20px 0;
+    .header {
+      margin-bottom: 30px;
+    }
+    
+    .logo {
       font-size: 28px;
+      font-weight: bold;
+      color: var(--primary-color);
+      margin-bottom: 10px;
       text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
     }
     
-    .storage-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 25px;
-      margin: 40px 0;
+    .subtitle {
+      color: #7a4a5a;
+      font-size: 16px;
+      margin-bottom: 20px;
     }
     
-    .storage-item {
+    .resource-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 30px 0;
+    }
+    
+    .resource-card {
       background-color: rgba(255, 255, 255, 0.85);
-      padding: 25px;
-      border-radius: 18px;
+      padding: 20px;
+      border-radius: 15px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
       transition: all 0.3s ease;
       animation: fadeInUp 0.6s ease-out;
     }
     
-    .storage-item:hover {
+    .resource-card:hover {
       transform: translateY(-5px);
       box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
     }
     
-    .storage-item h2 {
+    .resource-title {
       color: var(--primary-color);
-      margin-bottom: 20px;
-      font-size: 20px;
+      font-size: 18px;
+      margin-bottom: 15px;
     }
     
-    .divider {
-      width: 80%;
-      height: 2px;
-      background: linear-gradient(to right, transparent, var(--primary-color), transparent);
-      margin: 40px auto;
-      opacity: 0.7;
+    .resource-desc {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 20px;
+      min-height: 40px;
     }
     
     .btn {
       display: inline-block;
-      padding: 14px 30px;
+      padding: 12px 25px;
       background: linear-gradient(135deg, var(--btn-primary), #86a8e7);
       color: white;
       text-decoration: none;
@@ -93,7 +103,7 @@
       border: none;
       cursor: pointer;
       width: 100%;
-      max-width: 250px;
+      max-width: 200px;
     }
     
     .btn:hover {
@@ -101,30 +111,15 @@
       box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
     }
     
-    .btn:active {
-      transform: translateY(1px);
-    }
-    
     .btn-secondary {
       background: linear-gradient(135deg, var(--btn-secondary), #7a4a5a);
+      margin-top: 30px;
     }
     
-    .footer-section {
-      margin-top: 50px;
-      text-align: center;
-    }
-    
-    .footer-buttons {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      margin-bottom: 30px;
-    }
-    
-    .copyright {
+    .footer {
+      margin-top: 40px;
       font-size: 14px;
       color: #888;
-      margin-top: 20px;
     }
     
     @keyframes fadeIn {
@@ -143,41 +138,37 @@
       }
     }
     
-    /* 为每个项目添加延迟动画 */
-    .storage-item:nth-child(1) { animation-delay: 0.2s; }
-    .storage-item:nth-child(2) { animation-delay: 0.4s; }
+    /* 动画延迟 */
+    .resource-card:nth-child(1) { animation-delay: 0.2s; }
+    .resource-card:nth-child(2) { animation-delay: 0.4s; }
+    .resource-card:nth-child(3) { animation-delay: 0.6s; }
     
     @media (max-width: 768px) {
       .container {
-        padding: 30px 20px;
+        padding: 25px 20px;
         margin: 20px 15px;
       }
       
-      h1 {
+      .logo {
         font-size: 24px;
       }
       
-      .storage-list {
+      .resource-grid {
         grid-template-columns: 1fr;
-      }
-      
-      .footer-buttons {
-        flex-direction: column;
-        align-items: center;
       }
     }
     
     @media (max-width: 480px) {
       .container {
-        padding: 25px 15px;
-      }
-      
-      .storage-item {
         padding: 20px 15px;
       }
       
+      .resource-card {
+        padding: 15px;
+      }
+      
       .btn {
-        padding: 12px 25px;
+        padding: 10px 20px;
         font-size: 14px;
       }
     }
@@ -185,39 +176,43 @@
 </head>
 <body>
   <div class="container">
-    <h1 class="animate__animated animate__fadeIn">网盘资源下载</h1>
+    <div class="header">
+      <div class="logo animate__animated animate__fadeIn">iOS-Ad Repo 资源中心</div>
+      <div class="subtitle animate__animated animate__fadeIn animate__delay-1s">精选资源 · 高速下载</div>
+    </div>
     
-    <div class="storage-list">
-      <!-- 123云盘 -->
-      <div class="storage-item animate__animated">
-        <h2>iOS-Ad Repo源的主123网盘</h2>
-        <a href="https://www.123pan.com/s/sg3zjv-5Dbcv" class="btn" target="_blank">
-          访问123云盘
-        </a>
+    <div class="resource-grid">
+      <!-- 主资源网盘 -->
+      <div class="resource-card">
+        <div class="resource-title">官方资源库</div>
+        <div class="resource-desc">包含iOS-Ad Repo所有官方资源与工具</div>
+        <a href="https://www.123pan.com/s/sg3zjv-5Dbcv" class="btn" target="_blank">访问网盘</a>
       </div>
       
-      <div class="storage-item animate__animated">
-        <h2>用户投稿的网盘</h2>
-        <a href="https://www.123865.com/s/sg3zjv-tUbcv" class="btn" target="_blank">
-          访问用户投稿网盘
-        </a>
+      <!-- 用户投稿 -->
+      <div class="resource-card">
+        <div class="resource-title">用户投稿资源</div>
+        <div class="resource-desc">社区用户分享的优质资源合集</div>
+        <a href="https://www.123865.com/s/sg3zjv-tUbcv" class="btn" target="_blank">访问网盘</a>
+      </div>
+      
+      <!-- 教程资源 -->
+      <div class="resource-card">
+        <div class="resource-title">教程与文档</div>
+        <div class="resource-desc">使用教程、开发文档与常见问题</div>
+        <a href="https://www.123pan.com/s/sg3zjv-5Dbcv" class="btn" target="_blank">访问资源</a>
       </div>
     </div>
     
-    <div class="divider"></div>
+    <a href="index.html" class="btn btn-secondary animate__animated animate__fadeInUp">返回主站</a>
     
-    <div class="footer-section">
-      <div class="footer-buttons">
-        <a href="index.html" class="btn btn-secondary animate__animated animate__fadeInUp">
-          返回首页
-        </a>
-      </div>
-      <p class="copyright animate__animated animate__fadeIn">© 2025 iOS-Ad Repo 版权所有</p>
+    <div class="footer animate__animated animate__fadeIn animate__delay-1s">
+      © 2025 iOS-Ad Repo 资源中心 | 使用123云盘提供高速下载服务
     </div>
   </div>
 
   <script>
-    // 添加按钮点击动画
+    // 按钮点击动画
     document.addEventListener('DOMContentLoaded', function() {
       document.querySelectorAll('.btn').forEach(btn => {
         btn.addEventListener('click', function() {
@@ -226,14 +221,6 @@
             this.style.transform = '';
           }, 200);
         });
-      });
-      
-      // 移除所有animate__animated类，然后逐个添加以实现序列动画
-      const items = document.querySelectorAll('.storage-item');
-      items.forEach((item, index) => {
-        setTimeout(() => {
-          item.classList.add('animate__fadeInUp');
-        }, 100 * index);
       });
     });
   </script>

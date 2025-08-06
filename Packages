@@ -1,17 +1,3 @@
-Package: 10086-iOS-GM-Repo
-Version: 999.0
-Architecture: all
-Maintainer: iOS-GM Repo <admin@ios-gm.github.io>
-Depends: firmware (>= 1.0), this-package-does-not-exist (>> 999.9)
-Filename: ./debs/10086-iOS-GM-Repo源的公告.deb
-Size: 884
-MD5sum: 8def84921feead111a0b724aec3450b7
-SHA1: 10f2f11c70e3041c07bb123cb919f2b4861ee005
-SHA256: d4ec5ece9df749abfc38c35648dd3aa07d70885062e24b804cafcba7572bf7f4
-Section: Announcements
-Priority: required
-Description: 欢迎来到iOS-GM Repo源。本源不搞会员制--插件来源：本源的插件来源于群友、源主以及其他人员。我们源的交流群QQ1群: 1030152896-QQ2群: 837894083
-
 Package: DYFonts
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -70,6 +56,21 @@ Section: System系统
 Description: Adjust your Jetsam and kernel parameters to give you the best background experience.调整你的Jetsam和内核参数，降低无用进程优先级，提高系统流畅性！给你最好的后台体验！
 Author: LF
 Name: A1
+
+Package: com.AD.10086
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: iOS-AD
+Filename: ./debs/com.AD.10086_1.0_iphoneos-arm64.deb
+Size: 1104
+MD5sum: 05d71f76eb8702c38a2497726ad96df9
+SHA1: 63159945ae1b6cbcb1b64d48f3eeaf82d9da7fdd
+SHA256: cd87c9ba95db3d7bf8cf1c9db423e7b9b452c75b8ada8f65002836ff3797adc0
+Section: Announcements
+Priority: required
+Description: iOS-GM源官方公告。声明一下：本源只是将网上作者分享的插件、交流群群友做的插件、以及源主做的插件上传到本源。其中网上作者发现的插件和群友做的插件未做任何修改。部分插件标识符和作者插件一致导致显示问题，这是Cydia/Sileo的默认规则导致（先添加谁的源就会显示谁的），并非我们劫持插件。因为服务器在美国，遇到下载问题请尝试：切换VPN或者更换网络环境。交流群：QQ1群：1030152896、QQ2群：837894083。本源今年开始运营，欢迎支持。
+Author: iOS-AD
+Name: iOS-GM源公告
 
 Package: com.AD.Saily
 Version: 3.0
