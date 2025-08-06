@@ -62,10 +62,10 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: iOS-AD
 Filename: ./debs/com.AD.10086_1.0_iphoneos-arm64.deb
-Size: 1104
-MD5sum: 05d71f76eb8702c38a2497726ad96df9
-SHA1: 63159945ae1b6cbcb1b64d48f3eeaf82d9da7fdd
-SHA256: cd87c9ba95db3d7bf8cf1c9db423e7b9b452c75b8ada8f65002836ff3797adc0
+Size: 1108
+MD5sum: 0d6fba243f7e76b0be10f7b80e7b519b
+SHA1: 1fc76f4a07e53c59b877e1509505eee188804c29
+SHA256: a382fa6014d681ce0c0f5a6a53daad403cf220edac92825d97d2f726d02d1442
 Section: Announcements
 Priority: required
 Description: iOS-GM源官方公告。声明一下：本源只是将网上作者分享的插件、交流群群友做的插件、以及源主做的插件上传到本源。其中网上作者发现的插件和群友做的插件未做任何修改。部分插件标识符和作者插件一致导致显示问题，这是Cydia/Sileo的默认规则导致（先添加谁的源就会显示谁的），并非我们劫持插件。因为服务器在美国，遇到下载问题请尝试：切换VPN或者更换网络环境。交流群：QQ1群：1030152896、QQ2群：837894083。本源今年开始运营，欢迎支持。
