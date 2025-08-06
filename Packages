@@ -56,6 +56,21 @@ Description: Custom status bar.西瓜定制状态栏，从NiceBarX转移到电�
 Author: LF
 Name: WatermelonBar
 
+Package: a1
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
+Filename: ./debs/a1_1.2.deb
+Size: 9356
+MD5sum: edf3c953c2c4b2917b745f08c866ce33
+SHA1: f4d079ddf6d524826411d0c68e6590e3e4d907a3
+SHA256: 44feb7bd177bf753f09a2b11eb65a494150d5bd0ecac9a21ac49a2b2ceddc4f4
+Section: System系统
+Description: Adjust your Jetsam and kernel parameters to give you the best background experience.调整你的Jetsam和内核参数，降低无用进程优先级，提高系统流畅性！给你最好的后台体验！
+Author: LF
+Name: A1
+
 Package: com.AD.Saily
 Version: 3.0
 Architecture: iphoneos-arm64
@@ -83,6 +98,38 @@ SHA256: 8d8ee1628ec06248e95e18c2275bf64c1c38b1e1507b681b82b0885634dbb43d
 Description: iOS的垃圾清理工具，此为官方破解版，全部功能解锁版，有能力的去支持原作者
 Name: iCleanerPro小扫把-rootless
 
+Package: com.couhege1380.BatteryMaster
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: @Spor0nix <(null)>
+Depends: mobilesubstrate
+Filename: ./debs/BatteryMaster1380.deb
+Size: 39480
+MD5sum: f45beac2b8f32e474ea3a5112691a2ae
+SHA1: 31187b768419efab97525c05a0217fa17c392c7e
+SHA256: 02348420de9d1f764fd0a3959510ef45f0b147d21910b8ffc259b12f3079c099
+Section: Systems系统
+Description: Add value to protect your battery life.添加值以保护您的电池寿命，BatteryMaster1380安装可实现！省电模式越狱然后关闭省电模式即可.
+Author: @Spor0nix 凑合哥
+Name: BatteryMaster1380-省电大师
+
+Package: com.netskao.BiliPurify
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/BiliPurify-END.deb
+Size: 6713316
+MD5sum: f5caa105e094ac24c45130b4e7d04e03
+SHA1: 3f745939ec50f37cf23019509ee7ed42496d83d5
+SHA256: 92bfab17418b20bfddc30e540a787de72990a2082e3b99ce32069f69d0b3e933
+Section: Patches补丁
+Description: Unlock the clean Bilibili.解锁干净的哔哩哔哩,由LF将Dylib打包成插件!Enjoy!
+Author: Netskao
+Icon: http://www.kuaipng.com/Uploads/pic/w/2020/07-20/89190/water_89190_698_698_.png
+Name: BiliPurify-哔哩哔哩净化
+
 Package: complicationsnext
 Version: 4.0
 Architecture: iphoneos-arm64
@@ -99,6 +146,24 @@ Description: 在iOS锁屏上的watchOS小组件修复支持iOS15～16 Rootless�
 Author: Ben Giannis
 Icon: https://chinesebuilding.club/pic/cydia.png
 Name: ComplicationsNext
+Sponsor: LF
+
+Package: complicationsnext
+Version: 4.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 3022
+Depends: mobilesubstrate
+Filename: ./debs/complicationsnext.deb
+Size: 656660
+MD5sum: 5e26fa2759a3cd379ac5576255878066
+SHA1: d2594b78473126b0c6aaa1c161b2b016f70ee8a9
+SHA256: 43f97db5ee80b77c9c8437c87075413e3afcd312840b14561a1c01a9f8a23f70
+Section: Systems系统
+Description: 在iOS锁屏上的watchOS小组件，修复支持iOS15～16 Rootless，无需补依赖，已汉化！Chinese by LF！Enjoy！
+Author: Ben Giannis
+Icon: https://img.88icon.com/download/jpg/20200714/166a895ce9bd0aee1d421380000646d7_512_512.jpg
+Name: Complications-WatchLS
 Sponsor: LF
 
 Package: iOS26e
