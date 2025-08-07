@@ -99,6 +99,22 @@ SHA256: 8d8ee1628ec06248e95e18c2275bf64c1c38b1e1507b681b82b0885634dbb43d
 Description: iOS的垃圾清理工具，此为官方破解版，全部功能解锁版，有能力的去支持原作者
 Name: iCleanerPro小扫把-rootless
 
+Package: com.Dopamine.themes
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.Dopamine.themes_1.0_iphoneos-arm64.deb
+Size: 2132
+MD5sum: 03f8158afe61f05f580e38eea9e48271
+SHA1: 4e5b6c5b7bc4c79d96927490d32b1e461b696d94
+SHA256: 2b740c054005e62ccf1ced1efc43def7e285a2279b1d37743444172ddecd3651
+Section: Themes主题
+Description: Expand your dopamine theme.扩展你的多巴胺主题。
+Author: LF
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: DopamineThemesExtended-多巴胺主题扩展
+
 Package: com.couhege1380.BatteryMaster
 Version: 1.0.0
 Architecture: iphoneos-arm64
