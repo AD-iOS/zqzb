@@ -148,6 +148,25 @@ Author: Netskao
 Icon: http://www.kuaipng.com/Uploads/pic/w/2020/07-20/89190/water_89190_698_698_.png
 Name: BiliPurify-哔哩哔哩净化
 
+Package: com.xybp888.callassist16.dopamine
+Version: 1.7.8
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
+Filename: ./debs/com.xybp888.callassist16.dopamine_1.7.8_iphoneos-arm64 (1).deb
+Size: 2860540
+MD5sum: 8adb20b7f40b34479b9579baa44aedfd
+SHA1: fa0a71da7594c117848b7cd6d37da71088308928
+SHA256: 433aff7647067f56c7d7a78cb6bca2e22926fbfb9e9748e57c9796c126c26c04
+Section: Tweaks
+Priority: optional
+Description: 电话助手授权版本 - 功能强大的通讯增强工具（主要功能:1.通话录音2.通话记录合并3.T9双卡选卡拨号键盘4.短信双卡选卡功能5.来去电归属地显示6.黑名单管理7.骚扰拦截8.状态栏图标替换9.时间格式修改10.多种实用小功能）官方软件源: http://apt.htv123.com
+Author: xybp888
+Depiction: https://apt.htv123.com/view/315
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: 电话助手iOS16-正式版(Rootless)
+Sileodepiction: https://apt.htv123.com/sileo/315
+
 Package: complicationsnext
 Version: 4.0
 Architecture: iphoneos-arm64
