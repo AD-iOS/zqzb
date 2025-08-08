@@ -203,6 +203,53 @@ Icon: https://img.88icon.com/download/jpg/20200714/166a895ce9bd0aee1d42138000064
 Name: Complications-WatchLS
 Sponsor: LF
 
+Package: cydia
+Version: 1.1.37-3
+Architecture: iphoneos-arm64
+Maintainer: Genesis <genesis@modiverse.co.uk>
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=15.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, ellekit
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Filename: ./debs/cydia_1.1.37-3_iphoneos-arm64.deb
+Size: 1234132
+MD5sum: 488d9f1ecd5580310ab101ffbd809c22
+SHA1: d400774f17d3ace2c429d7cdd90d21509097cb58
+SHA256: c69a7f9beed1ceef05dbf39d7b3b1027be121baada55c3de0e45f42163da15ae
+Section: Packaging
+Priority: important
+Description: graphical iPhone front-end for APT. （仅怀旧使用/Nostalgic use only）
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: https://repo.ironside.org.uk/cydia-exp/
+Icon: http://cydia.saurik.com/icon@2x/cydia7.png
+Name: Cydia Installer arm64
+
+Package: cydia
+Version: 1.1.38
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 6472
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=5.0)
+Depends: cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Filename: ./debs/cydia_1.1.38_iphoneos-arm.deb
+Size: 1261236
+MD5sum: d3f434de3e5a29375ec7699dc0b0cda0
+SHA1: e7a317a61fd16afb7e0400829b902f844dfc71ef
+SHA256: c5b209eb5efdfa7a05e69c9b612ca8065b1e950dc50a01351259984cc635375d
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT （仅怀旧）
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer arm
+
 Package: iOS26e
 Version: 1.1
 Architecture: iphoneos-arm64
