@@ -50,13 +50,14 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
 Filename: ./debs/a1_1.2_iphoneos-arm64.deb
-Size: 9408
-MD5sum: 94bb925d43c818ee6cedd75449f02a19
-SHA1: ad9d57172fc3a62d60ce6ad15fc404d0647ebd82
-SHA256: a45d6c0999b0d472a482e21cfca3759e301698f5a09ef66be8e6032453ea214a
+Size: 9400
+MD5sum: bdb52038e8def792b40b0ec79703a738
+SHA1: 73341b437b088373db2e56f905bc92b1cff099e5
+SHA256: 95600efe50cc3a9ca23c39a0f8503b1fbeebb7b45b3c30b82b314844305f9903
 Section: System系统
 Description: Adjust your Jetsam and kernel parameters to give you the best background experience.调整你的Jetsam和内核参数，降低无用进程优先级，提高系统流畅性！给你最好的后台体验！
-Author: LFIcon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Author: LF
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: A1
 
 Package: com.AD.10086
@@ -161,13 +162,14 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: mobilesubstrate
 Filename: ./debs/com.couhege1380.BatteryMaster_1.0.0_iphoneos-arm64.deb
-Size: 39488
-MD5sum: 34eacfe8a9854dbfac03bc7aca375ced
-SHA1: ea62e213a28d55b381e9992a471373a238f42c34
-SHA256: e2a50be9b2abf8fc18716973d53519b0a1d3d2065a8329fd127dc9eceede08d7
+Size: 39508
+MD5sum: d69daf655dec492cfbdd8e07b49c72af
+SHA1: 27d2d424d3460989b81bf4ae53a658c5f07b97ea
+SHA256: 693b0bf65eae1d0d26c658b7c24cbc13807b39faf9b772d4426ca70848e5f068
 Section: System系统
 Description: Add value to protect your battery life.添加值以保护您的电池寿命，BatteryMaster1380安装可实现！省电模式越狱然后关闭省电模式即可.
 Author: @Spor0nix 凑合哥
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: BatteryMaster1380 省电大师
 
 Package: com.netskao.BiliPurify
