@@ -73,6 +73,24 @@ Author: iOS-AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: iOS-AD源公告
 
+Package: com.AD.MemoryOptimization
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: AD
+Installed-Size: 162
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: zp.stopautolaunchapps
+Filename: ./debs/com.AD.MemoryOptimization_1.0.5_iphoneos-arm64.deb
+Size: 3808
+MD5sum: 66d21c8c30bc22d1478a9207bd9ed685
+SHA1: 6cf53a46a6829bb0399c60b1b043304b9c749b50
+SHA256: 5f736fc180636f1af544ac0fb70f379bf612faaa4d186b7cc16f71d41a59d37e
+Section: System系统
+Description: 禁用iOS热启动神经网络引擎,禁止iOS后台热加载app！优点:节约内存,少杀后台！玄学:减少重启概率！安装完成后，请重启一下用户空间！(Disable iOS hot start neural network engine, disable iOS background hot loading apps! Advantages: save memory, less kill background! Metaphysics: Reduce reboot probability! After installation, please reboot your user space!)
+Author: zqbb
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: 内存优化(Memory Optimization)
+
 Package: com.AD.Saily
 Version: 3.0
 Architecture: iphoneos-arm64
@@ -99,6 +117,22 @@ SHA1: cb12cdfbc89d8d896797a46c570854b9804bb715
 SHA256: 8d8ee1628ec06248e95e18c2275bf64c1c38b1e1507b681b82b0885634dbb43d
 Description: iOS的垃圾清理工具，此为官方破解版，全部功能解锁版，有能力的去支持原作者
 Name: iCleanerPro小扫把-rootless
+
+Package: com.AD.virtualmemory
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.AD.virtualmemory_2.0_iphoneos-arm64.deb
+Size: 2008
+MD5sum: d744606981b439f8f261a57bb499f1e9
+SHA1: 6ed8a86acb53eb77b817ce45ee6553372aa1e806
+SHA256: a55fde3fd5dbb5182e679cd43a10a79f0c38dcb8fcbe66e0a753bc2ef3ca6c8f
+Section: Tweaks
+Description: 自动启用虚拟内存，有效解决杀后台！（Automatically enable virtual memory to effectively solve kill background!）
+Author: AD
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: 虚拟内存(virtual memory)
 
 Package: com.Dopamine.themes
 Version: 1.0
