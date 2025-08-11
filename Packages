@@ -1,0 +1,344 @@
+Package: DYFonts
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: bash
+Filename: ./debs/DYFont.deb
+Size: 8768764
+MD5sum: a1dfd124de965841db168aeb84345cc3
+SHA1: 0696b65e9f7dcb374df7de2f944d03deba9cb56b
+SHA256: 23f12acd2f2048b84d80d63c871ce984856e370111c37b152f63659834624b5e
+Section: Themes主题
+Description: 非常好看的抖音圆体！现已支持真皮挂载，在多巴胺里挂载/System/Library/Fonts然后安装此插件，最后重启设备即可生效！Support by LF！Enjoy！
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/zt.png
+Name: DYFonts(挂载版)
+
+Package: TrollStor
+Version: 7.25
+Architecture: iphoneos-arm64
+Maintainer: AD <3897069329>
+Filename: ./debs/TrollStor_7.25_iphoneos-arm64.deb
+Size: 6456868
+MD5sum: 7f4bcbb21e61959917d3682d8df3c8c0
+SHA1: 95df4cfc6decd4e5c1d45a5eeccaee1f15e50685
+SHA256: ac52968f1ea841f35b563eb6020c767c3821b77192f19c76717cdc23dc0be563
+Section: Apply
+Description: TrollStor(巨魔商店)魔改版的分身7.2.5版本。（此版本与原版冲突但是这个版本是两个巨魔商店并且自带Idid你可以不需要安装idid即可使用因为自带idid）以下是新加的功能和修复的bug 1.增强安装包页跟插件页的文件管理功能(支持多格式解压IPA、TIPA、RAR、TAR、ZIP、7z等)，增加文本编辑功能(可以直接查看和修改文本类文件比如(PLIST、STRINGS、TXT等)2.修复上个版本中语言跟随系统出现的语言显示异常3.增加安装包页跟插件页长按多选或单个文件压缩为ZIP功能4.增加安装包页跟插件页长按显示文件详情功能5.修复上个版本中安装时无应用所需权限显示的异常6.修复上个版本中越狱源无法添加HTTP链接7.修复上个版本中越狱源显示架构异常8.修复上个版本中部分越狱源识别异常9.优化越狱源加载速度(主要还是取决于自身网络和添加的越狱源列表文件)10.增加越狱源批量添加(可选手动输入或剪贴板识别)11.增加越狱源列表可自定义图标12.增加软件源功能可添加软件源(只支持未加密的软件源)13.增加App动态脱壳，TrollStore 安装的应用不会显示解密按钮(暂时不能解密扩展)14.修复单文件进行压缩时闪退问题15.修复上个版本中安装应用时显示所需权限的弹窗布局部分格式不对问题16.修复.上个版本中分享安装包到TrollStore时重复保存安装包到安装包页17.优化压缩文件时新ZIP压缩文件或解压后文件夹在原文件位置下方插入18.修复重建图标缓存不生效问题19.单列基础增加双列模式，设置切换20.增加自定义调整低栏左右大小以及上下位
+Author: AD
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+
+Package: WatermelonBar
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/WatermelonBar_1.2_iphoneos-arm64.deb
+Size: 286888
+MD5sum: b6c17514822b047da720db065242f41d
+SHA1: 048aedc653003ef1c8afd5ec075eb568c101bbca
+SHA256: 91857f2230014b1367be9a37a540daa72b884bf88a6af47f5284294ddf32a3c7
+Section: Themes主题
+Description: Custom status bar.西瓜定制状态栏，从NiceBarX转移到电话助手，支持无根越狱.仅供测试使用.
+Author: LF
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: WatermelonBar
+
+Package: a1
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
+Filename: ./debs/a1_1.2_iphoneos-arm64.deb
+Size: 9400
+MD5sum: bdb52038e8def792b40b0ec79703a738
+SHA1: 73341b437b088373db2e56f905bc92b1cff099e5
+SHA256: 95600efe50cc3a9ca23c39a0f8503b1fbeebb7b45b3c30b82b314844305f9903
+Section: System系统
+Description: Adjust your Jetsam and kernel parameters to give you the best background experience.调整你的Jetsam和内核参数，降低无用进程优先级，提高系统流畅性！给你最好的后台体验！
+Author: LF
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: A1
+
+Package: com.AD.10086
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: iOS-AD
+Filename: ./debs/com.AD.10086_1.0_iphoneos-arm64.deb
+Size: 1132
+MD5sum: f936dba206e1a6cdf0a3b2f81aa92d73
+SHA1: 9ce1c7128cbfadc9ad70e17f56eff76a1554fb2a
+SHA256: a9c89db22a7dd68111adde87ec9bf86020e4bd5ef36358d9385cffccc3caaeab
+Section: 必看
+Priority: required
+Description: iOS-AD源官方公告。声明一下：本源只是将网上作者分享的插件、交流群群友做的插件、以及源主做的插件上传到本源。其中网上作者发现的插件和群友做的插件未做任何修改。部分插件标识符和作者插件一致导致显示问题，这是Cydia/Sileo的默认规则导致（先添加谁的源就会显示谁的），并非我们劫持插件。因为服务器在美国，遇到下载问题请尝试：切换VPN或者更换网络环境。交流群：QQ1群：1030152896、QQ2群：837894083。本源今年开始运营，欢迎支持。
+Author: iOS-AD
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: iOS-AD源公告
+
+Package: com.AD.MemoryOptimization
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: AD
+Installed-Size: 162
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: zp.stopautolaunchapps
+Filename: ./debs/com.AD.MemoryOptimization_1.0.5_iphoneos-arm64.deb
+Size: 3808
+MD5sum: 66d21c8c30bc22d1478a9207bd9ed685
+SHA1: 6cf53a46a6829bb0399c60b1b043304b9c749b50
+SHA256: 5f736fc180636f1af544ac0fb70f379bf612faaa4d186b7cc16f71d41a59d37e
+Section: System系统
+Description: 禁用iOS热启动神经网络引擎,禁止iOS后台热加载app！优点:节约内存,少杀后台！玄学:减少重启概率！安装完成后，请重启一下用户空间！(Disable iOS hot start neural network engine, disable iOS background hot loading apps! Advantages: save memory, less kill background! Metaphysics: Reduce reboot probability! After installation, please reboot your user space!)
+Author: zqbb
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: 内存优化(Memory Optimization)
+
+Package: com.AD.Saily
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: AD <3897069329>
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.AD.Saily_3.0_iphoneos-arm64.deb
+Size: 3404184
+MD5sum: d2764990197c35ef77095844df26b555
+SHA1: 5dbc90e4d0a4951ab814eb47577e14319e38528f
+SHA256: 5314c806d4d3fb7ca704a34ffb684506b7f6c4ff531d353607015149c4734b58
+Section: Apply
+Description: Saily一种新的现代越狱商店
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: Saily越狱商店
+
+Package: com.AD.iCleanerPro
+Version: 7.1.0
+Architecture: iphoneos-arm64
+Maintainer: AD <3897069329>
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.AD.iCleanerPro_7.1.0_iphoneos-arm64.deb
+Size: 982848
+MD5sum: 34616225bccd79facc3449e21fbafecb
+SHA1: fb076e493ea3a29dba15293944234e26a8af105a
+SHA256: a01e60cc9663885271a836943e91b918d2d9ef1ada05b55e418179ffd8665242
+Section: Apply
+Description: iOS的垃圾清理工具，此为官方破解版，全部功能解锁版，有能力的去支持原作者
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: iCleanerPro小扫把-rootless
+
+Package: com.AD.virtualmemory
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.AD.virtualmemory_2.0_iphoneos-arm64.deb
+Size: 2016
+MD5sum: aa070c198272795e7f0a03d89639f7d9
+SHA1: 4a4d36f0b86a98e32493f0d4e4113542bc7a74e8
+SHA256: 000f268403854d3b11548151e90c17802833ee4cb0425ab0a92c20fcfe320a2f
+Section: System系统
+Description: 自动启用虚拟内存，有效解决杀后台！（Automatically enable virtual memory to effectively solve kill background!）
+Author: AD
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: 虚拟内存(virtual memory)
+
+Package: com.Dopamine.themes
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.Dopamine.themes_1.0_iphoneos-arm64.deb
+Size: 2132
+MD5sum: 03f8158afe61f05f580e38eea9e48271
+SHA1: 4e5b6c5b7bc4c79d96927490d32b1e461b696d94
+SHA256: 2b740c054005e62ccf1ced1efc43def7e285a2279b1d37743444172ddecd3651
+Section: Themes主题
+Description: Expand your dopamine theme.扩展你的多巴胺主题。
+Author: LF
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: DopamineThemesExtended-多巴胺主题扩展
+
+Package: com.ad.deb
+Version: 7.3
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.ad.deb_7.3_iphoneos-arm64.deb
+Size: 13600
+MD5sum: 0991db518d053a1f5603e04bfe62adc4
+SHA1: 4ac340a02faa534da8e7a0bc4571efba8501a860
+SHA256: 1ac2933368422269c6f6ce864f221e1bd943a612b2d925efcf53763e0118437b
+Section: System终端服务
+Priority: optional
+Homepage: https://ios-gm.github.io/zqzb/
+Description: 便携式 deb 目录生成器是一款可以快速创建 deb 目录结构的便捷工具。
+  - 便携式deb目录生成器:
+  - 安装后，你可以在终端直接输入 AD-deb 命令来启动本插件。
+  - 如果你想查看自己的 deb 工程文件项目，可以通过 Filza 访问路径 /var/mobile/Documents/AD-deb 来浏览项目文件。
+  - 需要注意的是，本插件并不会直接生成 deb 安装包，而是生成完整的 deb 工程目录结构。
+  - 它适合用来快速搭建插件的工程文件夹，是开发插件时的理想选择。
+Author: AD
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: 便携式deb目录生成器
+
+Package: com.couhege1380.BatteryMaster
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: mobilesubstrate
+Filename: ./debs/com.couhege1380.BatteryMaster_1.0.0_iphoneos-arm64.deb
+Size: 39508
+MD5sum: d69daf655dec492cfbdd8e07b49c72af
+SHA1: 27d2d424d3460989b81bf4ae53a658c5f07b97ea
+SHA256: 693b0bf65eae1d0d26c658b7c24cbc13807b39faf9b772d4426ca70848e5f068
+Section: System系统
+Description: Add value to protect your battery life.添加值以保护您的电池寿命，BatteryMaster1380安装可实现！省电模式越狱然后关闭省电模式即可.
+Author: @Spor0nix 凑合哥
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: BatteryMaster1380 省电大师
+
+Package: com.netskao.BiliPurify
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.netskao.BiliPurify_1.0.0_iphoneos-arm64.deb
+Size: 6708040
+MD5sum: b0c6b5edbf6cf113d21bb1f3a6ba2b01
+SHA1: 766a61f94c0886e3e0402df3b166c53c676bcd93
+SHA256: 30f04f142b8723ceda269ef19310fb5eaf780ff9973fb37c12d3dcf0ee25974a
+Section: 应用补丁/增强
+Description: Unlock the clean Bilibili.解锁干净的哔哩哔哩,由LF将Dylib打包成插件!Enjoy!
+Author: Netskao
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: BiliPurify 哔哩哔哩净化
+
+Package: com.plicationsnext
+Version: 4.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 3022
+Depends: mobilesubstrate
+Filename: ./debs/com.plicationsnext_4.0_iphoneos-arm64.deb
+Size: 657096
+MD5sum: 64229da073f576f3c8b283da3c305f06
+SHA1: a2b432613062406e9295662cfbeff3897c8e9d1c
+SHA256: b28d88421abcee7c24efa1a21a02484a7a1891b7ef6f972f5da017930c502f31
+Section: Themes主题
+Description: 在iOS锁屏上的watchOS小组件
+  - 更新日志：
+  - 修复支持iOS15～16 Rootless
+  - 补充说明：
+  - 无需补依赖，已汉化！
+  - Chinese by LF！Enjoy！
+Author: Ben Giannis
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: Complications WatchLS
+Sponsor: LF
+
+Package: com.xybp888.callassist16.dopamine
+Version: 1.7.8
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
+Filename: ./debs/com.xybp888.callassist16.dopamine_1.7.8_iphoneos-arm64.deb
+Size: 2860944
+MD5sum: 95ef1785777b238412b80537d7b541b7
+SHA1: c5950b30f3626c353f067050f6565b3f32520db1
+SHA256: d4393b5f68d26c370bf9659313d22395fa551727e4263e41753563ad2e068af7
+Section: 插件
+Priority: optional
+Description: 电话助手授权版本 - 功能强大的通讯增强工具（主要功能:1.通话录音2.通话记录合并3.T9双卡选卡拨号键盘4.短信双卡选卡功能5.来去电归属地显示6.黑名单管理7.骚扰拦截8.状态栏图标替换9.时间格式修改10.多种实用小功能）官方软件源: http://apt.htv123.com
+Author: xybp888
+Depiction: https://apt.htv123.com/view/315
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: 电话助手iOS16-正式版(Rootless)
+Sileodepiction: https://apt.htv123.com/sileo/315
+
+Package: cydia
+Version: 1.1.37-3
+Architecture: iphoneos-arm64
+Maintainer: Genesis <genesis@modiverse.co.uk>
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=15.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, ellekit
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Filename: ./debs/cydia_1.1.37-3_iphoneos-arm64.deb
+Size: 1234204
+MD5sum: 207f742fc389b70dd64ab62a909695c9
+SHA1: f947a737522a4430df061794d43c2ea176afcf44
+SHA256: baa66b565b48d67e7cf4d7b856492e52e2e7d76fd4fa455ad9d8c16db461f922
+Section: Apply
+Priority: important
+Description: graphical iPhone front-end for APT. （仅怀旧使用/Nostalgic use only）
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: https://repo.ironside.org.uk/cydia-exp/
+Icon: http://cydia.saurik.com/icon@2x/cydia7.png
+Name: Cydia Installer arm64
+
+Package: iOS26e
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: com.spark.snowboard
+Filename: ./debs/iOS26e_1.1_iphoneos-arm64.deb
+Size: 4003632
+MD5sum: 9d9b9561aab0999c200f98885db9023e
+SHA1: c527f9b97b5e7e60f10a704a9c6fc07786766b38
+SHA256: 682843001358e239e8fdd77d5eb011cdc516056c378acdd84cff6e99fee49639
+Section: Themes主题
+Description: 真的iOS26主题！名为iOS26e！这里的「e」指的是「experience」！没想到新系统刚发布3天，就有主题了！毕竟是首发，不太完善！就如iOS26 BETA1一样，有很多问题，喜欢的自行体验吧！Enjoy！
+Author: LF
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: iOS26e
+
+Package: iperformancetweak
+Version: 1.0.0Beta
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: bash
+Filename: ./debs/iperformancetweak_1.0.0Beta_iphoneos-arm64.deb
+Size: 9076
+MD5sum: 9ae0b509cc725567298b3dbefbdfd137
+SHA1: c542b348f25976318e2e294f9898e2da2119ee5a
+SHA256: 7a92c6417791affd21443f662c7ebc33fc0714435562bebaeefa0ce6c7814395
+Section: System系统
+Description: boost game performance.提高游戏性能
+Author: Moose
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: iPerformanceTweak
+
+Package: itheosmaker
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/itheosmaker_1.1_iphoneos-arm64.deb
+Size: 1219496
+MD5sum: 5a5e35176aca3294f8317898a970dd97
+SHA1: d9d1370f1975e284b90f581db9ce53972b38754c
+SHA256: b68d4a933f5a6b0271fa0475d2fe36fd300ff34bcfd07dce29bed29f25e932ee
+Section: Apply
+Description: 在iOS上编译插件（由LF加入无根越狱支持）(需要自行补齐依赖)
+Author: crazymind90
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: iTheosMaker
+
+Package: me.tomt000.stageduo
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 4900
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Filename: ./debs/me.tomt000.stageduo_1.2_iphoneos-arm64.deb
+Size: 3072460
+MD5sum: 7f34aad3db93a16b58775a44946f7ce0
+SHA1: 1bba3c431068f0a13aaebb0171b68f34b2e7c7ba
+SHA256: c698fdef16f9994c7c58373513467f3437158980e8980f48338b672f268a4de1
+Section: Themes主题
+Description: 适用于 iPhone 的全新后台分屏器！现在，它是免费的！LF也为它提供了免费的中文版本！Enjoy！
+Author: tomt000
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: DynamicStage-灵动分屏
+
