@@ -235,6 +235,102 @@ Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: 便携式deb目录生成器
 
+Package: com.ad.lamina
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.ad.lamina_1.1.1_iphoneos-arm64 (1).deb
+Size: 242632
+MD5sum: 5cc49c466dfc5d0ed9b8e422ec1416ea
+SHA1: 731a0e99a1512aa813ee53031e4277663ef75f7c
+SHA256: fb91afc0483e51779a25b3430c165ef3f208394772ebb373ebbd7baced0fa88a
+Section: System终端服务
+Description: Lamina一种专注于精确数学计算的面向过程编程语言（在终端输入ad-lamina开始启用）
+  - 本插件遵守开源协议
+  - Lamina官方的GitHub仓库地址：https://github.com/Lamina-dev/Lamina
+  - 本插件的开源仓库地址：https://github.com/iOS-GM/Lamina-iOS-CPP
+  - 本插件由AD编译供大家使用
+  - 介绍：
+  - Lamina 是一种面向过程的数学计算语言，专注于数学问题的高效解决，支持图灵完备性。其设计目标是提供简洁、直观的语法，同时支持复杂数学运算。
+  - 主要特性：
+  - 精确数学：支持有理数（分数）和无理数（√、π、e）的精确表示和运算
+  - 精度保护：避免浮点数精度丢失，多次循环运算保持精确
+  - 数学友好：原生支持向量、矩阵运算和数学函数
+  - 递归支持：可配置递归深度限制
+  - 大整数：支持任意精度大整数运算
+  - 交互式REPL：支持交互式编程和脚本执行
+  - 智能终端：自动检测终端色彩支持，避免乱码
+  - 栈追踪：完整的错误栈追踪，便于调试
+  - 精确数学特性：
+  - Lamina 的核心优势在于其精确数学计算能力，解决了传统编程语言中浮点数精度丢失的问题。
+  - 有理数（Rational）：
+  - 自动分数表示：除法运算自动产生精确分数
+  - 多次运算保持精确：避免累积误差
+  - 自动化简：分数自动约简到最简形式
+  - 示例：
+  - var fraction = 16 / 9;
+  - // 结果为 16/9，不是 1.777...
+  - var result = fraction;
+  - // 多次循环运算保持精确
+  - var i = 1;
+  - while (i <= 10) {
+  - result = result * 9 / 9;
+  - // 始终保持为 16/9
+  - i = i + 1;
+  - }
+  - 无理数（Irrational）
+  - 符号化表示：√2、π、e 等保持符号形式
+  - 自动化简：√8 → 2√2，√(a²) → a
+  - 精确运算：符号运算避免近似误差
+  - 精度对比示例
+  - // 传统浮点数（其他语言）
+  - // 0.1 + 0.2 = 0.30000000000000004
+  - // Lamina 精确计算
+  - var result = 1/10 + 2/10;
+  - // 结果：3/10（完全精确）
+  - 基础语法
+  - 语句终止符
+  - 分号是必需的：Lamina 要求所有语句都必须以分号 ; 结束，这提高了解析效率和代码可读性。
+  - 示例：
+  - var x = 10;           //  正确
+  - print(x);             //  正确
+  - bigint big = 100!;    //  正确
+  - var y = 20            //  错误：缺少分号
+  - print(y)              //  错误：缺少分号
+  - 模块化系统？
+  - 因为这是在iOS越狱上运行所以没有模块化系统
+  - 因为iOS系统并不支持直接执行C源码所以只能转换成二进制文件后才能使用
+  - include 语句
+  - 强制使用引号：include 语句必须使用引号包裹文件名，这确保了语法的一致性和清晰度。
+  - 示例：
+  - include "math_utils";
+  - //  正确：使用引号包裹
+  - include "lib/vectors";
+  - //  正确：支持相对路径
+  - include math_utils;
+  - //  错误：必须使用引号
+  - 关键字
+  - 以下为保留字，不可用作变量名或函数名：
+  - var func if else while for return break continue
+  - print true false null include define bigint input
+  - 注释：
+  - // 单行注释
+  - /* 块注释 */
+  - 变量声明：
+  - var x = 10;
+  - var name = "Alice";
+  - var arr = [1, 2, 3];
+  - bigint large_num = 999999999999;
+  - // 大整数需显式声明
+  - bigint factorial_result = 25!;
+  - // 可直接从运算结果赋值
+  - 剩下的内容请到GitHub官网中查看
+  - GitHub仓库：https://github.com/Lamina-dev/Lamina
+Author: AD
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: Lamina-iOS-CPP-1.1.1-Beta
+
 Package: com.couhege1380.BatteryMaster
 Version: 1.0.0
 Architecture: iphoneos-arm64
