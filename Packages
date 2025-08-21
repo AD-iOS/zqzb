@@ -116,6 +116,24 @@ Author: LF
 Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
 
+Package: byg.iosios.net.filzacrack-rootless
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 72
+Depends: firmware (>= 15.0)
+Filename: ./debs/Filza破解插件-Rootless.1.1-8.deb
+Size: 5160
+MD5sum: 7aa1b096e11eb8999e2f4dd9223092a0
+SHA1: 8c90b5f420599d7716e834b0d810e63c3452bf38
+SHA256: 32a08bf1e09792eb7f8da847417cf27cea5394972cdc9d787aa1523f33825436
+Section: 软件破解
+Description: Filza unlock full functionality, the main program please install in the official source Filza破解插件
+Author: Netskao
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Filza 破解插件-Rootless
+Sponsor: 搬运工
+
 Package: com.AD.10086
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -386,6 +404,23 @@ Author: Ben Giannis
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: Complications WatchLS
 Sponsor: LF
+
+Package: com.tigisoftware.filza64bit
+Version: 4.0.1-4
+Architecture: iphoneos-arm64
+Maintainer: TIGI Software
+Installed-Size: 23200
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_4.0.1-4_iphoneos-arm64.deb
+Size: 6972920
+MD5sum: 2d13a92393550ed53a5f336acd3050eb
+SHA1: fe93f8e607c10eab293293162ebc5bde9650512d
+SHA256: 420f41e1d466ab89cae9d4aad41de70690be7351c3a641d9d751f152ce76893d
+Section: 系统调整
+Description: An awesome MobileSubstrate tweak!
+Author: TIGI Software
+Name: Filza File Manager 64-bit 文件管理器
 
 Package: com.xybp888.callassist16.dopamine
 Version: 1.7.8
