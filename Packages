@@ -223,6 +223,27 @@ Author: LF
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: DopamineThemesExtended-多巴胺主题扩展
 
+Package: com.ad.Ev
+Version: 1.0
+Architecture: all
+Maintainer: AD
+Depends: com.ad.theos
+Filename: ./debs/com.ad.Ev_1.0_all.deb
+Size: 1544
+MD5sum: 40079e0ba7d803f7a271736ddc00aca5
+SHA1: 49df3be06dd40466dfeb682f5b27b4cce9de0ca7
+SHA256: 82de1d49844ff4062651ee30b682c7d6b9d76da1172f4773a27105711b6ecc88
+Section: theos/SDK
+Description: 此插件可以快速配置theos和SDK的环境变量从而快速使用如果您已经配置的话则不需要安装本插件因为可能会导致环境变量重复或者冲突。
+  - 环境变量设置
+    -  本插件安装完成后需要手动在终端执行source ~/.zshrc'和'source ~/.bashrc'命令以确保环境变量被正确追加成功。
+  - 如何使用
+    -  在终端输入sdk-switch即可显示出来信息按照提示来操作即可
+  - 注意需要安装SDK才能使用
+Author: AD
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: theos和SDK的环境变量设置
+
 Package: com.ad.deb
 Version: 7.3
 Architecture: iphoneos-arm64
@@ -428,15 +449,16 @@ Architecture: all
 Maintainer: AD
 Depends: firmware (>= 99999.0)
 Filename: ./debs/com.ad.theos-sdk_1.0_all.deb
-Size: 932
-MD5sum: 72004ea772e1e4d1bce70d40eb7ec87e
-SHA1: 28f7d4fa436da059b2a888648040e4e961943468
-SHA256: 50b71f7a4dfe3f0c6c089bc9779ba26100563691839535fc19408172b8a7c267
+Size: 992
+MD5sum: 7cffa8e9fb5362373d6bf3586814359e
+SHA1: 7e0fad24bc6303b80a1f6b1450a74817743ccbbe
+SHA256: adf55578713128072cb47c739f807dd660f85d590d63d16a7d10be096ad17f5e
 Section: theos/SDK
 Description: theos/sdk分类的公告
   -
   theos/SDK分类的公告，如果各位发现SDK或者theos有问题、无法下载等等这些问题可以联系源主来修复。
   - 如果您很着急的话也可以去其他源来安装使用或者使用git命令远程拉取theos和SDK
+  - 分类的其他插件比如配置环境变量的插件也无法使用或者配置失败的话可以自行配置环境变量
 Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: theos/sdk分类的公告
