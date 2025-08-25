@@ -331,6 +331,66 @@ Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: Lamina-iOS-CPP-1.1.1-Beta
 
+Package: com.ad.sds
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Filename: ./debs/14.5SDK.deb
+Size: 12843924
+MD5sum: c5c979b23f1a34c0aa95184c1021b596
+SHA1: 1ab8979d7a5459df87d6e53aeadaa9fe414c170d
+SHA256: c1c25c9af5350f263ab5f5ad32482c7f156356f515500fe0df6b38abbe182c05
+Description: 测试
+Name: iOS14.5-SDK
+
+Package: com.ad.sds
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Filename: ./debs/13.7SDK.deb
+Size: 8590552
+MD5sum: fb6b55e20f299a19b08ce24d65c354e6
+SHA1: 627d3742ed723a3940a0d6ac9710c0879fa7e8b6
+SHA256: b108c216ac75c5eb0f258c7d4b74a26e5adbb758fb239233c078068381d64f04
+Description: 测试
+Name: iOS13.7-SDK
+
+Package: com.ad.sds
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Filename: ./debs/15.6SDK.deb
+Size: 16292548
+MD5sum: a7ee262ee9a15de36e13ae4194f70c04
+SHA1: 1b115f146a095c1a16902b3db641050eed3342ea
+SHA256: f908dd2640d0f7cb4dd8a54a5b6d48bd6c27ef1da307bdffe0320e330da7cf49
+Description: 测试
+Name: iOS15.6-SDK
+
+Package: com.ad.sds
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Filename: ./debs/16.5SDK.deb
+Size: 17420568
+MD5sum: 351dee3ca379b8668ad52f368f809534
+SHA1: 54a017e6d02cceaad917e2f71746a23797939b04
+SHA256: 3233623d3dfff8769c4e26ed6fe2cf331aa4d6d9e8761b3020fc88babf139e1e
+Description: 测试
+Name: iOS16.5-SDK
+
+Package: com.ad.theos
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Filename: ./debs/iOS-theos.deb
+Size: 3253764
+MD5sum: 158a048e966f90a45e769d01df19ac32
+SHA1: a1c13eaa538a52eab99b7d8e757681cc3e3658f7
+SHA256: 27c2824a7f89adc5bd0e2c2e97358dacba3fcd11223e23b3c05124715e0c2cf2
+Description: 测试
+Name: iOS-theos
+
 Package: com.couhege1380.BatteryMaster
 Version: 1.0.0
 Architecture: iphoneos-arm64
