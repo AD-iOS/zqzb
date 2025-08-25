@@ -346,12 +346,12 @@ Package: com.ad.sdk13.7
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
-Depends: theos, firmware (>= 13.0)
+Depends: com.ad.theos, firmware (>= 13.0)
 Filename: ./debs/com.ad.sdk13.7_1.0-2_arm64.deb
-Size: 8590592
-MD5sum: cff283488e5cc8535b0c0afc0ac84a3e
-SHA1: 27d2ad2bf090e3240bb33eadd082be92115c6970
-SHA256: deacb8c9cdaf1d3d0161727039fcd72fb38bb868631ed408a5fdb200a9488c43
+Size: 8590960
+MD5sum: d3f60f33b8ef316215a129bf1c6d341a
+SHA1: 5db4931f4e8864bbc784853deb70737414c13cf0
+SHA256: 3001e02a04bebfe9ab7a0def1c640c1840ab394d1da65a556b9221c69fb4b7f7
 Section: theos/SDK
 Priority: optional
 Description: iOS 的 SDK 13.7，需要搭配 Theos 使用
@@ -362,12 +362,12 @@ Package: com.ad.sdk14.5
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
-Depends: theos, firmware (>= 14.0)
+Depends: com.ad.theos, firmware (>= 14.0)
 Filename: ./debs/com.ad.sdk14.5_1.0-2_arm64.deb
-Size: 12844196
-MD5sum: babfd3f3c9d2acb441a7d7748f099bbd
-SHA1: e84c7b4f693050b81d9d7ef6a5aac50dba664170
-SHA256: 1d29c88ea03d71fe38251065a35d72596b9487f38ef508f82030e58d0a607a9f
+Size: 12844004
+MD5sum: 4651ccb72293366854cc9523d107dcd1
+SHA1: 7c5e2095445eb4435fcfe2c777ba31c7ef9520af
+SHA256: bcc5651f1be306d68f84d33b63f206455650045288a802fca01b1a44885663ab
 Section: theos/SDK
 Priority: optional
 Description: iOS 的 SDK 14.5，需要搭配 Theos 使用
@@ -378,12 +378,12 @@ Package: com.ad.sdk15.6
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
-Depends: ios (>= 15.0), theos
+Depends: firmware (>= 15.0), com.ad.theos
 Filename: ./debs/com.ad.sdk15.6_1.0-2_arm64.deb
-Size: 16292396
-MD5sum: 3f0e0cb44e95c09b922866e219a49235
-SHA1: ae931109ee47e185f98750ce864a2590484b5ebc
-SHA256: bc2c6e834f5d8c44b047b9eded23f3d7bc5058f04cbdb3959f56705e22bb3e18
+Size: 16292432
+MD5sum: d88093464196fef05359082574e0bedd
+SHA1: 901dde69b4046714e709435881c435b48100399b
+SHA256: 81151b3dad0f0688edcde779dad127a7c392bb2cbab0ceba85e6960f48285234
 Section: theos/SDK
 Priority: optional
 Description: iOS 的 SDK 15.6，需要搭配 Theos 使用
@@ -394,12 +394,12 @@ Package: com.ad.sdk16.5
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
-Depends: theos, firmware (>= 16.0)
+Depends: com.ad.theos, firmware (>= 16.0)
 Filename: ./debs/com.ad.sdk16.5_1.0-2_arm64.deb
-Size: 17419888
-MD5sum: 92d403d39cde8835de6c0b1e816b5c91
-SHA1: 4e47b485afb59a494f96981550095c37e216dbd3
-SHA256: 93d53eaff21e08f86af65523f539fd6ab096495465d543285f02d94ef96450f8
+Size: 17420352
+MD5sum: 7afa62bbec5e5a0e72963111e5023a9f
+SHA1: 4aa82439b97702d0d080cb48f3fe03b8238917a5
+SHA256: 951965f24a18b57f752627442b23a743ebcd963b717fa0b1b498aee768eb3901
 Section: theos/SDK
 Priority: optional
 Description: iOS 的 SDK 16.5，需要搭配 Theos 使用
@@ -410,11 +410,11 @@ Package: com.ad.theos
 Version: 1.0
 Architecture: all
 Maintainer: AD
-Filename: ./debs/com.ad.theos_1.0_iphoneos-arm64.deb
-Size: 3256064
-MD5sum: 8ec1df1e2981ca960190330a5f00b9f4
-SHA1: c88ec73fe5f2aba68f38bb5c9089c2020f664ab6
-SHA256: 6197f723a011ac20226affb44245f2a7c553fb34ddeb60759bd21a7a828869d5
+Filename: ./debs/com.ad.theos_1.0_all.deb
+Size: 3256092
+MD5sum: f41f80ecaf44e8d6f7e41b44f90caf3c
+SHA1: 8a4585255b5206ffc85e93e37b471f4f2f2ae4fe
+SHA256: fc1ba5cd0aa814a563bcb2fc0ae85e8294952161a40d1be4649fb087280e4d83
 Section: theos/SDK
 Description: iOS的theos可以进行开发用
   - 虽然可以进行开发用但是需要搭配上SDK来进行使用
