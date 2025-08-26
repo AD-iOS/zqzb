@@ -684,7 +684,7 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 8.5MB
 Depends: python3, python3.9
-Filename: ./debs/python-pip_1.0.0_iphoneos-arm64.deb
+Filename: ./debs/python-pip_1.0.0-1_iphoneos-arm64.deb
 Size: 1869496
 MD5sum: 78c73494ec88534edc5e39c589ad25eb
 SHA1: 672325a3436ab1172c0ca08264cb68af914c3f66
