@@ -244,6 +244,24 @@ Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: theos和SDK的环境变量设置
 
+Package: com.ad.System-TS
+Version: 1.0
+Architecture: all
+Maintainer: AD
+Depends: firmware (>= 99999.0)
+Filename: ./debs/com.ad.System-TS_1.0_all.deb
+Size: 844
+MD5sum: 7b01f7847b46abe1f30a7c4d9bebae14
+SHA1: 9a521c55532b205b5f184b4b7aee42f93dfcff29
+SHA256: 9b62070b814831c5a6febb5726198bbd8beb884ec603dd6c49a5a4841fb8df5c
+Section: System终端服务
+Description: System终端服务分类的公告
+  -
+  System终端服务分类的公告，如果各位发现本分类的插件有问题可以添加源主的QQ告诉源主来修复
+Author: AD
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: System终端服务分类的公告
+
 Package: com.ad.deb
 Version: 7.3
 Architecture: iphoneos-arm64
@@ -659,4 +677,29 @@ Description: 适用于 iPhone 的全新后台分屏器！现在，它是免费�
 Author: tomt000
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: DynamicStage-灵动分屏
+
+Package: python-pip
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Installed-Size: 8.5MB
+Depends: Python3, Python3.9
+Filename: ./debs/python-pip_1.0.0_iphoneos-arm64.deb
+Size: 1870676
+MD5sum: be38c19121bdabdc6b0e6a5911593881
+SHA1: 4980544fbaf852043694d94b73b21f8c41059e8f
+SHA256: 4bf093dbdcb9ec4411926572614ec95516a0e4613f95cd17b61385369878eb58
+Section: System终端服务
+Priority: optional
+Homepage: https://ios-gm.github.io/zqzbIcon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Description: Python的pip
+  -
+  这是Python的pip
+  -
+  Python的pip是Python的包管理器
+  - 因为iOS的Python包没有内置pip而是用户手动下载pip的
+  - 还有就是可能第一次接触Python_ios的用户或者一些人不知道如何安装pip所以本插件就出来了
+  - 如果您安装了pip那么就不需要安装本插件了这样子是防止冲突的
+Author: AD
+Name: python-pip
 
