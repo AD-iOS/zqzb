@@ -683,12 +683,12 @@ Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 8.5MB
-Depends: Python3, Python3.9
+Depends: python3, python3.9
 Filename: ./debs/python-pip_1.0.0_iphoneos-arm64.deb
-Size: 1870676
-MD5sum: be38c19121bdabdc6b0e6a5911593881
-SHA1: 4980544fbaf852043694d94b73b21f8c41059e8f
-SHA256: 4bf093dbdcb9ec4411926572614ec95516a0e4613f95cd17b61385369878eb58
+Size: 1869496
+MD5sum: 78c73494ec88534edc5e39c589ad25eb
+SHA1: 672325a3436ab1172c0ca08264cb68af914c3f66
+SHA256: 118d34aa8146b5d94dc975c10b939cb9cd54ea5ee198373c2ef602d5593e8668
 Section: System终端服务
 Priority: optional
 Homepage: https://ios-gm.github.io/zqzbIcon: https://ios-gm.github.io/zqzb/CydiaIcon.png
