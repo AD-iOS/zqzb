@@ -530,6 +530,37 @@ Author: Netskao
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: Filza 破解插件
 
+Package: com.null.ad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.null.ad_1.0_iphoneos-arm64.deb
+Size: 3716
+MD5sum: ae2fb082919568a47526e9eff0b0183b
+SHA1: ac2424d05e32b629a76b5252af0d7baca0171129
+SHA256: d452a8a22e39495b4e158b7b6d7e921b994849d9c161baed49af973af45395fd
+Section: System系统
+Description: 一个模仿/dev/null的null
+  您可以往/var/jb/dev/null中写入数据看看会不会被清空掉
+  比如使用cat命令
+Name: 伪/dev/null
+
+Package: com.password-free.sudo.ad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.password-free.sudo.ad_1.0_iphoneos-arm64.deb
+Size: 1004
+MD5sum: 3f7530128c876e1b64c39001f2a65663
+SHA1: 30e2892b407107a27e21810cf5410cb3113f6672
+SHA256: e0f36bb00df19e116cfe92bfffe83dbb65b78cd31b1cb2823ffa0f9071874ad9
+Section: System系统
+Description: You can use sudo without a password.
+ 不需要密码既可以使用sudo。
+Name: Password-free sudo
+
 Package: com.plicationsnext
 Version: 4.0
 Architecture: iphoneos-arm64
