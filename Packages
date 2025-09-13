@@ -498,16 +498,16 @@ Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: BatteryMaster1380 省电大师
 
 Package: com.frida-ad.ad
-Version: 4.0.1-4
+Version: 1.0-16
 Architecture: iphoneos-arm64
 Maintainer: AD
-Installed-Size: 21.8
-Depends: firmware (>= 15.0), re.frida.server64
+Installed-Size: 21800
+Depends: firmware (>= 15.0), re.frida.server
 Filename: ./debs/Frida.deb
-Size: 4440872
-MD5sum: f4a24dc492a8a33dc3f11f6fe4b158c6
-SHA1: 0abbeeb8cfa545e717b8fe9643642c2cec6a23c6
-SHA256: 51cba47f6d69025b895389fc4f033e6bb4054f17c32ee990fb44a2822df3f84c
+Size: 4446728
+MD5sum: 7946902c62f94908159c5a900012a51a
+SHA1: 418c8eb7a552b4f150cfad702243bca8ef341358
+SHA256: 97da73b65cdf078d7fa7d8fe0b2fc5e34f284f5333fb7f3d2c1b5134437e762a
 Section: System终端服务
 Description: 适用于iOS16系统的Frida客户端 | Frida client for iOS16 system
  依赖源: 'https://build.frida.re/'请自行使用VPN添加依赖源后在安装本插件否则无法找到依赖
@@ -536,7 +536,7 @@ Description: 适用于iOS16系统的Frida客户端 | Frida client for iOS16 syst
      -lglib-2.0 2>1.log
  iOS15系统请将-miphoneos-version-min=16.0 \修改为-miphoneos-version-min=15.0 \
  iOS15系统推荐使用-isysroot /var/jb/theos/sdks/iPhoneOS15.6.sdk \
- 因为目前仅在iOS16上测试过其他系统请自行感觉自己的系统、SDK进行相应的调整
+ 因为目前仅在iOS16上测试过其他系统请自行根据自己的系统、SDK进行相应的调整
 Author: AD
 Name: Frida-AD
 
