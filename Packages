@@ -497,6 +497,49 @@ Author: @Spor0nix 凑合哥
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: BatteryMaster1380 省电大师
 
+Package: com.frida-ad.ad
+Version: 4.0.1-4
+Architecture: iphoneos-arm64
+Maintainer: AD
+Installed-Size: 21.8
+Depends: firmware (>= 15.0), re.frida.server64
+Filename: ./debs/Frida.deb
+Size: 4440872
+MD5sum: f4a24dc492a8a33dc3f11f6fe4b158c6
+SHA1: 0abbeeb8cfa545e717b8fe9643642c2cec6a23c6
+SHA256: 51cba47f6d69025b895389fc4f033e6bb4054f17c32ee990fb44a2822df3f84c
+Section: System终端服务
+Description: 适用于iOS16系统的Frida客户端 | Frida client for iOS16 system
+ 依赖源: 'https://build.frida.re/'请自行使用VPN添加依赖源后在安装本插件否则无法找到依赖
+ 不确定是否兼容iOS15系统,可以自行测试
+ Frida源代码下载地址https://github.com/frida/frida/releases
+ 编译命令:
+ clang -I. \
+     -L. \
+     -arch arm64 \
+     -isysroot /var/jb/theos/sdks/iPhoneOS.sdk \
+     -miphoneos-version-min=16.0 \
+     -Wl,-rpath,/var/jb/usr/lib \
+     frida-core-example.c \
+     -o frida\
+     -lfrida-core \
+     -framework Foundation \
+     -lobjc \
+     -lresolv \
+     -lz \
+     -lsqlite3 \
+     -lm \
+     -lc++ \
+     -I/var/jb/usr/include/glib-2.0 \
+     -I/var/jb/usr/lib/glib-2.0/include \
+     -L/var/jb/usr/lib \
+     -lglib-2.0 2>1.log
+ iOS15系统请将-miphoneos-version-min=16.0 \修改为-miphoneos-version-min=15.0 \
+ iOS15系统推荐使用-isysroot /var/jb/theos/sdks/iPhoneOS15.6.sdk \
+ 因为目前仅在iOS16上测试过其他系统请自行感觉自己的系统、SDK进行相应的调整
+Author: AD
+Name: Frida-AD
+
 Package: com.netskao.BiliPurify
 Version: 1.0.0
 Architecture: iphoneos-arm64
