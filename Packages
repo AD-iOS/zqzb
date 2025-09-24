@@ -488,14 +488,12 @@ Maintainer: AD
 Pre-Depends: openssh, zsh, unzip
 Depends: openssh, zsh, unzip, sudo, dpkg, apt, coreutils, less
 Filename: ./debs/com.adb.sct-ad_2.6-39_iphoneos-arm64.deb
-Size: 7924
-MD5sum: 46cdb2fc313a14c73fdc04e8701c3e2b
-SHA1: aebbfe3f7febc13a3756b1abdba2f1bd1da79536
-SHA256: b0677cc466756a3242d2f5c0ae6ec185aad24ecbcd1b8379b6f352f59c37d1c3
+Size: 7932
+MD5sum: 3ee59bb73a3529e99e242908e7ef0d30
+SHA1: a73871958682cf8676ffda14b67a6ed2a86fb004
+SHA256: 2de332384c064d20d1b2adc19b8d6c6ec23bc8099b658e92a2cd6165926768b1
 Section: System终端服务
-Description: 一款仿Android的ADB的终端插件,
-  - 不过现在和Android的ADB已经有很多区别了,
-  - 下载完成后终端输入adb --help查看完整命令或者查看截图
+Description: 一款仿Android的ADB的终端插件,<br></br>不过现在和Android的ADB已经有很多区别了,<br></br>下载完成后终端输入adb --help查看完整命令或者查看截图
 Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: iOS ADB (Apple-iPhone Debug Bridge)
