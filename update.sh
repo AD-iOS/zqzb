@@ -6,25 +6,18 @@ cd /var/mobile/zqzb
 mkdir -p pool/main/c
 mkdir -p dists/AD/main/iphoneos-{arm64,all}
 
-# 2. 為每個架構生成索引
-echo "生成索引文件..."
+# 2. 為每個架構生成索引（標準結構）
+echo "生成標準結構索引文件..."
 
 # 為 arm64 架構生成索引
 dpkg-scanpackages --arch arm64 pool/ > dists/AD/main/iphoneos-arm64/Packages
-gzip -kf dists/AD/main/iphoneos-arm64/Packages  # 改用 -kf 參數
+gzip -kf dists/AD/main/iphoneos-arm64/Packages
 
 # 為 all 架構生成索引
 dpkg-scanpackages --arch all pool/ > dists/AD/main/iphoneos-all/Packages
-gzip -kf dists/AD/main/iphoneos-all/Packages    # 改用 -kf 參數
+gzip -kf dists/AD/main/iphoneos-all/Packages
 
-# 3. 創建兼容性鏈接（解決客戶端bug）
-# cd dists/AD/main/
-# 為錯誤的架構名稱創建符號鏈接
-# ln -sf iphoneos-arm64 binary-iphoneos-arm64 2>/dev/null || true
-# ln -sf iphoneos-arm64 binary-iphoneos-arm64 2>/dev/null || true
-cd /var/mobile/zqzb
-
-# 4. 生成 Release 文件
+# 3. 生成 Release 文件
 cd dists/AD
 cat > Release << EOF
 Origin: iOS-AD Repo
@@ -42,8 +35,15 @@ Header: https://ios-gm.github.io/zqzb/sileodepiction/Default/top_0.png
 Date: $(date -u +'%a, %d %b %Y %H:%M:%S %Z')
 EOF
 
-apt-ftparchive release . >> Release
+# 暫時不需要哈希驗證
+# apt-ftparchive release . >> Release
+
 cd ../..
+
+# 4. 生成兜底的扁平結構索引（可選，但建議二選一）
+echo "生成兜底扁平結構索引..."
+dpkg-scanpackages -m . /dev/null > Packages
+gzip -kf Packages
 
 # 5. 提交更新
 echo "提交更新..."
