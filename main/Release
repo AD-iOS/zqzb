@@ -1,12 +1,13 @@
 Origin: iOS-AD Repo
 Label: iOS-AD Repo
-Suite: stable
-Version: 1.0
+Suite: AD
 Codename: AD
+Version: 1.0
+Maintainer: AD
 Architectures: iphoneos-arm64 iphoneos-all
 Components: main
 Description: iOS-AD Repo — 提供越狱插件、自制工具及精选第三方插件
-Maintainer: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 SileoIcon: https://ios-gm.github.io/zqzb/RepoIcon.png
 Header: https://ios-gm.github.io/zqzb/sileodepiction/Default/top_0.png
+Date: Wed, 24 Sep 2025 11:21:53 UTC
