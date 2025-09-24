@@ -26,13 +26,14 @@ Suite: AD
 Codename: AD
 Version: 1.0
 Maintainer: AD
-Architectures: arm64 all
+Architectures: iphoneos-arm64 iphoneos-all
 Components: main
 Description: iOS-AD Repo — 提供越狱插件、自制工具及精选第三方插件
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 SileoIcon: https://ios-gm.github.io/zqzb/RepoIcon.png
 Header: https://ios-gm.github.io/zqzb/sileodepiction/Default/top_0.png
 Date: $(date -u +'%a, %d %b %Y %H:%M:%S %Z')
+
 EOF
 
 apt-ftparchive release . >> Release
