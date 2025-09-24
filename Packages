@@ -481,6 +481,24 @@ Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: theos/sdk分类的公告
 
+Package: com.adb.sct-ad
+Version: 2.6-39
+Architecture: iphoneos-arm64
+Maintainer: AD
+Pre-Depends: openssh, zsh, unzip
+Depends: openssh, zsh, unzip, sudo, dpkg, apt, coreutils, less
+Filename: ./debs/com.adb.sct-ad_2.6-39_iphoneos-arm64.deb
+Size: 7924
+MD5sum: c2f459bbd2d49601de4f07963fdce5cf
+SHA1: 3e41058a2f81761db6b1e6fc15da1433665ba36b
+SHA256: ffd3a4f61b7db3f54a18a4f3193b173e2532f9e6c1ec2500a31f3761cf45090b
+Section: System终端服务
+Description: 一款仿Android的ADB的终端插件,不过现在和Android的ADB已经有很多区别了,下载完成后终端输入adb --help查看完整命令或者查看截图
+Author: AD
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: iOS ADB (Apple-iPhone Debug Bridge)
+Sileodepiction: https://ios-gm.github.io/zqzb/sileodepiction/com.adb.sct-ad/ad.json
+
 Package: com.couhege1380.BatteryMaster
 Version: 1.0.0
 Architecture: iphoneos-arm64
