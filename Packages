@@ -3,7 +3,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: bash
-Filename: ./pool/main/c/1688SHFonts_1.0_arm64.deb
+Filename: ./debs/1688SHFonts_1.0_arm64.deb
 Size: 5804304
 MD5sum: aa7221ac12dcc148ab6688b57dba0c6a
 SHA1: cc667f41435bf1946f1a346692423e5d7b8c8ca0
@@ -27,7 +27,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: bash
-Filename: ./debs/1688SHFonts_1.0_arm64.deb
+Filename: ./ad/pool/main/c/1688SHFonts_1.0_arm64.deb
 Size: 5804304
 MD5sum: aa7221ac12dcc148ab6688b57dba0c6a
 SHA1: cc667f41435bf1946f1a346692423e5d7b8c8ca0
@@ -51,7 +51,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: bash
-Filename: ./pool/main/c/com.DYFont_arm64.deb
+Filename: ./debs/com.DYFont_arm64.deb
 Size: 8768764
 MD5sum: a1dfd124de965841db168aeb84345cc3
 SHA1: 0696b65e9f7dcb374df7de2f944d03deba9cb56b
@@ -67,7 +67,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: bash
-Filename: ./debs/com.DYFont_arm64.deb
+Filename: ./ad/pool/main/c/com.DYFont_arm64.deb
 Size: 8768764
 MD5sum: a1dfd124de965841db168aeb84345cc3
 SHA1: 0696b65e9f7dcb374df7de2f944d03deba9cb56b
@@ -77,20 +77,6 @@ Description: 非常好看的抖音圆体！现已支持真皮挂载，在多巴�
 Author: 百度主题源
 Icon: https://chinesebuilding.club/pic/zt.png
 Name: DYFonts(挂载版)
-
-Package: TrollStor
-Version: 7.25
-Architecture: iphoneos-arm64
-Maintainer: AD <3897069329>
-Filename: ./pool/main/c/TrollStor_7.25_arm64.deb
-Size: 6456868
-MD5sum: 7f4bcbb21e61959917d3682d8df3c8c0
-SHA1: 95df4cfc6decd4e5c1d45a5eeccaee1f15e50685
-SHA256: ac52968f1ea841f35b563eb6020c767c3821b77192f19c76717cdc23dc0be563
-Section: Apply
-Description: TrollStor(巨魔商店)魔改版的分身7.2.5版本。（此版本与原版冲突但是这个版本是两个巨魔商店并且自带Idid你可以不需要安装idid即可使用因为自带idid）以下是新加的功能和修复的bug 1.增强安装包页跟插件页的文件管理功能(支持多格式解压IPA、TIPA、RAR、TAR、ZIP、7z等)，增加文本编辑功能(可以直接查看和修改文本类文件比如(PLIST、STRINGS、TXT等)2.修复上个版本中语言跟随系统出现的语言显示异常3.增加安装包页跟插件页长按多选或单个文件压缩为ZIP功能4.增加安装包页跟插件页长按显示文件详情功能5.修复上个版本中安装时无应用所需权限显示的异常6.修复上个版本中越狱源无法添加HTTP链接7.修复上个版本中越狱源显示架构异常8.修复上个版本中部分越狱源识别异常9.优化越狱源加载速度(主要还是取决于自身网络和添加的越狱源列表文件)10.增加越狱源批量添加(可选手动输入或剪贴板识别)11.增加越狱源列表可自定义图标12.增加软件源功能可添加软件源(只支持未加密的软件源)13.增加App动态脱壳，TrollStore 安装的应用不会显示解密按钮(暂时不能解密扩展)14.修复单文件进行压缩时闪退问题15.修复上个版本中安装应用时显示所需权限的弹窗布局部分格式不对问题16.修复.上个版本中分享安装包到TrollStore时重复保存安装包到安装包页17.优化压缩文件时新ZIP压缩文件或解压后文件夹在原文件位置下方插入18.修复重建图标缓存不生效问题19.单列基础增加双列模式，设置切换20.增加自定义调整低栏左右大小以及上下位
-Author: AD
-Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 
 Package: TrollStor
 Version: 7.25
@@ -106,21 +92,19 @@ Description: TrollStor(巨魔商店)魔改版的分身7.2.5版本。（此版本
 Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 
-Package: WatermelonBar
-Version: 1.2
+Package: TrollStor
+Version: 7.25
 Architecture: iphoneos-arm64
-Maintainer: LF
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pool/main/c/WatermelonBar_1.2_arm64.deb
-Size: 286888
-MD5sum: b6c17514822b047da720db065242f41d
-SHA1: 048aedc653003ef1c8afd5ec075eb568c101bbca
-SHA256: 91857f2230014b1367be9a37a540daa72b884bf88a6af47f5284294ddf32a3c7
-Section: Themes主题
-Description: Custom status bar.西瓜定制状态栏，从NiceBarX转移到电话助手，支持无根越狱.仅供测试使用.
-Author: LF
+Maintainer: AD <3897069329>
+Filename: ./ad/pool/main/c/TrollStor_7.25_arm64.deb
+Size: 6456868
+MD5sum: 7f4bcbb21e61959917d3682d8df3c8c0
+SHA1: 95df4cfc6decd4e5c1d45a5eeccaee1f15e50685
+SHA256: ac52968f1ea841f35b563eb6020c767c3821b77192f19c76717cdc23dc0be563
+Section: Apply
+Description: TrollStor(巨魔商店)魔改版的分身7.2.5版本。（此版本与原版冲突但是这个版本是两个巨魔商店并且自带Idid你可以不需要安装idid即可使用因为自带idid）以下是新加的功能和修复的bug 1.增强安装包页跟插件页的文件管理功能(支持多格式解压IPA、TIPA、RAR、TAR、ZIP、7z等)，增加文本编辑功能(可以直接查看和修改文本类文件比如(PLIST、STRINGS、TXT等)2.修复上个版本中语言跟随系统出现的语言显示异常3.增加安装包页跟插件页长按多选或单个文件压缩为ZIP功能4.增加安装包页跟插件页长按显示文件详情功能5.修复上个版本中安装时无应用所需权限显示的异常6.修复上个版本中越狱源无法添加HTTP链接7.修复上个版本中越狱源显示架构异常8.修复上个版本中部分越狱源识别异常9.优化越狱源加载速度(主要还是取决于自身网络和添加的越狱源列表文件)10.增加越狱源批量添加(可选手动输入或剪贴板识别)11.增加越狱源列表可自定义图标12.增加软件源功能可添加软件源(只支持未加密的软件源)13.增加App动态脱壳，TrollStore 安装的应用不会显示解密按钮(暂时不能解密扩展)14.修复单文件进行压缩时闪退问题15.修复上个版本中安装应用时显示所需权限的弹窗布局部分格式不对问题16.修复.上个版本中分享安装包到TrollStore时重复保存安装包到安装包页17.优化压缩文件时新ZIP压缩文件或解压后文件夹在原文件位置下方插入18.修复重建图标缓存不生效问题19.单列基础增加双列模式，设置切换20.增加自定义调整低栏左右大小以及上下位
+Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: WatermelonBar
 
 Package: WatermelonBar
 Version: 1.2
@@ -138,21 +122,21 @@ Author: LF
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: WatermelonBar
 
-Package: a1
+Package: WatermelonBar
 Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: LF
-Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./pool/main/c/a1_1.2_arm64.deb
-Size: 9400
-MD5sum: bdb52038e8def792b40b0ec79703a738
-SHA1: 73341b437b088373db2e56f905bc92b1cff099e5
-SHA256: 95600efe50cc3a9ca23c39a0f8503b1fbeebb7b45b3c30b82b314844305f9903
-Section: System系统
-Description: Adjust your Jetsam and kernel parameters to give you the best background experience.调整你的Jetsam和内核参数，降低无用进程优先级，提高系统流畅性！给你最好的后台体验！
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./ad/pool/main/c/WatermelonBar_1.2_arm64.deb
+Size: 286888
+MD5sum: b6c17514822b047da720db065242f41d
+SHA1: 048aedc653003ef1c8afd5ec075eb568c101bbca
+SHA256: 91857f2230014b1367be9a37a540daa72b884bf88a6af47f5284294ddf32a3c7
+Section: Themes主题
+Description: Custom status bar.西瓜定制状态栏，从NiceBarX转移到电话助手，支持无根越狱.仅供测试使用.
 Author: LF
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: A1
+Name: WatermelonBar
 
 Package: a1
 Version: 1.2
@@ -171,35 +155,19 @@ Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: A1
 
 Package: a1
-Version: 1.3
+Version: 1.2
 Architecture: iphoneos-arm64
-Maintainer: AD
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./pool/main/c/a1_1.3_arm64.deb
-Size: 10256
-MD5sum: 77690d779a670d61de029641c9d6c395
-SHA1: 4dc840fe59a7911e47e260e8a3cf592a9842e99f
-SHA256: f191379250205de9cfae3e8b28c09e5c856f244fa69ac737680a742d1492cdb0
+Maintainer: LF
+Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
+Filename: ./ad/pool/main/c/a1_1.2_arm64.deb
+Size: 9400
+MD5sum: bdb52038e8def792b40b0ec79703a738
+SHA1: 73341b437b088373db2e56f905bc92b1cff099e5
+SHA256: 95600efe50cc3a9ca23c39a0f8503b1fbeebb7b45b3c30b82b314844305f9903
 Section: System系统
-Description: Adjust Jetsam and kernel parameters to optimize background task performance.
-  优化 Jetsam 和内核参数以提升后台任务性能。
-  - Lowers priority of useless processes to improve system fluidity.
-    降低无用进程优先级，提高系统流畅性。
-  - Extends compatibility with more apps in this verison.
-    此版本扩展了更多应用的兼容性。
-  - Fixes path errors (grep/awk/sysctl issues).
-    修复路径错误（grep/awk/sysctl 问题）。
-  - Adds postrm script for cleanup.
-    新增卸载清理脚本（postrm）。
-  - Prevents log accumulation.
-    防止日志堆积。
-1.3:
-  - Added postrm script | 新增卸载清理脚本
-  - Fixed path errors (grep/awk/sysctl) | 修复路径错误（grep/awk/sysctl）
-  - Extended app compatibility list | 扩展应用兼容列表
-  - Added log rotation to prevent accumulation | 新增日志轮转防止堆积
+Description: Adjust your Jetsam and kernel parameters to give you the best background experience.调整你的Jetsam和内核参数，降低无用进程优先级，提高系统流畅性！给你最好的后台体验！
 Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: A1
 
 Package: a1
@@ -234,32 +202,37 @@ Author: LF
 Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
 
-Package: com.AD.10086
-Version: 1.0
+Package: a1
+Version: 1.3
 Architecture: iphoneos-arm64
-Maintainer: iOS-AD
-Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0)
-Filename: ./pool/main/c/com.AD.10086_1.0_arm64.deb
-Size: 1336
-MD5sum: b2562eaf777dfcb15875412a6093df36
-SHA1: c5816549c350bc7dae07df30873b5f139957e46c
-SHA256: 4ab3803a5c4b3050d6af77aa2cf89277cd1fd8ace3732a5ae306a1b02d51d624
-Section: 源公告
-Priority: required
-Description: iOS-AD源官方公告。
-  - 声明一下：本源只是将网上作者分享的插件、交流群群友做的插件、以及源主做的插件上传到本源。
-  - 其中网上作者发现的插件和群友做的插件未做任何修改。
-  - 部分插件标识符和作者插件一致导致显示问题，这是Cydia/Sileo的默认规则导致（先添加谁的源就会显示谁的），并非我们劫持插件。
-  - 若本源的部分插件或者软件安装后无法使用的话可以添加搬运工源(byg.iosios.net)去下载对应的版本或者去其他源下载对应的版本或者可以联系源主去修复。
-  - 因为源是GitHub托管的所以服务器在美国，遇到下载问题请尝试：切换VPN或者更换网络环境。
-  - 交流群：
-   - QQ1群：1030152896
-   - QQ2群：837894083
-   - QQ文件群: 1027358518
-  - 本源今年(2025)开始正式运营，欢迎支持。
-Author: iOS-AD
-Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: iOS-AD源公告
+Maintainer: AD
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
+Filename: ./ad/pool/main/c/a1_1.3_arm64.deb
+Size: 10256
+MD5sum: 77690d779a670d61de029641c9d6c395
+SHA1: 4dc840fe59a7911e47e260e8a3cf592a9842e99f
+SHA256: f191379250205de9cfae3e8b28c09e5c856f244fa69ac737680a742d1492cdb0
+Section: System系统
+Description: Adjust Jetsam and kernel parameters to optimize background task performance.
+  优化 Jetsam 和内核参数以提升后台任务性能。
+  - Lowers priority of useless processes to improve system fluidity.
+    降低无用进程优先级，提高系统流畅性。
+  - Extends compatibility with more apps in this verison.
+    此版本扩展了更多应用的兼容性。
+  - Fixes path errors (grep/awk/sysctl issues).
+    修复路径错误（grep/awk/sysctl 问题）。
+  - Adds postrm script for cleanup.
+    新增卸载清理脚本（postrm）。
+  - Prevents log accumulation.
+    防止日志堆积。
+1.3:
+  - Added postrm script | 新增卸载清理脚本
+  - Fixed path errors (grep/awk/sysctl) | 修复路径错误（grep/awk/sysctl）
+  - Extended app compatibility list | 扩展应用兼容列表
+  - Added log rotation to prevent accumulation | 新增日志轮转防止堆积
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
 
 Package: com.AD.10086
 Version: 1.0
@@ -288,23 +261,32 @@ Author: iOS-AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: iOS-AD源公告
 
-Package: com.AD.MemoryOptimization
-Version: 1.0.5
+Package: com.AD.10086
+Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: AD
-Installed-Size: 162
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: zp.stopautolaunchapps
-Filename: ./pool/main/c/com.AD.MemoryOptimization_1.0.5_arm64.deb
-Size: 3808
-MD5sum: 66d21c8c30bc22d1478a9207bd9ed685
-SHA1: 6cf53a46a6829bb0399c60b1b043304b9c749b50
-SHA256: 5f736fc180636f1af544ac0fb70f379bf612faaa4d186b7cc16f71d41a59d37e
-Section: System系统
-Description: 禁用iOS热启动神经网络引擎,禁止iOS后台热加载app！优点:节约内存,少杀后台！玄学:减少重启概率！安装完成后，请重启一下用户空间！(Disable iOS hot start neural network engine, disable iOS background hot loading apps! Advantages: save memory, less kill background! Metaphysics: Reduce reboot probability! After installation, please reboot your user space!)
-Author: zqbb
+Maintainer: iOS-AD
+Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0)
+Filename: ./ad/pool/main/c/com.AD.10086_1.0_arm64.deb
+Size: 1336
+MD5sum: b2562eaf777dfcb15875412a6093df36
+SHA1: c5816549c350bc7dae07df30873b5f139957e46c
+SHA256: 4ab3803a5c4b3050d6af77aa2cf89277cd1fd8ace3732a5ae306a1b02d51d624
+Section: 源公告
+Priority: required
+Description: iOS-AD源官方公告。
+  - 声明一下：本源只是将网上作者分享的插件、交流群群友做的插件、以及源主做的插件上传到本源。
+  - 其中网上作者发现的插件和群友做的插件未做任何修改。
+  - 部分插件标识符和作者插件一致导致显示问题，这是Cydia/Sileo的默认规则导致（先添加谁的源就会显示谁的），并非我们劫持插件。
+  - 若本源的部分插件或者软件安装后无法使用的话可以添加搬运工源(byg.iosios.net)去下载对应的版本或者去其他源下载对应的版本或者可以联系源主去修复。
+  - 因为源是GitHub托管的所以服务器在美国，遇到下载问题请尝试：切换VPN或者更换网络环境。
+  - 交流群：
+   - QQ1群：1030152896
+   - QQ2群：837894083
+   - QQ文件群: 1027358518
+  - 本源今年(2025)开始正式运营，欢迎支持。
+Author: iOS-AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: 内存优化(Memory Optimization)
+Name: iOS-AD源公告
 
 Package: com.AD.MemoryOptimization
 Version: 1.0.5
@@ -324,20 +306,23 @@ Author: zqbb
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: 内存优化(Memory Optimization)
 
-Package: com.AD.Saily
-Version: 3.0
+Package: com.AD.MemoryOptimization
+Version: 1.0.5
 Architecture: iphoneos-arm64
-Maintainer: AD <3897069329>
-Depends: firmware (>= 15.0)
-Filename: ./pool/main/c/com.AD.Saily_3.0_arm64.deb
-Size: 3404184
-MD5sum: d2764990197c35ef77095844df26b555
-SHA1: 5dbc90e4d0a4951ab814eb47577e14319e38528f
-SHA256: 5314c806d4d3fb7ca704a34ffb684506b7f6c4ff531d353607015149c4734b58
-Section: Apply
-Description: Saily一种新的现代越狱商店
+Maintainer: AD
+Installed-Size: 162
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: zp.stopautolaunchapps
+Filename: ./ad/pool/main/c/com.AD.MemoryOptimization_1.0.5_arm64.deb
+Size: 3808
+MD5sum: 66d21c8c30bc22d1478a9207bd9ed685
+SHA1: 6cf53a46a6829bb0399c60b1b043304b9c749b50
+SHA256: 5f736fc180636f1af544ac0fb70f379bf612faaa4d186b7cc16f71d41a59d37e
+Section: System系统
+Description: 禁用iOS热启动神经网络引擎,禁止iOS后台热加载app！优点:节约内存,少杀后台！玄学:减少重启概率！安装完成后，请重启一下用户空间！(Disable iOS hot start neural network engine, disable iOS background hot loading apps! Advantages: save memory, less kill background! Metaphysics: Reduce reboot probability! After installation, please reboot your user space!)
+Author: zqbb
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: Saily越狱商店
+Name: 内存优化(Memory Optimization)
 
 Package: com.AD.Saily
 Version: 3.0
@@ -354,20 +339,20 @@ Description: Saily一种新的现代越狱商店
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: Saily越狱商店
 
-Package: com.AD.iCleanerPro
-Version: 7.1.0
+Package: com.AD.Saily
+Version: 3.0
 Architecture: iphoneos-arm64
 Maintainer: AD <3897069329>
 Depends: firmware (>= 15.0)
-Filename: ./pool/main/c/com.AD.iCleanerPro_7.1.0_arm64.deb
-Size: 982848
-MD5sum: 34616225bccd79facc3449e21fbafecb
-SHA1: fb076e493ea3a29dba15293944234e26a8af105a
-SHA256: a01e60cc9663885271a836943e91b918d2d9ef1ada05b55e418179ffd8665242
+Filename: ./ad/pool/main/c/com.AD.Saily_3.0_arm64.deb
+Size: 3404184
+MD5sum: d2764990197c35ef77095844df26b555
+SHA1: 5dbc90e4d0a4951ab814eb47577e14319e38528f
+SHA256: 5314c806d4d3fb7ca704a34ffb684506b7f6c4ff531d353607015149c4734b58
 Section: Apply
-Description: iOS的垃圾清理工具，此为官方破解版，全部功能解锁版，有能力的去支持原作者
+Description: Saily一种新的现代越狱商店
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: iCleanerPro小扫把-rootless
+Name: Saily越狱商店
 
 Package: com.AD.iCleanerPro
 Version: 7.1.0
@@ -384,21 +369,20 @@ Description: iOS的垃圾清理工具，此为官方破解版，全部功能解�
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: iCleanerPro小扫把-rootless
 
-Package: com.AD.virtualmemory
-Version: 2.0
+Package: com.AD.iCleanerPro
+Version: 7.1.0
 Architecture: iphoneos-arm64
-Maintainer: AD
-Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
-Filename: ./pool/main/c/com.AD.virtualmemory_2.0_arm64.deb
-Size: 2016
-MD5sum: aa070c198272795e7f0a03d89639f7d9
-SHA1: 4a4d36f0b86a98e32493f0d4e4113542bc7a74e8
-SHA256: 000f268403854d3b11548151e90c17802833ee4cb0425ab0a92c20fcfe320a2f
-Section: System系统
-Description: 自动启用虚拟内存，有效解决杀后台！（Automatically enable virtual memory to effectively solve kill background!）
-Author: AD
+Maintainer: AD <3897069329>
+Depends: firmware (>= 15.0)
+Filename: ./ad/pool/main/c/com.AD.iCleanerPro_7.1.0_arm64.deb
+Size: 982848
+MD5sum: 34616225bccd79facc3449e21fbafecb
+SHA1: fb076e493ea3a29dba15293944234e26a8af105a
+SHA256: a01e60cc9663885271a836943e91b918d2d9ef1ada05b55e418179ffd8665242
+Section: Apply
+Description: iOS的垃圾清理工具，此为官方破解版，全部功能解锁版，有能力的去支持原作者
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: 虚拟内存(virtual memory)
+Name: iCleanerPro小扫把-rootless
 
 Package: com.AD.virtualmemory
 Version: 2.0
@@ -416,21 +400,21 @@ Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: 虚拟内存(virtual memory)
 
-Package: com.Dopamine.themes
-Version: 1.0
+Package: com.AD.virtualmemory
+Version: 2.0
 Architecture: iphoneos-arm64
 Maintainer: AD
-Depends: firmware (>= 15.0)
-Filename: ./pool/main/c/com.Dopamine.themes_1.0_arm64.deb
-Size: 2132
-MD5sum: 03f8158afe61f05f580e38eea9e48271
-SHA1: 4e5b6c5b7bc4c79d96927490d32b1e461b696d94
-SHA256: 2b740c054005e62ccf1ced1efc43def7e285a2279b1d37743444172ddecd3651
-Section: Themes主题
-Description: Expand your dopamine theme.扩展你的多巴胺主题。
-Author: LF
+Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
+Filename: ./ad/pool/main/c/com.AD.virtualmemory_2.0_arm64.deb
+Size: 2016
+MD5sum: aa070c198272795e7f0a03d89639f7d9
+SHA1: 4a4d36f0b86a98e32493f0d4e4113542bc7a74e8
+SHA256: 000f268403854d3b11548151e90c17802833ee4cb0425ab0a92c20fcfe320a2f
+Section: System系统
+Description: 自动启用虚拟内存，有效解决杀后台！（Automatically enable virtual memory to effectively solve kill background!）
+Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: DopamineThemesExtended-多巴胺主题扩展
+Name: 虚拟内存(virtual memory)
 
 Package: com.Dopamine.themes
 Version: 1.0
@@ -448,26 +432,21 @@ Author: LF
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: DopamineThemesExtended-多巴胺主题扩展
 
-Package: com.ad.Ev
+Package: com.Dopamine.themes
 Version: 1.0
-Architecture: all
+Architecture: iphoneos-arm64
 Maintainer: AD
-Depends: com.ad.theos
-Filename: ./pool/main/c/com.ad.Ev_1.0_all.deb
-Size: 1544
-MD5sum: 40079e0ba7d803f7a271736ddc00aca5
-SHA1: 49df3be06dd40466dfeb682f5b27b4cce9de0ca7
-SHA256: 82de1d49844ff4062651ee30b682c7d6b9d76da1172f4773a27105711b6ecc88
-Section: theos/SDK
-Description: 此插件可以快速配置theos和SDK的环境变量从而快速使用如果您已经配置的话则不需要安装本插件因为可能会导致环境变量重复或者冲突。
-  - 环境变量设置
-    -  本插件安装完成后需要手动在终端执行source ~/.zshrc'和'source ~/.bashrc'命令以确保环境变量被正确追加成功。
-  - 如何使用
-    -  在终端输入sdk-switch即可显示出来信息按照提示来操作即可
-  - 注意需要安装SDK才能使用
-Author: AD
+Depends: firmware (>= 15.0)
+Filename: ./ad/pool/main/c/com.Dopamine.themes_1.0_arm64.deb
+Size: 2132
+MD5sum: 03f8158afe61f05f580e38eea9e48271
+SHA1: 4e5b6c5b7bc4c79d96927490d32b1e461b696d94
+SHA256: 2b740c054005e62ccf1ced1efc43def7e285a2279b1d37743444172ddecd3651
+Section: Themes主题
+Description: Expand your dopamine theme.扩展你的多巴胺主题。
+Author: LF
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: theos和SDK的环境变量设置
+Name: DopamineThemesExtended-多巴胺主题扩展
 
 Package: com.ad.Ev
 Version: 1.0
@@ -490,23 +469,26 @@ Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: theos和SDK的环境变量设置
 
-Package: com.ad.System-TS
+Package: com.ad.Ev
 Version: 1.0
 Architecture: all
 Maintainer: AD
-Depends: firmware (>= 99999.0)
-Filename: ./pool/main/c/com.ad.System-TS_1.0_all.deb
-Size: 844
-MD5sum: 7b01f7847b46abe1f30a7c4d9bebae14
-SHA1: 9a521c55532b205b5f184b4b7aee42f93dfcff29
-SHA256: 9b62070b814831c5a6febb5726198bbd8beb884ec603dd6c49a5a4841fb8df5c
-Section: System终端服务
-Description: System终端服务分类的公告
-  -
-  System终端服务分类的公告，如果各位发现本分类的插件有问题可以添加源主的QQ告诉源主来修复
+Depends: com.ad.theos
+Filename: ./ad/pool/main/c/com.ad.Ev_1.0_all.deb
+Size: 1544
+MD5sum: 40079e0ba7d803f7a271736ddc00aca5
+SHA1: 49df3be06dd40466dfeb682f5b27b4cce9de0ca7
+SHA256: 82de1d49844ff4062651ee30b682c7d6b9d76da1172f4773a27105711b6ecc88
+Section: theos/SDK
+Description: 此插件可以快速配置theos和SDK的环境变量从而快速使用如果您已经配置的话则不需要安装本插件因为可能会导致环境变量重复或者冲突。
+  - 环境变量设置
+    -  本插件安装完成后需要手动在终端执行source ~/.zshrc'和'source ~/.bashrc'命令以确保环境变量被正确追加成功。
+  - 如何使用
+    -  在终端输入sdk-switch即可显示出来信息按照提示来操作即可
+  - 注意需要安装SDK才能使用
 Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: System终端服务分类的公告
+Name: theos和SDK的环境变量设置
 
 Package: com.ad.System-TS
 Version: 1.0
@@ -526,28 +508,23 @@ Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: System终端服务分类的公告
 
-Package: com.ad.deb
-Version: 7.3
-Architecture: iphoneos-arm64
+Package: com.ad.System-TS
+Version: 1.0
+Architecture: all
 Maintainer: AD
-Depends: firmware (>= 15.0)
-Filename: ./pool/main/c/com.ad.deb_7.3_arm64.deb
-Size: 13600
-MD5sum: 0991db518d053a1f5603e04bfe62adc4
-SHA1: 4ac340a02faa534da8e7a0bc4571efba8501a860
-SHA256: 1ac2933368422269c6f6ce864f221e1bd943a612b2d925efcf53763e0118437b
+Depends: firmware (>= 99999.0)
+Filename: ./ad/pool/main/c/com.ad.System-TS_1.0_all.deb
+Size: 844
+MD5sum: 7b01f7847b46abe1f30a7c4d9bebae14
+SHA1: 9a521c55532b205b5f184b4b7aee42f93dfcff29
+SHA256: 9b62070b814831c5a6febb5726198bbd8beb884ec603dd6c49a5a4841fb8df5c
 Section: System终端服务
-Priority: optional
-Homepage: https://ios-gm.github.io/zqzb/
-Description: 便携式 deb 目录生成器是一款可以快速创建 deb 目录结构的便捷工具。
-  - 便携式deb目录生成器:
-  - 安装后，你可以在终端直接输入 AD-deb 命令来启动本插件。
-  - 如果你想查看自己的 deb 工程文件项目，可以通过 Filza 访问路径 /var/mobile/Documents/AD-deb 来浏览项目文件。
-  - 需要注意的是，本插件并不会直接生成 deb 安装包，而是生成完整的 deb 工程目录结构。
-  - 它适合用来快速搭建插件的工程文件夹，是开发插件时的理想选择。
+Description: System终端服务分类的公告
+  -
+  System终端服务分类的公告，如果各位发现本分类的插件有问题可以添加源主的QQ告诉源主来修复
 Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: 便携式deb目录生成器
+Name: System终端服务分类的公告
 
 Package: com.ad.deb
 Version: 7.3
@@ -572,101 +549,28 @@ Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: 便携式deb目录生成器
 
-Package: com.ad.lamina
-Version: 1.1.1
+Package: com.ad.deb
+Version: 7.3
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0)
-Filename: ./pool/main/c/com.ad.lamina_1.1.1_arm64.deb
-Size: 242632
-MD5sum: 5cc49c466dfc5d0ed9b8e422ec1416ea
-SHA1: 731a0e99a1512aa813ee53031e4277663ef75f7c
-SHA256: fb91afc0483e51779a25b3430c165ef3f208394772ebb373ebbd7baced0fa88a
+Filename: ./ad/pool/main/c/com.ad.deb_7.3_arm64.deb
+Size: 13600
+MD5sum: 0991db518d053a1f5603e04bfe62adc4
+SHA1: 4ac340a02faa534da8e7a0bc4571efba8501a860
+SHA256: 1ac2933368422269c6f6ce864f221e1bd943a612b2d925efcf53763e0118437b
 Section: System终端服务
-Description: Lamina一种专注于精确数学计算的面向过程编程语言（在终端输入ad-lamina开始启用）
-  - 本插件遵守开源协议
-  - Lamina官方的GitHub仓库地址：https://github.com/Lamina-dev/Lamina
-  - 本插件的开源仓库地址：https://github.com/iOS-GM/Lamina-iOS-CPP
-  - 本插件由AD编译供大家使用
-  - 介绍：
-  - Lamina 是一种面向过程的数学计算语言，专注于数学问题的高效解决，支持图灵完备性。其设计目标是提供简洁、直观的语法，同时支持复杂数学运算。
-  - 主要特性：
-  - 精确数学：支持有理数（分数）和无理数（√、π、e）的精确表示和运算
-  - 精度保护：避免浮点数精度丢失，多次循环运算保持精确
-  - 数学友好：原生支持向量、矩阵运算和数学函数
-  - 递归支持：可配置递归深度限制
-  - 大整数：支持任意精度大整数运算
-  - 交互式REPL：支持交互式编程和脚本执行
-  - 智能终端：自动检测终端色彩支持，避免乱码
-  - 栈追踪：完整的错误栈追踪，便于调试
-  - 精确数学特性：
-  - Lamina 的核心优势在于其精确数学计算能力，解决了传统编程语言中浮点数精度丢失的问题。
-  - 有理数（Rational）：
-  - 自动分数表示：除法运算自动产生精确分数
-  - 多次运算保持精确：避免累积误差
-  - 自动化简：分数自动约简到最简形式
-  - 示例：
-  - var fraction = 16 / 9;
-  - // 结果为 16/9，不是 1.777...
-  - var result = fraction;
-  - // 多次循环运算保持精确
-  - var i = 1;
-  - while (i <= 10) {
-  - result = result * 9 / 9;
-  - // 始终保持为 16/9
-  - i = i + 1;
-  - }
-  - 无理数（Irrational）
-  - 符号化表示：√2、π、e 等保持符号形式
-  - 自动化简：√8 → 2√2，√(a²) → a
-  - 精确运算：符号运算避免近似误差
-  - 精度对比示例
-  - // 传统浮点数（其他语言）
-  - // 0.1 + 0.2 = 0.30000000000000004
-  - // Lamina 精确计算
-  - var result = 1/10 + 2/10;
-  - // 结果：3/10（完全精确）
-  - 基础语法
-  - 语句终止符
-  - 分号是必需的：Lamina 要求所有语句都必须以分号 ; 结束，这提高了解析效率和代码可读性。
-  - 示例：
-  - var x = 10;           //  正确
-  - print(x);             //  正确
-  - bigint big = 100!;    //  正确
-  - var y = 20            //  错误：缺少分号
-  - print(y)              //  错误：缺少分号
-  - 模块化系统？
-  - 因为这是在iOS越狱上运行所以没有模块化系统
-  - 因为iOS系统并不支持直接执行C源码所以只能转换成二进制文件后才能使用
-  - include 语句
-  - 强制使用引号：include 语句必须使用引号包裹文件名，这确保了语法的一致性和清晰度。
-  - 示例：
-  - include "math_utils";
-  - //  正确：使用引号包裹
-  - include "lib/vectors";
-  - //  正确：支持相对路径
-  - include math_utils;
-  - //  错误：必须使用引号
-  - 关键字
-  - 以下为保留字，不可用作变量名或函数名：
-  - var func if else while for return break continue
-  - print true false null include define bigint input
-  - 注释：
-  - // 单行注释
-  - /* 块注释 */
-  - 变量声明：
-  - var x = 10;
-  - var name = "Alice";
-  - var arr = [1, 2, 3];
-  - bigint large_num = 999999999999;
-  - // 大整数需显式声明
-  - bigint factorial_result = 25!;
-  - // 可直接从运算结果赋值
-  - 剩下的内容请到GitHub官网中查看
-  - GitHub仓库：https://github.com/Lamina-dev/Lamina
+Priority: optional
+Homepage: https://ios-gm.github.io/zqzb/
+Description: 便携式 deb 目录生成器是一款可以快速创建 deb 目录结构的便捷工具。
+  - 便携式deb目录生成器:
+  - 安装后，你可以在终端直接输入 AD-deb 命令来启动本插件。
+  - 如果你想查看自己的 deb 工程文件项目，可以通过 Filza 访问路径 /var/mobile/Documents/AD-deb 来浏览项目文件。
+  - 需要注意的是，本插件并不会直接生成 deb 安装包，而是生成完整的 deb 工程目录结构。
+  - 它适合用来快速搭建插件的工程文件夹，是开发插件时的理想选择。
 Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: Lamina-iOS-CPP-1.1.1-Beta
+Name: 便携式deb目录生成器
 
 Package: com.ad.lamina
 Version: 1.1.1
@@ -764,21 +668,101 @@ Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: Lamina-iOS-CPP-1.1.1-Beta
 
-Package: com.ad.sdk13.7
-Version: 1.0
+Package: com.ad.lamina
+Version: 1.1.1
 Architecture: iphoneos-arm64
 Maintainer: AD
-Depends: com.ad.theos, firmware (>= 13.0)
-Filename: ./pool/main/c/com.ad.sdk13.7_1.0-2_arm64.deb
-Size: 8590960
-MD5sum: d3f60f33b8ef316215a129bf1c6d341a
-SHA1: 5db4931f4e8864bbc784853deb70737414c13cf0
-SHA256: 3001e02a04bebfe9ab7a0def1c640c1840ab394d1da65a556b9221c69fb4b7f7
-Section: theos/SDK
-Priority: optional
-Description: iOS 的 SDK 13.7，需要搭配 Theos 使用
+Depends: firmware (>= 15.0)
+Filename: ./ad/pool/main/c/com.ad.lamina_1.1.1_arm64.deb
+Size: 242632
+MD5sum: 5cc49c466dfc5d0ed9b8e422ec1416ea
+SHA1: 731a0e99a1512aa813ee53031e4277663ef75f7c
+SHA256: fb91afc0483e51779a25b3430c165ef3f208394772ebb373ebbd7baced0fa88a
+Section: System终端服务
+Description: Lamina一种专注于精确数学计算的面向过程编程语言（在终端输入ad-lamina开始启用）
+  - 本插件遵守开源协议
+  - Lamina官方的GitHub仓库地址：https://github.com/Lamina-dev/Lamina
+  - 本插件的开源仓库地址：https://github.com/iOS-GM/Lamina-iOS-CPP
+  - 本插件由AD编译供大家使用
+  - 介绍：
+  - Lamina 是一种面向过程的数学计算语言，专注于数学问题的高效解决，支持图灵完备性。其设计目标是提供简洁、直观的语法，同时支持复杂数学运算。
+  - 主要特性：
+  - 精确数学：支持有理数（分数）和无理数（√、π、e）的精确表示和运算
+  - 精度保护：避免浮点数精度丢失，多次循环运算保持精确
+  - 数学友好：原生支持向量、矩阵运算和数学函数
+  - 递归支持：可配置递归深度限制
+  - 大整数：支持任意精度大整数运算
+  - 交互式REPL：支持交互式编程和脚本执行
+  - 智能终端：自动检测终端色彩支持，避免乱码
+  - 栈追踪：完整的错误栈追踪，便于调试
+  - 精确数学特性：
+  - Lamina 的核心优势在于其精确数学计算能力，解决了传统编程语言中浮点数精度丢失的问题。
+  - 有理数（Rational）：
+  - 自动分数表示：除法运算自动产生精确分数
+  - 多次运算保持精确：避免累积误差
+  - 自动化简：分数自动约简到最简形式
+  - 示例：
+  - var fraction = 16 / 9;
+  - // 结果为 16/9，不是 1.777...
+  - var result = fraction;
+  - // 多次循环运算保持精确
+  - var i = 1;
+  - while (i <= 10) {
+  - result = result * 9 / 9;
+  - // 始终保持为 16/9
+  - i = i + 1;
+  - }
+  - 无理数（Irrational）
+  - 符号化表示：√2、π、e 等保持符号形式
+  - 自动化简：√8 → 2√2，√(a²) → a
+  - 精确运算：符号运算避免近似误差
+  - 精度对比示例
+  - // 传统浮点数（其他语言）
+  - // 0.1 + 0.2 = 0.30000000000000004
+  - // Lamina 精确计算
+  - var result = 1/10 + 2/10;
+  - // 结果：3/10（完全精确）
+  - 基础语法
+  - 语句终止符
+  - 分号是必需的：Lamina 要求所有语句都必须以分号 ; 结束，这提高了解析效率和代码可读性。
+  - 示例：
+  - var x = 10;           //  正确
+  - print(x);             //  正确
+  - bigint big = 100!;    //  正确
+  - var y = 20            //  错误：缺少分号
+  - print(y)              //  错误：缺少分号
+  - 模块化系统？
+  - 因为这是在iOS越狱上运行所以没有模块化系统
+  - 因为iOS系统并不支持直接执行C源码所以只能转换成二进制文件后才能使用
+  - include 语句
+  - 强制使用引号：include 语句必须使用引号包裹文件名，这确保了语法的一致性和清晰度。
+  - 示例：
+  - include "math_utils";
+  - //  正确：使用引号包裹
+  - include "lib/vectors";
+  - //  正确：支持相对路径
+  - include math_utils;
+  - //  错误：必须使用引号
+  - 关键字
+  - 以下为保留字，不可用作变量名或函数名：
+  - var func if else while for return break continue
+  - print true false null include define bigint input
+  - 注释：
+  - // 单行注释
+  - /* 块注释 */
+  - 变量声明：
+  - var x = 10;
+  - var name = "Alice";
+  - var arr = [1, 2, 3];
+  - bigint large_num = 999999999999;
+  - // 大整数需显式声明
+  - bigint factorial_result = 25!;
+  - // 可直接从运算结果赋值
+  - 剩下的内容请到GitHub官网中查看
+  - GitHub仓库：https://github.com/Lamina-dev/Lamina
 Author: AD
-Name: iOS-13.7-SDK
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: Lamina-iOS-CPP-1.1.1-Beta
 
 Package: com.ad.sdk13.7
 Version: 1.0
@@ -796,21 +780,21 @@ Description: iOS 的 SDK 13.7，需要搭配 Theos 使用
 Author: AD
 Name: iOS-13.7-SDK
 
-Package: com.ad.sdk14.5
+Package: com.ad.sdk13.7
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
-Depends: com.ad.theos, firmware (>= 14.0)
-Filename: ./pool/main/c/com.ad.sdk14.5_1.0-2_arm64.deb
-Size: 12844004
-MD5sum: 4651ccb72293366854cc9523d107dcd1
-SHA1: 7c5e2095445eb4435fcfe2c777ba31c7ef9520af
-SHA256: bcc5651f1be306d68f84d33b63f206455650045288a802fca01b1a44885663ab
+Depends: com.ad.theos, firmware (>= 13.0)
+Filename: ./ad/pool/main/c/com.ad.sdk13.7_1.0-2_arm64.deb
+Size: 8590960
+MD5sum: d3f60f33b8ef316215a129bf1c6d341a
+SHA1: 5db4931f4e8864bbc784853deb70737414c13cf0
+SHA256: 3001e02a04bebfe9ab7a0def1c640c1840ab394d1da65a556b9221c69fb4b7f7
 Section: theos/SDK
 Priority: optional
-Description: iOS 的 SDK 14.5，需要搭配 Theos 使用
+Description: iOS 的 SDK 13.7，需要搭配 Theos 使用
 Author: AD
-Name: iOS-14.5-SDK
+Name: iOS-13.7-SDK
 
 Package: com.ad.sdk14.5
 Version: 1.0
@@ -828,21 +812,21 @@ Description: iOS 的 SDK 14.5，需要搭配 Theos 使用
 Author: AD
 Name: iOS-14.5-SDK
 
-Package: com.ad.sdk15.6
+Package: com.ad.sdk14.5
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
-Depends: firmware (>= 15.0), com.ad.theos
-Filename: ./pool/main/c/com.ad.sdk15.6_1.0-2_arm64.deb
-Size: 16292432
-MD5sum: d88093464196fef05359082574e0bedd
-SHA1: 901dde69b4046714e709435881c435b48100399b
-SHA256: 81151b3dad0f0688edcde779dad127a7c392bb2cbab0ceba85e6960f48285234
+Depends: com.ad.theos, firmware (>= 14.0)
+Filename: ./ad/pool/main/c/com.ad.sdk14.5_1.0-2_arm64.deb
+Size: 12844004
+MD5sum: 4651ccb72293366854cc9523d107dcd1
+SHA1: 7c5e2095445eb4435fcfe2c777ba31c7ef9520af
+SHA256: bcc5651f1be306d68f84d33b63f206455650045288a802fca01b1a44885663ab
 Section: theos/SDK
 Priority: optional
-Description: iOS 的 SDK 15.6，需要搭配 Theos 使用
+Description: iOS 的 SDK 14.5，需要搭配 Theos 使用
 Author: AD
-Name: iOS-15.6-SDK
+Name: iOS-14.5-SDK
 
 Package: com.ad.sdk15.6
 Version: 1.0
@@ -860,21 +844,21 @@ Description: iOS 的 SDK 15.6，需要搭配 Theos 使用
 Author: AD
 Name: iOS-15.6-SDK
 
-Package: com.ad.sdk16.5
+Package: com.ad.sdk15.6
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
-Depends: com.ad.theos, firmware (>= 16.0)
-Filename: ./pool/main/c/com.ad.sdk16.5_1.0-2_arm64.deb
-Size: 17420352
-MD5sum: 7afa62bbec5e5a0e72963111e5023a9f
-SHA1: 4aa82439b97702d0d080cb48f3fe03b8238917a5
-SHA256: 951965f24a18b57f752627442b23a743ebcd963b717fa0b1b498aee768eb3901
+Depends: firmware (>= 15.0), com.ad.theos
+Filename: ./ad/pool/main/c/com.ad.sdk15.6_1.0-2_arm64.deb
+Size: 16292432
+MD5sum: d88093464196fef05359082574e0bedd
+SHA1: 901dde69b4046714e709435881c435b48100399b
+SHA256: 81151b3dad0f0688edcde779dad127a7c392bb2cbab0ceba85e6960f48285234
 Section: theos/SDK
 Priority: optional
-Description: iOS 的 SDK 16.5，需要搭配 Theos 使用
+Description: iOS 的 SDK 15.6，需要搭配 Theos 使用
 Author: AD
-Name: iOS-16.5-SDK
+Name: iOS-15.6-SDK
 
 Package: com.ad.sdk16.5
 Version: 1.0
@@ -892,21 +876,21 @@ Description: iOS 的 SDK 16.5，需要搭配 Theos 使用
 Author: AD
 Name: iOS-16.5-SDK
 
-Package: com.ad.theos
+Package: com.ad.sdk16.5
 Version: 1.0
-Architecture: all
+Architecture: iphoneos-arm64
 Maintainer: AD
-Filename: ./pool/main/c/com.ad.theos_1.0_all.deb
-Size: 3256092
-MD5sum: f41f80ecaf44e8d6f7e41b44f90caf3c
-SHA1: 8a4585255b5206ffc85e93e37b471f4f2f2ae4fe
-SHA256: fc1ba5cd0aa814a563bcb2fc0ae85e8294952161a40d1be4649fb087280e4d83
+Depends: com.ad.theos, firmware (>= 16.0)
+Filename: ./ad/pool/main/c/com.ad.sdk16.5_1.0-2_arm64.deb
+Size: 17420352
+MD5sum: 7afa62bbec5e5a0e72963111e5023a9f
+SHA1: 4aa82439b97702d0d080cb48f3fe03b8238917a5
+SHA256: 951965f24a18b57f752627442b23a743ebcd963b717fa0b1b498aee768eb3901
 Section: theos/SDK
-Description: iOS的theos可以进行开发用
-  - 虽然可以进行开发用但是需要搭配上SDK来进行使用
-  - 虽然theos无系统和架构要求但是SDK有系统要求这边建议根据自己的系统来选择对应的SDK来搭配theos进行使用
+Priority: optional
+Description: iOS 的 SDK 16.5，需要搭配 Theos 使用
 Author: AD
-Name: theos
+Name: iOS-16.5-SDK
 
 Package: com.ad.theos
 Version: 1.0
@@ -924,25 +908,21 @@ Description: iOS的theos可以进行开发用
 Author: AD
 Name: theos
 
-Package: com.ad.theos-sdk
+Package: com.ad.theos
 Version: 1.0
 Architecture: all
 Maintainer: AD
-Depends: firmware (>= 99999.0)
-Filename: ./pool/main/c/com.ad.theos-sdk_1.0_all.deb
-Size: 992
-MD5sum: 7cffa8e9fb5362373d6bf3586814359e
-SHA1: 7e0fad24bc6303b80a1f6b1450a74817743ccbbe
-SHA256: adf55578713128072cb47c739f807dd660f85d590d63d16a7d10be096ad17f5e
+Filename: ./ad/pool/main/c/com.ad.theos_1.0_all.deb
+Size: 3256092
+MD5sum: f41f80ecaf44e8d6f7e41b44f90caf3c
+SHA1: 8a4585255b5206ffc85e93e37b471f4f2f2ae4fe
+SHA256: fc1ba5cd0aa814a563bcb2fc0ae85e8294952161a40d1be4649fb087280e4d83
 Section: theos/SDK
-Description: theos/sdk分类的公告
-  -
-  theos/SDK分类的公告，如果各位发现SDK或者theos有问题、无法下载等等这些问题可以联系源主来修复。
-  - 如果您很着急的话也可以去其他源来安装使用或者使用git命令远程拉取theos和SDK
-  - 分类的其他插件比如配置环境变量的插件也无法使用或者配置失败的话可以自行配置环境变量
+Description: iOS的theos可以进行开发用
+  - 虽然可以进行开发用但是需要搭配上SDK来进行使用
+  - 虽然theos无系统和架构要求但是SDK有系统要求这边建议根据自己的系统来选择对应的SDK来搭配theos进行使用
 Author: AD
-Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: theos/sdk分类的公告
+Name: theos
 
 Package: com.ad.theos-sdk
 Version: 1.0
@@ -964,23 +944,25 @@ Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: theos/sdk分类的公告
 
-Package: com.adb.sct-ad
-Version: 2.6-39
-Architecture: iphoneos-arm64
+Package: com.ad.theos-sdk
+Version: 1.0
+Architecture: all
 Maintainer: AD
-Pre-Depends: openssh, zsh, unzip
-Depends: openssh, zsh, unzip, sudo, dpkg, apt, coreutils, less
-Filename: ./pool/main/c/com.adb.sct-ad_2.6-39_arm64.deb
-Size: 7932
-MD5sum: 3ee59bb73a3529e99e242908e7ef0d30
-SHA1: a73871958682cf8676ffda14b67a6ed2a86fb004
-SHA256: 2de332384c064d20d1b2adc19b8d6c6ec23bc8099b658e92a2cd6165926768b1
-Section: System终端服务
-Description: 一款仿Android的ADB的终端插件,<br></br>不过现在和Android的ADB已经有很多区别了,<br></br>下载完成后终端输入adb --help查看完整命令或者查看截图
+Depends: firmware (>= 99999.0)
+Filename: ./ad/pool/main/c/com.ad.theos-sdk_1.0_all.deb
+Size: 992
+MD5sum: 7cffa8e9fb5362373d6bf3586814359e
+SHA1: 7e0fad24bc6303b80a1f6b1450a74817743ccbbe
+SHA256: adf55578713128072cb47c739f807dd660f85d590d63d16a7d10be096ad17f5e
+Section: theos/SDK
+Description: theos/sdk分类的公告
+  -
+  theos/SDK分类的公告，如果各位发现SDK或者theos有问题、无法下载等等这些问题可以联系源主来修复。
+  - 如果您很着急的话也可以去其他源来安装使用或者使用git命令远程拉取theos和SDK
+  - 分类的其他插件比如配置环境变量的插件也无法使用或者配置失败的话可以自行配置环境变量
 Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: iOS ADB (Apple-iPhone Debug Bridge)
-Sileodepiction: https://ios-gm.github.io/zqzb/sileodepiction/com.adb.sct-ad/js.json
+Name: theos/sdk分类的公告
 
 Package: com.adb.sct-ad
 Version: 2.6-39
@@ -1000,21 +982,23 @@ Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: iOS ADB (Apple-iPhone Debug Bridge)
 Sileodepiction: https://ios-gm.github.io/zqzb/sileodepiction/com.adb.sct-ad/js.json
 
-Package: com.couhege1380.BatteryMaster
-Version: 1.0.0
+Package: com.adb.sct-ad
+Version: 2.6-39
 Architecture: iphoneos-arm64
 Maintainer: AD
-Depends: mobilesubstrate
-Filename: ./pool/main/c/com.couhege1380.BatteryMaster_1.0.0_arm64.deb
-Size: 39508
-MD5sum: d69daf655dec492cfbdd8e07b49c72af
-SHA1: 27d2d424d3460989b81bf4ae53a658c5f07b97ea
-SHA256: 693b0bf65eae1d0d26c658b7c24cbc13807b39faf9b772d4426ca70848e5f068
-Section: System系统
-Description: Add value to protect your battery life.添加值以保护您的电池寿命，BatteryMaster1380安装可实现！省电模式越狱然后关闭省电模式即可.
-Author: @Spor0nix 凑合哥
+Pre-Depends: openssh, zsh, unzip
+Depends: openssh, zsh, unzip, sudo, dpkg, apt, coreutils, less
+Filename: ./ad/pool/main/c/com.adb.sct-ad_2.6-39_arm64.deb
+Size: 7932
+MD5sum: 3ee59bb73a3529e99e242908e7ef0d30
+SHA1: a73871958682cf8676ffda14b67a6ed2a86fb004
+SHA256: 2de332384c064d20d1b2adc19b8d6c6ec23bc8099b658e92a2cd6165926768b1
+Section: System终端服务
+Description: 一款仿Android的ADB的终端插件,<br></br>不过现在和Android的ADB已经有很多区别了,<br></br>下载完成后终端输入adb --help查看完整命令或者查看截图
+Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: BatteryMaster1380 省电大师
+Name: iOS ADB (Apple-iPhone Debug Bridge)
+Sileodepiction: https://ios-gm.github.io/zqzb/sileodepiction/com.adb.sct-ad/js.json
 
 Package: com.couhege1380.BatteryMaster
 Version: 1.0.0
@@ -1032,48 +1016,21 @@ Author: @Spor0nix 凑合哥
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: BatteryMaster1380 省电大师
 
-Package: com.frida-ad.ad
-Version: 1.0-16
+Package: com.couhege1380.BatteryMaster
+Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: AD
-Installed-Size: 21800
-Depends: firmware (>= 15.0), re.frida.server
-Filename: ./pool/main/c/com.Frida_arm64.deb
-Size: 4446728
-MD5sum: 7946902c62f94908159c5a900012a51a
-SHA1: 418c8eb7a552b4f150cfad702243bca8ef341358
-SHA256: 97da73b65cdf078d7fa7d8fe0b2fc5e34f284f5333fb7f3d2c1b5134437e762a
-Section: System终端服务
-Description: 适用于iOS16系统的Frida客户端 | Frida client for iOS16 system
- 依赖源: 'https://build.frida.re/'请自行使用VPN添加依赖源后在安装本插件否则无法找到依赖
- 不确定是否兼容iOS15系统,可以自行测试
- Frida源代码下载地址https://github.com/frida/frida/releases
- 编译命令:
- clang -I. \
-     -L. \
-     -arch arm64 \
-     -isysroot /var/jb/theos/sdks/iPhoneOS.sdk \
-     -miphoneos-version-min=16.0 \
-     -Wl,-rpath,/var/jb/usr/lib \
-     frida-core-example.c \
-     -o frida\
-     -lfrida-core \
-     -framework Foundation \
-     -lobjc \
-     -lresolv \
-     -lz \
-     -lsqlite3 \
-     -lm \
-     -lc++ \
-     -I/var/jb/usr/include/glib-2.0 \
-     -I/var/jb/usr/lib/glib-2.0/include \
-     -L/var/jb/usr/lib \
-     -lglib-2.0 2>1.log
- iOS15系统请将-miphoneos-version-min=16.0 \修改为-miphoneos-version-min=15.0 \
- iOS15系统推荐使用-isysroot /var/jb/theos/sdks/iPhoneOS15.6.sdk \
- 因为目前仅在iOS16上测试过其他系统请自行根据自己的系统、SDK进行相应的调整
-Author: AD
-Name: Frida-AD
+Depends: mobilesubstrate
+Filename: ./ad/pool/main/c/com.couhege1380.BatteryMaster_1.0.0_arm64.deb
+Size: 39508
+MD5sum: d69daf655dec492cfbdd8e07b49c72af
+SHA1: 27d2d424d3460989b81bf4ae53a658c5f07b97ea
+SHA256: 693b0bf65eae1d0d26c658b7c24cbc13807b39faf9b772d4426ca70848e5f068
+Section: System系统
+Description: Add value to protect your battery life.添加值以保护您的电池寿命，BatteryMaster1380安装可实现！省电模式越狱然后关闭省电模式即可.
+Author: @Spor0nix 凑合哥
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: BatteryMaster1380 省电大师
 
 Package: com.frida-ad.ad
 Version: 1.0-16
@@ -1118,22 +1075,48 @@ Description: 适用于iOS16系统的Frida客户端 | Frida client for iOS16 syst
 Author: AD
 Name: Frida-AD
 
-Package: com.netskao.BiliPurify
-Version: 1.0.0
+Package: com.frida-ad.ad
+Version: 1.0-16
 Architecture: iphoneos-arm64
-Maintainer: Netskao
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./pool/main/c/com.netskao.BiliPurify_1.0.0_arm64.deb
-Size: 6708040
-MD5sum: b0c6b5edbf6cf113d21bb1f3a6ba2b01
-SHA1: 766a61f94c0886e3e0402df3b166c53c676bcd93
-SHA256: 30f04f142b8723ceda269ef19310fb5eaf780ff9973fb37c12d3dcf0ee25974a
-Section: 应用补丁/增强
-Description: Unlock the clean Bilibili.解锁干净的哔哩哔哩,由LF将Dylib打包成插件!Enjoy!
-Author: Netskao
-Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: BiliPurify 哔哩哔哩净化
+Maintainer: AD
+Installed-Size: 21800
+Depends: firmware (>= 15.0), re.frida.server
+Filename: ./ad/pool/main/c/com.Frida_arm64.deb
+Size: 4446728
+MD5sum: 7946902c62f94908159c5a900012a51a
+SHA1: 418c8eb7a552b4f150cfad702243bca8ef341358
+SHA256: 97da73b65cdf078d7fa7d8fe0b2fc5e34f284f5333fb7f3d2c1b5134437e762a
+Section: System终端服务
+Description: 适用于iOS16系统的Frida客户端 | Frida client for iOS16 system
+ 依赖源: 'https://build.frida.re/'请自行使用VPN添加依赖源后在安装本插件否则无法找到依赖
+ 不确定是否兼容iOS15系统,可以自行测试
+ Frida源代码下载地址https://github.com/frida/frida/releases
+ 编译命令:
+ clang -I. \
+     -L. \
+     -arch arm64 \
+     -isysroot /var/jb/theos/sdks/iPhoneOS.sdk \
+     -miphoneos-version-min=16.0 \
+     -Wl,-rpath,/var/jb/usr/lib \
+     frida-core-example.c \
+     -o frida\
+     -lfrida-core \
+     -framework Foundation \
+     -lobjc \
+     -lresolv \
+     -lz \
+     -lsqlite3 \
+     -lm \
+     -lc++ \
+     -I/var/jb/usr/include/glib-2.0 \
+     -I/var/jb/usr/lib/glib-2.0/include \
+     -L/var/jb/usr/lib \
+     -lglib-2.0 2>1.log
+ iOS15系统请将-miphoneos-version-min=16.0 \修改为-miphoneos-version-min=15.0 \
+ iOS15系统推荐使用-isysroot /var/jb/theos/sdks/iPhoneOS15.6.sdk \
+ 因为目前仅在iOS16上测试过其他系统请自行根据自己的系统、SDK进行相应的调整
+Author: AD
+Name: Frida-AD
 
 Package: com.netskao.BiliPurify
 Version: 1.0.0
@@ -1152,21 +1135,22 @@ Author: Netskao
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: BiliPurify 哔哩哔哩净化
 
-Package: com.netskao.filzacrack
-Version: 1.1-8
+Package: com.netskao.BiliPurify
+Version: 1.0.0
 Architecture: iphoneos-arm64
-Maintainer: AD
-Depends: firmware (>= 15.0), filza
-Filename: ./pool/main/c/com.netskao.filzacrack_1.1-8_arm64.deb
-Size: 5124
-MD5sum: bc69074adc027733ecaab7b8c830948b
-SHA1: ec08bdb95fcbc8377b388ddea89cb5e6c04c602e
-SHA256: 3e470337ea84f783a8db55b0f3689616e301118a1c81a8a37f4652dda5b6a91d
+Maintainer: Netskao
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./ad/pool/main/c/com.netskao.BiliPurify_1.0.0_arm64.deb
+Size: 6708040
+MD5sum: b0c6b5edbf6cf113d21bb1f3a6ba2b01
+SHA1: 766a61f94c0886e3e0402df3b166c53c676bcd93
+SHA256: 30f04f142b8723ceda269ef19310fb5eaf780ff9973fb37c12d3dcf0ee25974a
 Section: 应用补丁/增强
-Description: Filza解锁完整功能，主程序请从官方源安装 Filza破解插件
+Description: Unlock the clean Bilibili.解锁干净的哔哩哔哩,由LF将Dylib打包成插件!Enjoy!
 Author: Netskao
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: Filza 破解插件
+Name: BiliPurify 哔哩哔哩净化
 
 Package: com.netskao.filzacrack
 Version: 1.1-8
@@ -1184,21 +1168,21 @@ Author: Netskao
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: Filza 破解插件
 
-Package: com.null.ad
-Version: 1.0
+Package: com.netskao.filzacrack
+Version: 1.1-8
 Architecture: iphoneos-arm64
 Maintainer: AD
-Depends: firmware (>= 15.0)
-Filename: ./pool/main/c/com.null.ad_1.0_arm64.deb
-Size: 3716
-MD5sum: ae2fb082919568a47526e9eff0b0183b
-SHA1: ac2424d05e32b629a76b5252af0d7baca0171129
-SHA256: d452a8a22e39495b4e158b7b6d7e921b994849d9c161baed49af973af45395fd
-Section: System系统
-Description: 一个模仿/dev/null的null
-  您可以往/var/jb/dev/null中写入数据看看会不会被清空掉
-  比如使用cat命令
-Name: 伪/dev/null
+Depends: firmware (>= 15.0), filza
+Filename: ./ad/pool/main/c/com.netskao.filzacrack_1.1-8_arm64.deb
+Size: 5124
+MD5sum: bc69074adc027733ecaab7b8c830948b
+SHA1: ec08bdb95fcbc8377b388ddea89cb5e6c04c602e
+SHA256: 3e470337ea84f783a8db55b0f3689616e301118a1c81a8a37f4652dda5b6a91d
+Section: 应用补丁/增强
+Description: Filza解锁完整功能，主程序请从官方源安装 Filza破解插件
+Author: Netskao
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: Filza 破解插件
 
 Package: com.null.ad
 Version: 1.0
@@ -1216,20 +1200,21 @@ Description: 一个模仿/dev/null的null
   比如使用cat命令
 Name: 伪/dev/null
 
-Package: com.password-free.sudo.ad
+Package: com.null.ad
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0)
-Filename: ./pool/main/c/com.password-free.sudo.ad_1.0_arm64.deb
-Size: 1004
-MD5sum: 3f7530128c876e1b64c39001f2a65663
-SHA1: 30e2892b407107a27e21810cf5410cb3113f6672
-SHA256: e0f36bb00df19e116cfe92bfffe83dbb65b78cd31b1cb2823ffa0f9071874ad9
+Filename: ./ad/pool/main/c/com.null.ad_1.0_arm64.deb
+Size: 3716
+MD5sum: ae2fb082919568a47526e9eff0b0183b
+SHA1: ac2424d05e32b629a76b5252af0d7baca0171129
+SHA256: d452a8a22e39495b4e158b7b6d7e921b994849d9c161baed49af973af45395fd
 Section: System系统
-Description: You can use sudo without a password.
- 不需要密码既可以使用sudo。
-Name: Password-free sudo
+Description: 一个模仿/dev/null的null
+  您可以往/var/jb/dev/null中写入数据看看会不会被清空掉
+  比如使用cat命令
+Name: 伪/dev/null
 
 Package: com.password-free.sudo.ad
 Version: 1.0
@@ -1246,28 +1231,20 @@ Description: You can use sudo without a password.
  不需要密码既可以使用sudo。
 Name: Password-free sudo
 
-Package: com.plicationsnext
-Version: 4.0
+Package: com.password-free.sudo.ad
+Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: LF
-Installed-Size: 3022
-Depends: mobilesubstrate
-Filename: ./pool/main/c/com.plicationsnext_4.0_arm64.deb
-Size: 657096
-MD5sum: 64229da073f576f3c8b283da3c305f06
-SHA1: a2b432613062406e9295662cfbeff3897c8e9d1c
-SHA256: b28d88421abcee7c24efa1a21a02484a7a1891b7ef6f972f5da017930c502f31
-Section: Themes主题
-Description: 在iOS锁屏上的watchOS小组件
-  - 更新日志：
-  - 修复支持iOS15～16 Rootless
-  - 补充说明：
-  - 无需补依赖，已汉化！
-  - Chinese by LF！Enjoy！
-Author: Ben Giannis
-Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: Complications WatchLS
-Sponsor: LF
+Maintainer: AD
+Depends: firmware (>= 15.0)
+Filename: ./ad/pool/main/c/com.password-free.sudo.ad_1.0_arm64.deb
+Size: 1004
+MD5sum: 3f7530128c876e1b64c39001f2a65663
+SHA1: 30e2892b407107a27e21810cf5410cb3113f6672
+SHA256: e0f36bb00df19e116cfe92bfffe83dbb65b78cd31b1cb2823ffa0f9071874ad9
+Section: System系统
+Description: You can use sudo without a password.
+ 不需要密码既可以使用sudo。
+Name: Password-free sudo
 
 Package: com.plicationsnext
 Version: 4.0
@@ -1292,23 +1269,28 @@ Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: Complications WatchLS
 Sponsor: LF
 
-Package: com.tigisoftware.filza64bit
-Version: 4.0.1-4
+Package: com.plicationsnext
+Version: 4.0
 Architecture: iphoneos-arm64
-Maintainer: TIGI Software
-Installed-Size: 23200
-Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Filename: ./pool/main/c/com.tigisoftware.filza64bit_4.0.1-4_arm64.deb
-Size: 6973368
-MD5sum: b7a7c51add52df2e3f2bcbbd4388030f
-SHA1: 1fc6f3bee973c68d0694c41dab79cfdff124bc00
-SHA256: e26e0f9e81bd454e63a51b1fa410b4264e88595b443e76cc1576d1071afb8b24
-Section: Apply
-Description: An awesome MobileSubstrate tweak!
-Author: TIGI Software
+Maintainer: LF
+Installed-Size: 3022
+Depends: mobilesubstrate
+Filename: ./ad/pool/main/c/com.plicationsnext_4.0_arm64.deb
+Size: 657096
+MD5sum: 64229da073f576f3c8b283da3c305f06
+SHA1: a2b432613062406e9295662cfbeff3897c8e9d1c
+SHA256: b28d88421abcee7c24efa1a21a02484a7a1891b7ef6f972f5da017930c502f31
+Section: Themes主题
+Description: 在iOS锁屏上的watchOS小组件
+  - 更新日志：
+  - 修复支持iOS15～16 Rootless
+  - 补充说明：
+  - 无需补依赖，已汉化！
+  - Chinese by LF！Enjoy！
+Author: Ben Giannis
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: Filza File Manager 64-bit 文件管理器
+Name: Complications WatchLS
+Sponsor: LF
 
 Package: com.tigisoftware.filza64bit
 Version: 4.0.1-4
@@ -1328,24 +1310,23 @@ Author: TIGI Software
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: Filza File Manager 64-bit 文件管理器
 
-Package: com.xybp888.callassist16.dopamine
-Version: 1.7.8
+Package: com.tigisoftware.filza64bit
+Version: 4.0.1-4
 Architecture: iphoneos-arm64
-Maintainer: xybp888
-Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
-Filename: ./pool/main/c/com.xybp888.callassist16.dopamine_1.7.8_arm64.deb
-Size: 2860944
-MD5sum: 95ef1785777b238412b80537d7b541b7
-SHA1: c5950b30f3626c353f067050f6565b3f32520db1
-SHA256: d4393b5f68d26c370bf9659313d22395fa551727e4263e41753563ad2e068af7
-Section: 插件
-Priority: optional
-Description: 电话助手授权版本 - 功能强大的通讯增强工具（主要功能:1.通话录音2.通话记录合并3.T9双卡选卡拨号键盘4.短信双卡选卡功能5.来去电归属地显示6.黑名单管理7.骚扰拦截8.状态栏图标替换9.时间格式修改10.多种实用小功能）官方软件源: http://apt.htv123.com
-Author: xybp888
-Depiction: https://apt.htv123.com/view/315
+Maintainer: TIGI Software
+Installed-Size: 23200
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./ad/pool/main/c/com.tigisoftware.filza64bit_4.0.1-4_arm64.deb
+Size: 6973368
+MD5sum: b7a7c51add52df2e3f2bcbbd4388030f
+SHA1: 1fc6f3bee973c68d0694c41dab79cfdff124bc00
+SHA256: e26e0f9e81bd454e63a51b1fa410b4264e88595b443e76cc1576d1071afb8b24
+Section: Apply
+Description: An awesome MobileSubstrate tweak!
+Author: TIGI Software
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: 电话助手iOS16-正式版(Rootless)
-Sileodepiction: https://apt.htv123.com/sileo/315
+Name: Filza File Manager 64-bit 文件管理器
 
 Package: com.xybp888.callassist16.dopamine
 Version: 1.7.8
@@ -1366,28 +1347,24 @@ Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: 电话助手iOS16-正式版(Rootless)
 Sileodepiction: https://apt.htv123.com/sileo/315
 
-Package: cydia
-Version: 1.1.37-3
+Package: com.xybp888.callassist16.dopamine
+Version: 1.7.8
 Architecture: iphoneos-arm64
-Maintainer: Genesis <genesis@modiverse.co.uk>
-Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=15.0)
-Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, ellekit
-Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Filename: ./pool/main/c/cydia_1.1.37-3_arm64.deb
-Size: 1234204
-MD5sum: 207f742fc389b70dd64ab62a909695c9
-SHA1: f947a737522a4430df061794d43c2ea176afcf44
-SHA256: baa66b565b48d67e7cf4d7b856492e52e2e7d76fd4fa455ad9d8c16db461f922
-Section: Apply
-Priority: important
-Description: graphical iPhone front-end for APT. （仅怀旧使用/Nostalgic use only）
-Tag: purpose::uikit, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: https://repo.ironside.org.uk/cydia-exp/
-Icon: http://cydia.saurik.com/icon@2x/cydia7.png
-Name: Cydia Installer arm64
+Maintainer: xybp888
+Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
+Filename: ./ad/pool/main/c/com.xybp888.callassist16.dopamine_1.7.8_arm64.deb
+Size: 2860944
+MD5sum: 95ef1785777b238412b80537d7b541b7
+SHA1: c5950b30f3626c353f067050f6565b3f32520db1
+SHA256: d4393b5f68d26c370bf9659313d22395fa551727e4263e41753563ad2e068af7
+Section: 插件
+Priority: optional
+Description: 电话助手授权版本 - 功能强大的通讯增强工具（主要功能:1.通话录音2.通话记录合并3.T9双卡选卡拨号键盘4.短信双卡选卡功能5.来去电归属地显示6.黑名单管理7.骚扰拦截8.状态栏图标替换9.时间格式修改10.多种实用小功能）官方软件源: http://apt.htv123.com
+Author: xybp888
+Depiction: https://apt.htv123.com/view/315
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: 电话助手iOS16-正式版(Rootless)
+Sileodepiction: https://apt.htv123.com/sileo/315
 
 Package: cydia
 Version: 1.1.37-3
@@ -1412,21 +1389,28 @@ Depiction: https://repo.ironside.org.uk/cydia-exp/
 Icon: http://cydia.saurik.com/icon@2x/cydia7.png
 Name: Cydia Installer arm64
 
-Package: iOS26e
-Version: 1.1
+Package: cydia
+Version: 1.1.37-3
 Architecture: iphoneos-arm64
-Maintainer: LF
-Depends: com.spark.snowboard
-Filename: ./pool/main/c/iOS26e_1.1_arm64.deb
-Size: 4003632
-MD5sum: 9d9b9561aab0999c200f98885db9023e
-SHA1: c527f9b97b5e7e60f10a704a9c6fc07786766b38
-SHA256: 682843001358e239e8fdd77d5eb011cdc516056c378acdd84cff6e99fee49639
-Section: Themes主题
-Description: 真的iOS26主题！名为iOS26e！这里的「e」指的是「experience」！没想到新系统刚发布3天，就有主题了！毕竟是首发，不太完善！就如iOS26 BETA1一样，有很多问题，喜欢的自行体验吧！Enjoy！
-Author: LF
-Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: iOS26e
+Maintainer: Genesis <genesis@modiverse.co.uk>
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=15.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, ellekit
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Filename: ./ad/pool/main/c/cydia_1.1.37-3_arm64.deb
+Size: 1234204
+MD5sum: 207f742fc389b70dd64ab62a909695c9
+SHA1: f947a737522a4430df061794d43c2ea176afcf44
+SHA256: baa66b565b48d67e7cf4d7b856492e52e2e7d76fd4fa455ad9d8c16db461f922
+Section: Apply
+Priority: important
+Description: graphical iPhone front-end for APT. （仅怀旧使用/Nostalgic use only）
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: https://repo.ironside.org.uk/cydia-exp/
+Icon: http://cydia.saurik.com/icon@2x/cydia7.png
+Name: Cydia Installer arm64
 
 Package: iOS26e
 Version: 1.1
@@ -1444,21 +1428,21 @@ Author: LF
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: iOS26e
 
-Package: iperformancetweak
-Version: 1.0.0Beta
+Package: iOS26e
+Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: LF
-Depends: bash
-Filename: ./pool/main/c/iperformancetweak_1.0.0Beta_arm64.deb
-Size: 9076
-MD5sum: 9ae0b509cc725567298b3dbefbdfd137
-SHA1: c542b348f25976318e2e294f9898e2da2119ee5a
-SHA256: 7a92c6417791affd21443f662c7ebc33fc0714435562bebaeefa0ce6c7814395
-Section: System系统
-Description: boost game performance.提高游戏性能
-Author: Moose
+Depends: com.spark.snowboard
+Filename: ./ad/pool/main/c/iOS26e_1.1_arm64.deb
+Size: 4003632
+MD5sum: 9d9b9561aab0999c200f98885db9023e
+SHA1: c527f9b97b5e7e60f10a704a9c6fc07786766b38
+SHA256: 682843001358e239e8fdd77d5eb011cdc516056c378acdd84cff6e99fee49639
+Section: Themes主题
+Description: 真的iOS26主题！名为iOS26e！这里的「e」指的是「experience」！没想到新系统刚发布3天，就有主题了！毕竟是首发，不太完善！就如iOS26 BETA1一样，有很多问题，喜欢的自行体验吧！Enjoy！
+Author: LF
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: iPerformanceTweak
+Name: iOS26e
 
 Package: iperformancetweak
 Version: 1.0.0Beta
@@ -1476,21 +1460,21 @@ Author: Moose
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: iPerformanceTweak
 
-Package: itheosmaker
-Version: 1.1
+Package: iperformancetweak
+Version: 1.0.0Beta
 Architecture: iphoneos-arm64
 Maintainer: LF
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pool/main/c/itheosmaker_1.1_arm64.deb
-Size: 1219496
-MD5sum: 5a5e35176aca3294f8317898a970dd97
-SHA1: d9d1370f1975e284b90f581db9ce53972b38754c
-SHA256: b68d4a933f5a6b0271fa0475d2fe36fd300ff34bcfd07dce29bed29f25e932ee
-Section: Apply
-Description: 在iOS上编译插件（由LF加入无根越狱支持）(需要自行补齐依赖)
-Author: crazymind90
+Depends: bash
+Filename: ./ad/pool/main/c/iperformancetweak_1.0.0Beta_arm64.deb
+Size: 9076
+MD5sum: 9ae0b509cc725567298b3dbefbdfd137
+SHA1: c542b348f25976318e2e294f9898e2da2119ee5a
+SHA256: 7a92c6417791affd21443f662c7ebc33fc0714435562bebaeefa0ce6c7814395
+Section: System系统
+Description: boost game performance.提高游戏性能
+Author: Moose
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: iTheosMaker
+Name: iPerformanceTweak
 
 Package: itheosmaker
 Version: 1.1
@@ -1508,22 +1492,21 @@ Author: crazymind90
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: iTheosMaker
 
-Package: me.tomt000.stageduo
-Version: 1.2
+Package: itheosmaker
+Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: LF
-Installed-Size: 4900
-Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
-Filename: ./pool/main/c/me.tomt000.stageduo_1.2_arm64.deb
-Size: 3072460
-MD5sum: 7f34aad3db93a16b58775a44946f7ce0
-SHA1: 1bba3c431068f0a13aaebb0171b68f34b2e7c7ba
-SHA256: c698fdef16f9994c7c58373513467f3437158980e8980f48338b672f268a4de1
-Section: Themes主题
-Description: 适用于 iPhone 的全新后台分屏器！现在，它是免费的！LF也为它提供了免费的中文版本！Enjoy！
-Author: tomt000
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./ad/pool/main/c/itheosmaker_1.1_arm64.deb
+Size: 1219496
+MD5sum: 5a5e35176aca3294f8317898a970dd97
+SHA1: d9d1370f1975e284b90f581db9ce53972b38754c
+SHA256: b68d4a933f5a6b0271fa0475d2fe36fd300ff34bcfd07dce29bed29f25e932ee
+Section: Apply
+Description: 在iOS上编译插件（由LF加入无根越狱支持）(需要自行补齐依赖)
+Author: crazymind90
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: DynamicStage-灵动分屏
+Name: iTheosMaker
 
 Package: me.tomt000.stageduo
 Version: 1.2
@@ -1542,13 +1525,30 @@ Author: tomt000
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: DynamicStage-灵动分屏
 
+Package: me.tomt000.stageduo
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 4900
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Filename: ./ad/pool/main/c/me.tomt000.stageduo_1.2_arm64.deb
+Size: 3072460
+MD5sum: 7f34aad3db93a16b58775a44946f7ce0
+SHA1: 1bba3c431068f0a13aaebb0171b68f34b2e7c7ba
+SHA256: c698fdef16f9994c7c58373513467f3437158980e8980f48338b672f268a4de1
+Section: Themes主题
+Description: 适用于 iPhone 的全新后台分屏器！现在，它是免费的！LF也为它提供了免费的中文版本！Enjoy！
+Author: tomt000
+Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
+Name: DynamicStage-灵动分屏
+
 Package: python-pip
 Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 8.5MB
 Depends: python3, python3.9
-Filename: ./pool/main/c/python-pip_1.0.0-1_arm64.deb
+Filename: ./debs/python-pip_1.0.0-1_arm64.deb
 Size: 1869496
 MD5sum: 78c73494ec88534edc5e39c589ad25eb
 SHA1: 672325a3436ab1172c0ca08264cb68af914c3f66
@@ -1573,7 +1573,7 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 8.5MB
 Depends: python3, python3.9
-Filename: ./debs/python-pip_1.0.0-1_arm64.deb
+Filename: ./ad/pool/main/c/python-pip_1.0.0-1_arm64.deb
 Size: 1869496
 MD5sum: 78c73494ec88534edc5e39c589ad25eb
 SHA1: 672325a3436ab1172c0ca08264cb68af914c3f66

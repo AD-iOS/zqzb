@@ -1,0 +1,19 @@
+Origin: iOS-AD Repo
+Label: iOS-AD Repo
+URIs: https://ios-gm.github.io/zqzb/ad/
+Suite: ad
+Codename: main
+Version: 1.0
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: iOS-AD Repo — 提供越狱插件、自制工具及精选第三方插件
+MD5Sum:
+ 7d5e59331f00e0a5315b7638bf65ff04 32890 main/binary-iphoneos-arm/Packages
+ 017ac190fcc9f15b72e498dd15e317ee 13846 main/binary-iphoneos-arm/Packages.gz
+ 7d5e59331f00e0a5315b7638bf65ff04 32890 main/binary-iphoneos-arm64/Packages
+ 9a8fdeaa3a2df90208c8e67a1596c0f4 13846 main/binary-iphoneos-arm64/Packages.gz
+SHA256:
+ ea7a7f788812056f236252ddeda045a8f39012242eeaaf98ff48ce4989858ee6 32890 main/binary-iphoneos-arm/Packages
+ fc7194373b83e5ed48c3c1c0e34f820770dad167033cca619b281fe7dc2621b5 13846 main/binary-iphoneos-arm/Packages.gz
+ ea7a7f788812056f236252ddeda045a8f39012242eeaaf98ff48ce4989858ee6 32890 main/binary-iphoneos-arm64/Packages
+ 9034a6c7c18953b30b0666960e8c9a1b55f6671ce427547741fd35f09d518771 13846 main/binary-iphoneos-arm64/Packages.gz
