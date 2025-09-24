@@ -11,13 +11,20 @@ echo "生成索引文件..."
 
 # 為 arm64 架構生成索引
 dpkg-scanpackages --arch arm64 pool/ > dists/AD/main/iphoneos-arm64/Packages
-gzip -c dists/AD/main/iphoneos-arm64/Packages > dists/AD/main/iphoneos-arm64/Packages.gz
+gzip -kf dists/AD/main/iphoneos-arm64/Packages  # 改用 -kf 參數
 
 # 為 all 架構生成索引
 dpkg-scanpackages --arch all pool/ > dists/AD/main/iphoneos-all/Packages
-gzip -c dists/AD/main/iphoneos-all/Packages > dists/AD/main/iphoneos-all/Packages.gz
+gzip -kf dists/AD/main/iphoneos-all/Packages    # 改用 -kf 參數
 
-# 3. 生成 Release 文件
+# 3. 創建兼容性鏈接（解決客戶端bug）
+# cd dists/AD/main/
+# 為錯誤的架構名稱創建符號鏈接
+# ln -sf iphoneos-arm64 binary-iphoneos-arm64 2>/dev/null || true
+# ln -sf iphoneos-arm64 binary-iphoneos-arm64 2>/dev/null || true
+cd /var/mobile/zqzb
+
+# 4. 生成 Release 文件
 cd dists/AD
 cat > Release << EOF
 Origin: iOS-AD Repo
@@ -38,7 +45,7 @@ EOF
 apt-ftparchive release . >> Release
 cd ../..
 
-# 4. 提交更新
+# 5. 提交更新
 echo "提交更新..."
 git add .
 git commit -m "Auto-update $(date +'%Y-%m-%d %H:%M:%S')"

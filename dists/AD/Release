@@ -10,29 +10,29 @@ Description: iOS-AD Repo — 提供越狱插件、自制工具及精选第三方
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 SileoIcon: https://ios-gm.github.io/zqzb/RepoIcon.png
 Header: https://ios-gm.github.io/zqzb/sileodepiction/Default/top_0.png
-Date: Wed, 24 Sep 2025 10:53:05 UTC
-Date: Wed, 24 Sep 2025 10:53:05 +0000
+Date: Wed, 24 Sep 2025 11:04:56 UTC
+Date: Wed, 24 Sep 2025 11:04:56 +0000
 MD5Sum:
- 6389d6055cd6db1c62fb30308ab43cb3              486 Release
+ d5dd17e3c6956ae5d4d845004c8e7f60              486 Release
  b44b1b14ab3f8e851753d7a7722c7fe0             3003 main/iphoneos-all/Packages
- 81a8b9e67888eab71b5ae21672684a63             1509 main/iphoneos-all/Packages.gz
+ f487c69c3462e0e2a01111475bc0e290             1509 main/iphoneos-all/Packages.gz
  fc80c6f395993f8bd292fc245cacb411            32220 main/iphoneos-arm64/Packages
- 9c77338d08e20965c1164679133cec0d            13645 main/iphoneos-arm64/Packages.gz
+ beaf4a3f896c66f64f2c5a0e39d9bb10            13645 main/iphoneos-arm64/Packages.gz
 SHA1:
- 79e06552fe5a1613f800199b90c1ee0ddffd379d              486 Release
+ de2f2670f7aaf88451ce8eac24ce3535351b22be              486 Release
  9edf5a9dcddf4b532751764e1e848ec18d197199             3003 main/iphoneos-all/Packages
- 707cf7c81fe40d1dfc1ff2791b48b42b6d584e98             1509 main/iphoneos-all/Packages.gz
+ cebdf63e7a68be9c20a8028afb61abfc21827b52             1509 main/iphoneos-all/Packages.gz
  bb46f1acc2faf5c19ef797029b41ee11ad9eb505            32220 main/iphoneos-arm64/Packages
- 9bc477bb25d1a7a507d92ab404d4d28e8fe90de5            13645 main/iphoneos-arm64/Packages.gz
+ c147f52282db387a97511236336342e78832f664            13645 main/iphoneos-arm64/Packages.gz
 SHA256:
- dd3d3411ddeb81d1b045c985a103ff6264e30f40378e45b6930c7cd042c89bc1              486 Release
+ a700b5bde2d4d6ad49a44da172641a3299b42483ba7db5c54861fd777665bbfa              486 Release
  aba770c26f1e77a7f33b43b1171f8da843aaae1f69cca914841facd7f98bcc97             3003 main/iphoneos-all/Packages
- d7e76644851e9fdd5b82cba82adf8c0bd3ac6bb5c7415a30c714013d36cf1d0a             1509 main/iphoneos-all/Packages.gz
+ e6d58fadb1a02d045c8eaa6206aef6fc686c7da400a72034d143a6bfa48ba913             1509 main/iphoneos-all/Packages.gz
  f1fbb0b57d7c6eeb09507874e538a6f585b2490dec19036cf8c7fc2bcee502f7            32220 main/iphoneos-arm64/Packages
- f0eb3d8df48ad554ab12e6d42ab6cec940388ae3cb143a33c1252ca116040e46            13645 main/iphoneos-arm64/Packages.gz
+ 9d669375589e6990c373d073ffe02e512d6e21fd64baa4b032a9b711de8fd3e2            13645 main/iphoneos-arm64/Packages.gz
 SHA512:
- 5aaca5535a665c7cf774e76afcbdf69ae31918dd996b5bb2997f51b66040cfa9663467194351a0fbc2a5a29cea83017fa473946f467459b93bc17023fe9e69f7              486 Release
+ 8481e76fd4f07f16a31bda142a76f38f3f0c923edc90cff987baa6e2f4fff3302f0ff4a003fb01d205e37068d6ea8193447feb0ebc3ee04122315f6c13702ba1              486 Release
  dcbcb654c003fc74127d899553a138ff1d85efd6f58323ddbe516a0e50ab82ffaa61fdb40aa51a9f13667dec9903894cf967e88ff52fa3b67bdf17702a73ef58             3003 main/iphoneos-all/Packages
- 2f7f34d982e54f32603ca8a410c6de6a815a8acfb90d77fb934fe40b834165762081bb15a59441836f2ba8f400d94a1953e6a4871d83aaddf6f636724f9023f9             1509 main/iphoneos-all/Packages.gz
+ 61d06e4c6919c4cee9326183452151d6657d371f521df27ad8ad780554e2515c6051cdcc617dce2ed7358578c062b1a2eba438b043bac0db7f7eb91671137ae9             1509 main/iphoneos-all/Packages.gz
  29e4dfca62d9c0f9c3c66ed0fb29adf6c70922f543d681ae5b3a8e8479d50dd7f5296c4bf296b64bf4d1d9ba0e83ba34550b042640bb23e7cbff85a2944124ac            32220 main/iphoneos-arm64/Packages
- a5dcd91ec974bfb4e36c4d95524997d860124ce97567033b9fcebb02df08e8649f95d0c0d157ab296edfb4051fb830c2e5d701cdb2b2d4ec4df54d254c8e2e7f            13645 main/iphoneos-arm64/Packages.gz
+ 4836651e01181b2a183852c47808ce894ec41b5afed2672f4a5a312696e75bf0acf95915b09bd4addd790eae0a1c09d448972b6d2591bd558f6aab64387a75b9            13645 main/iphoneos-arm64/Packages.gz
