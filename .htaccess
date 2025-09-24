@@ -1,8 +1,0 @@
-AddType text/plain .gz
-AddType text/plain Packages
-DirectoryIndex index.html
-
-<Files ~ "^Packages$">
-  ForceType text/plain
-  Header set Content-Type text/plain
-</Files>
