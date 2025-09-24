@@ -33,7 +33,6 @@ Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 SileoIcon: https://ios-gm.github.io/zqzb/RepoIcon.png
 Header: https://ios-gm.github.io/zqzb/sileodepiction/Default/top_0.png
 Date: $(date -u +'%a, %d %b %Y %H:%M:%S %Z')
-
 EOF
 
 apt-ftparchive release . >> Release
