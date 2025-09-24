@@ -1,0 +1,9 @@
+Origin: iOS-AD Repo
+Label: iOS-AD Repo
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: iphoneos-arm64
+Components: main
+Description: iOS-AD Repo
+Date: Wed, 24 Sep 2025 13:14:34 UTC
