@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "一款仿Android的ADB的终端插件,不过现在和Android\u000A的ADB已经有很多区别了,下载完成后\u000A终端输入adb --help查看完整命令或者查看截图",
+                    "title": "一款仿Android的ADB的终端插件, </br> 不过现在和Android的ADB已经有很多区别了,下载完成后 </br> 终端输入adb --help查看完整命令或者查看截图",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
