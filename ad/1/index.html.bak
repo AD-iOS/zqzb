@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="refresh" content="0; url=https://docs.procurs.us/" />
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Don't call or email me!</h1>
+<p>If you see this page, I don't want a professional website design!
+Don't call me!</p>
+
+<p><em>Thank you for using Procursus.</em></p>
+</body>
+</html>

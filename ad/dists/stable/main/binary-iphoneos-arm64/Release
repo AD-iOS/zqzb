@@ -1,0 +1,17 @@
+Date: Wed, 24 Sep 2025 13:14:34 +0000
+MD5Sum:
+ d2b8bdd5f20b58d8ea32f7419ab914f5               38 Release
+ 5b083881112991ac49cfff8682cf90e4            33574 main/binary-iphoneos-arm64/Packages
+ 35ad83a0c79f659e80932b89eaa72fbe            13863 main/binary-iphoneos-arm64/Packages.gz
+SHA1:
+ e8bb5018cce2c9efb709c281d2b8e1efd988c479               38 Release
+ 4c90cee6275e147b6d7fe1f3c184aa87da592648            33574 main/binary-iphoneos-arm64/Packages
+ 40c27cdebbfa02a73e0901625e58e841e07bd4c8            13863 main/binary-iphoneos-arm64/Packages.gz
+SHA256:
+ c9e59be9b92f86fe4ee4088a05cf9927f4d58b5f55f4b68f48d47f33e454cf8f               38 Release
+ 3f20e8817768ec0a08f84e8e835df902a2a338b707842e933cd73840eceb3b72            33574 main/binary-iphoneos-arm64/Packages
+ 6297411673fffa55caede49b8ffb463f8c8d09103bf49243004c1033a178433b            13863 main/binary-iphoneos-arm64/Packages.gz
+SHA512:
+ cf14b5648ce883afd7dd0e8157f4a2ad878bf44da5d34d566612371b7512610cd220a80c06cfea7c86173a6164acda20844cfcd49f5bb24b4d6b6a18992f5c44               38 Release
+ 2c500ecc32385458cea013da71d4ac6080fad118e3331072d8eff04c8cfcd3fbd1b385b2c9e5fdb5a08b3f28cb70ff0e2a9f553ebc38f09d1310bbfa50d50785            33574 main/binary-iphoneos-arm64/Packages
+ 51b9a0e86affe645930fdd4fa4da774d45b88ae6f5f143944bd4473df36eb4a3304c7d3d27e283c539a7fa1ded74e91ce61278c0a5259ca872057f101e074f20            13863 main/binary-iphoneos-arm64/Packages.gz
