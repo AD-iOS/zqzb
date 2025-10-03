@@ -42,8 +42,11 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "XsF1re, ichitaso, level3tjg, <br> LF, AD",
-                    "title": "作者和维护者(排名没有先后顺序"
+                    "text": "XsF1re, ichitaso, level3tjg, LF, AD",
+                    "text": "LF, AD",
+                    "title": "创作者",
+                    "title": "维护者",
+                    "title": "注: 创作者和维护者没有先后排序"
                 },
                 {
                     "class": "DepictionTableTextView",
