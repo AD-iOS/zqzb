@@ -6,7 +6,7 @@
     "tabs": [
         {
             "class": "DepictionStackView",
-            "tabname": "描述",
+            "tabname": "簡介",
             "views": [
                 {
                     "class": "DepictionSubheaderView",
@@ -28,7 +28,13 @@
                 {
                     "class": "DepictionSpacerView",
                     "spacing": 16
-                },
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
                 {
                     "class": "DepictionSeparatorView"
                 },
