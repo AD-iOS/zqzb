@@ -6,11 +6,11 @@
     "tabs": [
         {
             "class": "DepictionStackView",
-            "tabname": "簡介",
+            "tabname": "描述",
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "**Hide jailbreak traces and bypass detection mechanisms.**\n\nAutomatically configures paths and fixes post-removal issues. Compatible with Dopamine environment. Initial installation may take extra time due to path setup—please be patient!\n\n**隐藏越狱痕迹，绕过检测机制**\n\n自动配置路径，修复卸载残留问题。兼容 Dopamine 越狱环境，首次安装可能因路径配置稍有延迟，请耐心等待～(づ￣ 3￣)づ\n\n- 添加安装完成后重启SpringBoard弹窗的支持",
+                    "markdown": "**Hide jailbreak traces and bypass detection mechanisms.**\n\nAutomatically configures paths and fixes post-removal issues. Compatible with Dopamine environment. Initial installation may take extra time due to path setup—please be patient!\n\n**隐藏越狱痕迹，绕过检测机制**\n\n自动配置路径，修复卸载残留问题。兼容 Dopamine 越狱环境，首次安装可能因路径配置稍有延迟，请耐心等待～(づ￣ 3￣)\n\n添加安装完成后重启SpringBoard弹窗的支持",
                     "useRawFormat": false
                 },
                 {
@@ -27,13 +27,7 @@
                 {
                     "class": "DepictionSpacerView",
                     "spacing": 16
-                }
-            ]
-        },
-        {
-            "class": "DepictionStackView",
-            "tabname": "描述",
-            "views": [
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
