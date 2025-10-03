@@ -88,7 +88,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "添加prerm和preinst使其可以移除前完整卸載和更新時卸載就版本內容",
+                    "markdown": "由AD添加prerm和preinst使其可以移除前完整卸載和更新時卸載就版本內容",
                     "useRawFormat": true
                 },
                 {
