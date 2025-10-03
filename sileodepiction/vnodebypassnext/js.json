@@ -82,6 +82,17 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "0.4.5.2-Next",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "添加prerm和preinst使其可以移除前完整卸載和更新時卸載就版本內容",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.4.5-Next",
                     "useBoldText": true,
                     "useBottomMargin": false
