@@ -1592,3 +1592,18 @@ Description: Python的pip
 Author: AD
 Name: python-pip
 
+Package: repofix
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/repofix.deb
+Size: 1092
+MD5sum: 4336cbbf3793a33766421920a200bc00
+SHA1: 458c1a179029afc7b841241b826c176cea206750
+SHA256: f2e1fc2a2399bd49a6aa60dc6cf9a4469ec4c17854d1450b53aa5545163bb47c
+Section: System系统
+Description: Fuck Sileo Repo Load Question.
+Author: LF
+Name: RepoFix
+
