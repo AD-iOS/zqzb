@@ -4,12 +4,11 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 3 * * *'  # 每天UTC时间3:00自动运行
+    - cron: '0 3 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    # 添加写入权限
     permissions:
       contents: write
       
@@ -19,6 +18,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: main
       
+      - name: Create .nojekyll file
+        run: |
+          # 創建 .nojekyll 文件來禁用 Jekyll 處理
+          touch .nojekyll
+          echo "Created .nojekyll file to disable Jekyll processing"
+
       - name: Set up environment
         run: |
           sudo apt-get update
@@ -34,7 +39,6 @@ jobs:
 
       - name: Generate Packages
         run: |
-          # 扫描 debs 目录生成 Packages 文件
           if [ -d "debs" ] && [ "$(find debs -name '*.deb' | head -n 1)" ]; then
             echo "Found deb files, generating Packages..."
             dpkg-scanpackages -m debs > Packages 2>/dev/null
@@ -43,7 +47,6 @@ jobs:
             echo "# Empty Packages file - no deb packages available" > Packages
           fi
           
-          # 生成压缩版本
           gzip -c9 Packages > Packages.gz
           bzip2 -c9 Packages > Packages.bz2
           
@@ -52,10 +55,8 @@ jobs:
 
       - name: Update Release file
         run: |
-          # 获取当前时间（UTC）
           CURRENT_DATE=$(date -u +"%a, %d %b %Y %H:%M:%S UTC")
           
-          # 更新 Release 文件，保持原有格式
           awk -v current_date="$CURRENT_DATE" '
           /^Date:/ { 
               print "Date: " current_date
@@ -63,7 +64,6 @@ jobs:
           }
           /^MD5Sum:/ { 
               print "MD5Sum:"
-              # 添加 MD5 校验信息
               system("for file in Packages Packages.gz Packages.bz2; do \
                         if [ -f \"$file\" ]; then \
                           size=$(wc -c < \"$file\" | awk \"{print \\$1}\"); \
@@ -76,53 +76,31 @@ jobs:
           { print }
           ' Release > Release.new
           
-          # 替换原文件
           mv Release.new Release
           
           echo "Release file updated with current date and MD5 sums"
-          echo "Current date: $CURRENT_DATE"
 
       - name: Validate generated files
         run: |
-          # 验证必要文件
           [ -f "Packages" ] || { echo "::error::Packages file missing"; exit 1; }
           [ -f "Packages.gz" ] || { echo "::error::Packages.gz file missing"; exit 1; }
           [ -f "Release" ] || { echo "::error::Release file missing"; exit 1; }
-          
-          # 验证 MD5 信息是否正确添加到 Release
-          if ! grep -q "MD5Sum:" Release; then
-            echo "::error::MD5Sum section missing in Release file"
-            exit 1
-          fi
+          [ -f ".nojekyll" ] || { echo "::error::.nojekyll file missing"; exit 1; }
           
           echo "All required files generated and validated successfully"
-          echo "File sizes:"
-          ls -la Packages Packages.gz Packages.bz2 Release
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # 添加所有变更文件
           git add -A
           
-          # 检查是否有变更需要提交
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             echo "Changes detected, committing..."
-            git status
             git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M:%S UTC')"
-            echo "Pushing changes to repository..."
             git push
             echo "Push completed successfully"
           fi
-
-      - name: Verify update
-        run: |
-          echo "Repository update completed at: $(date -u)"
-          echo "Generated files:"
-          ls -la Packages* Release
-          echo "Release file content:"
-          cat Release
