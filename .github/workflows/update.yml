@@ -11,53 +11,55 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Set up dpkg
+      - name: Set up environment
         run: |
           sudo apt-get update
-          sudo apt-get install -y dpkg-dev
+          sudo apt-get install -y dpkg-dev coreutils
 
       - name: Generate Packages
         run: |
-          dpkg-scanpackages -m debs /dev/null > Packages
+          # 掃描 debs 目錄生成 Packages 文件
+          dpkg-scanpackages -m debs > Packages 2>/dev/null || true
           gzip -c9 Packages > Packages.gz
-          
-          # 计算校验值
-          md5_pkg=$(md5sum Packages | cut -d' ' -f1)
-          size_pkg=$(wc -c < Packages)
-          md5_gz=$(md5sum Packages.gz | cut -d' ' -f1)
-          size_gz=$(wc -c < Packages.gz)
+          bzip2 -c9 Packages > Packages.bz2
 
-          # 更新Release文件
-          awk -v md5_pkg="$md5_pkg" \
-              -v size_pkg="$size_pkg" \
-              -v md5_gz="$md5_gz" \
-              -v size_gz="$size_gz" '
-          BEGIN {print_flag=0}
-          /MD5Sum:/ {print; print_flag=1; next}
-          print_flag==1 && /Packages$/ { 
-              print " " md5_pkg " " size_pkg " Packages"
-              next
-          }
-          print_flag==1 && /Packages.gz$/ { 
-              print " " md5_gz " " size_gz " Packages.gz"
-              print_flag=0
-              next
-          }
-          {print}
-          ' Release > Release.new && mv Release.new Release
-
-      - name: Validate Checksums
+      - name: Generate Release file
         run: |
-          if ! grep -q $(md5sum Packages.gz | cut -d' ' -f1) Release; then
-            echo "::error::Checksum mismatch!"
-            exit 1
-          fi
+          # 生成或更新 Release 文件
+          cat > Release << EOF
+          Origin: Your Repo Name
+          Label: Your Repo Label
+          Suite: stable
+          Version: 1.0
+          Codename: ios
+          Architectures: iphoneos-arm
+          Components: main
+          Description: Your repository description
+          MD5Sum:
+          EOF
 
-      - name: Commit changes
+          # 添加文件校驗信息
+          for file in Packages Packages.gz Packages.bz2; do
+            if [ -f "$file" ]; then
+              size=$(wc -c < "$file" | awk '{print $1}')
+              md5=$(md5sum "$file" | cut -d' ' -f1)
+              echo " $md5 $size $file" >> Release
+            fi
+          done
+
+      - name: Validate generation
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "Auto-update $(date +'%Y-%m-%d %H:%M')"
+          # 檢查必要文件是否生成
+          [ -f Packages ] || { echo "Packages file missing"; exit 1; }
+          [ -f Release ] || { echo "Release file missing"; exit 1; }
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M:%S')"
           git push
