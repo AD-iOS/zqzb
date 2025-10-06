@@ -1607,3 +1607,21 @@ Description: Fuck Sileo Repo Load Question.
 Author: LF
 Name: RepoFix
 
+Package: vnodebypassnext
+Version: 0.4.5.2-Next
+Architecture: iphoneos-arm64
+Maintainer: alias20, LF, AD
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Filename: ./debs/vnodebypassnext_0.4.5.2-Next_iphoneos-arm64.deb
+Size: 65112
+MD5sum: 6041c58da7bba2b85892cc428b583f48
+SHA1: 06e13ebb4ea3a3fb3803f34db409d1185e6e17cc
+SHA256: 71ed83a97315fe404df2264eec95c7ad0ea4f90f951aa27c9bf4ee7b32c0eeaf
+Section: System系统
+Description: Hide jailbreak traces and bypass detection mechanisms. Automatically configures paths and fixes post-removal issues. Compatible with Dopamine environment. Initial installation may take extra time due to path setup—please be patient! 隐藏越狱痕迹，绕过检测机制，自动配置路径，修复卸载残留问题。兼容 Dopamine 越狱环境，首次安装可能因路径配置稍有延迟，请耐心等待～(づ￣ 3￣)づ
+  - 添加安装完成后重启SpringBoard弹窗的支持
+Author: XsF1re, ichitaso, level3tjg, LF, AD
+Icon: https://axs66.github.io/repo/icon/vnodebypass.png
+Name: vnodebypass-next
+Sileodepiction: https://raw.githubusercontent.com/ios-gm/zqzb/main/sileodepiction/vnodebypassnext/js.json
+
