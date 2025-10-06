@@ -4,7 +4,7 @@ Suite: AD
 Codename: AD
 Version: 1.0
 Maintainer: AD
-Architectures: iphoneos-arm64 iphoneos-all
+Architectures: iphoneos-arm64 iphoneos-arm64e iphoneos-all
 Components: main
 Description: iOS-AD Repo — 提供越狱插件、自制工具及精选第三方插件
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
