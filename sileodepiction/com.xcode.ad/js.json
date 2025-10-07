@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "iOS Xcode 命令行工具\niOS Xcode 命令行工具\n適用於C/C++的編譯\n0.2正式版版本有問題QQ反饋: 3897069329\n來源: - iOS Theos 來源: https://github.com/theos/theos - iOS SDK 來源: https://github.com/xybp888/iOS-SDKs\n使用方法:\n添加環境變量:\nexport THEOS=/var/jb/theos\nexport THEOS_SDK_ROOT=${THEOS}/sdks/iPhoneOS.sdk\nexport SYSROOT=${THEOS_SDK_ROOT}\nexport ARCHS=arm64\nexport TARGET=iphone:clang:latest:14.0\n終端輸入 sdk-switch 後開始選擇iOS SDK 選擇一個和你iOS版本一樣或者接近的iOS SDK\n輸入: xcode或者xcode++ --help查看命令幫助\n\n如果有問題可以添加QQ: 3897069329來反饋\n想要快速獲取xcode正式版即beta版的可以添加QQ群: 1030152896獲取",
+                    "markdown": "iOS Xcode 命令行工具\n\niOS Xcode 命令行工具\n\n適用於C/C++的編譯\n\n0.2正式版版本有問題QQ反饋: 3897069329\n來源: \n\n iOS Theos 來源: https://github.com/theos/theos \n\n iOS SDK 來源: https://github.com/xybp888/iOS-SDKs\n\n使用方法:\n\n添加環境變量:\nexport THEOS=/var/jb/theos\n\nexport THEOS_SDK_ROOT=${THEOS}/sdks/iPhoneOS.sdk\n\nexport SYSROOT=${THEOS_SDK_ROOT}\n\nexport ARCHS=arm64\ne\nxport TARGET=iphone:clang:latest:14.0\n\n終端輸入 sdk-switch 後開始選擇iOS SDK 選擇一個和你iOS版本一樣或者接近的iOS SDK\n\n輸入: xcode或者xcode++ --help查看命令幫助\n\n如果有問題可以添加QQ: 3897069329來反饋\n\n想要快速獲取xcode正式版即beta版的可以添加QQ群: 1030152896獲取",
                     "useRawFormat": false
                 },
                 {
