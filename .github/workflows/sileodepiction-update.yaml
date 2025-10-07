@@ -1,0 +1,61 @@
+# sileodepiction-update.yaml
+name: SileoDepiction Auto-Update
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 3 * * *'
+
+jobs:
+  update-depictions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
+          fetch-depth: 0
+      
+      - name: Validate depiction files
+        run: |
+          echo "檢查 SileoDepiction 文件..."
+          if find . -name "*sileodepiction*json" | grep -q .; then
+            echo "找到 SileoDepiction 文件"
+            find . -name "*sileodepiction*json" -exec echo "  - {}" \;
+          else
+            echo "未找到 SileoDepiction 文件"
+          fi
+      
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet HEAD^ HEAD -- :^debs/; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "未檢測到 SileoDepiction 或配置文件的更改"
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "檢測到 SileoDepiction 或配置文件的更改"
+          fi
+      
+      - name: Commit and push depiction changes
+        if: steps.changes.outputs.changes == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          CHANGED_FILES=$(git diff --name-only HEAD^ HEAD -- :^debs/ | tr '\n' ',' | sed 's/,$//')
+          
+          git add .
+          git commit -m "SileoDepiction更新 $(date +'%Y-%m-%d %H:%M')
+          
+更新的文件: $CHANGED_FILES"
+          
+          git pull origin main --rebase
+          git push origin main
+          
+          echo "SileoDepiction 更新完成"

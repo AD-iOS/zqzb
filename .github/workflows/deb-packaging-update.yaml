@@ -1,0 +1,128 @@
+# deb-packaging-update.yaml
+name: DEB Packaging Auto-Update
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'debs/**'
+  schedule:
+    - cron: '0 3 * * *'
+
+jobs:
+  package-debs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
+      
+      - name: Create .nojekyll file
+        run: |
+          touch .nojekyll
+          echo "Created .nojekyll file to disable Jekyll processing"
+      
+      - name: Set up packaging environment
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev coreutils file
+          echo "環境設置完成"
+      
+      - name: Validate debs directory
+        run: |
+          if [ ! -d "debs" ]; then
+            echo "debs 目錄不存在，創建空目錄"
+            mkdir -p debs
+            touch debs/.keep
+          fi
+          
+          DEB_COUNT=$(find debs -name "*.deb" | wc -l)
+          echo "找到 $DEB_COUNT 個 DEB 文件"
+          
+          if [ $DEB_COUNT -eq 0 ]; then
+            echo "未找到 DEB 文件，跳過包索引生成"
+          else
+            echo "找到以下 DEB 文件:"
+            find debs -name "*.deb" -exec echo "  - {}" \;
+          fi
+      
+      - name: Generate package indexes
+        if: success()
+        run: |
+          if [ -d "debs" ] && [ "$(find debs -name '*.deb' | head -n 1)" ]; then
+            echo "生成 Packages 文件..."
+            dpkg-scanpackages -m debs > Packages 2>/dev/null
+            
+            echo "生成壓縮包索引..."
+            gzip -c9 Packages > Packages.gz
+            bzip2 -c9 Packages > Packages.bz2
+            
+            echo "包索引生成完成:"
+            ls -la Packages*
+          else
+            echo "沒有 DEB 文件，創建空的 Packages 文件"
+            echo "# Empty Packages file - no deb packages available" > Packages
+            gzip -c9 Packages > Packages.gz
+            bzip2 -c9 Packages > Packages.bz2
+          fi
+      
+      - name: Update Release file
+        run: |
+          CURRENT_DATE=$(date -u +"%a, %d %b %Y %H:%M:%S UTC")
+          
+          cat > Release << EOF
+          Origin: iOS-AD Repo
+          Label: iOS-AD Repo
+          Suite: AD
+          Codename: AD
+          Version: 1.0
+          Maintainer: AD
+          Architectures: iphoneos-arm64 iphoneos-arm64e iphoneos-all
+          Components: main
+          Description: iOS-AD Repo — 提供越狱插件、自制工具及精选第三方插件
+          Date: $CURRENT_DATE
+          EOF
+          
+          echo "MD5Sum:" >> Release
+          for file in Packages Packages.gz Packages.bz2; do
+            if [ -f "$file" ]; then
+              size=$(wc -c < "$file")
+              md5=$(md5sum "$file" | cut -d' ' -f1)
+              echo " $md5 $size $file" >> Release
+            fi
+          done
+          
+          echo "Release 文件更新完成"
+          cat Release
+      
+      - name: Validate generated files
+        run: |
+          [ -f "Packages" ] || { echo "Packages文件缺失"; exit 1; }
+          [ -f "Packages.gz" ] || { echo "Packages.gz文件缺失"; exit 1; }
+          [ -f "Release" ] || { echo "Release文件缺失"; exit 1; }
+          [ -f ".nojekyll" ] || { echo ".nojekyll文件缺失"; exit 1; }
+          
+          echo "所有必需文件生成並驗證成功"
+      
+      - name: Commit and push package updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add -A
+          
+          if git diff --staged --quiet; then
+            echo "沒有更改需要提交"
+          else
+            DEB_COUNT=$(find debs -name "*.deb" | wc -l)
+            git commit -m "DEB包更新 $(date +'%Y-%m-%d %H:%M') [包含 $DEB_COUNT 個包]"
+            
+            git pull origin main --rebase
+            git push origin main
+            echo "DEB包更新推送完成"
+          fi
