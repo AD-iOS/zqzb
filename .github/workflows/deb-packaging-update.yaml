@@ -7,7 +7,7 @@ on:
     paths:
       - 'debs/**'
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 4 * * *'
 
 jobs:
   package-debs:
