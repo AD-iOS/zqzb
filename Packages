@@ -3,7 +3,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: bash
-Filename: debs/1688SHFonts_1.0_arm64.deb
+Filename: ./debs/1688SHFonts_1.0_arm64.deb
 Size: 5804304
 MD5sum: aa7221ac12dcc148ab6688b57dba0c6a
 SHA1: cc667f41435bf1946f1a346692423e5d7b8c8ca0
@@ -27,7 +27,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: bash
-Filename: debs/com.DYFont_arm64.deb
+Filename: ./debs/com.DYFont_arm64.deb
 Size: 8768764
 MD5sum: a1dfd124de965841db168aeb84345cc3
 SHA1: 0696b65e9f7dcb374df7de2f944d03deba9cb56b
@@ -42,7 +42,7 @@ Package: TrollStor
 Version: 7.25
 Architecture: iphoneos-arm64
 Maintainer: AD <3897069329>
-Filename: debs/TrollStor_7.25_arm64.deb
+Filename: ./debs/TrollStor_7.25_arm64.deb
 Size: 6456868
 MD5sum: 7f4bcbb21e61959917d3682d8df3c8c0
 SHA1: 95df4cfc6decd4e5c1d45a5eeccaee1f15e50685
@@ -57,7 +57,7 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/WatermelonBar_1.2_arm64.deb
+Filename: ./debs/WatermelonBar_1.2_arm64.deb
 Size: 286888
 MD5sum: b6c17514822b047da720db065242f41d
 SHA1: 048aedc653003ef1c8afd5ec075eb568c101bbca
@@ -73,7 +73,7 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: debs/a1_1.2_arm64.deb
+Filename: ./debs/a1_1.2_arm64.deb
 Size: 9400
 MD5sum: bdb52038e8def792b40b0ec79703a738
 SHA1: 73341b437b088373db2e56f905bc92b1cff099e5
@@ -89,7 +89,7 @@ Version: 1.3
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: debs/a1_1.3_arm64.deb
+Filename: ./debs/a1_1.3_arm64.deb
 Size: 10256
 MD5sum: 77690d779a670d61de029641c9d6c395
 SHA1: 4dc840fe59a7911e47e260e8a3cf592a9842e99f
@@ -121,7 +121,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: iOS-AD
 Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0)
-Filename: debs/com.AD.10086_1.0_arm64.deb
+Filename: ./debs/com.AD.10086_1.0_arm64.deb
 Size: 1336
 MD5sum: b2562eaf777dfcb15875412a6093df36
 SHA1: c5816549c350bc7dae07df30873b5f139957e46c
@@ -150,7 +150,7 @@ Maintainer: AD
 Installed-Size: 162
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: zp.stopautolaunchapps
-Filename: debs/com.AD.MemoryOptimization_1.0.5_arm64.deb
+Filename: ./debs/com.AD.MemoryOptimization_1.0.5_arm64.deb
 Size: 3808
 MD5sum: 66d21c8c30bc22d1478a9207bd9ed685
 SHA1: 6cf53a46a6829bb0399c60b1b043304b9c749b50
@@ -166,7 +166,7 @@ Version: 3.0
 Architecture: iphoneos-arm64
 Maintainer: AD <3897069329>
 Depends: firmware (>= 15.0)
-Filename: debs/com.AD.Saily_3.0_arm64.deb
+Filename: ./debs/com.AD.Saily_3.0_arm64.deb
 Size: 3404184
 MD5sum: d2764990197c35ef77095844df26b555
 SHA1: 5dbc90e4d0a4951ab814eb47577e14319e38528f
@@ -181,7 +181,7 @@ Version: 7.1.0
 Architecture: iphoneos-arm64
 Maintainer: AD <3897069329>
 Depends: firmware (>= 15.0)
-Filename: debs/com.AD.iCleanerPro_7.1.0_arm64.deb
+Filename: ./debs/com.AD.iCleanerPro_7.1.0_arm64.deb
 Size: 982848
 MD5sum: 34616225bccd79facc3449e21fbafecb
 SHA1: fb076e493ea3a29dba15293944234e26a8af105a
@@ -196,7 +196,7 @@ Version: 2.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
-Filename: debs/com.AD.virtualmemory_2.0_arm64.deb
+Filename: ./debs/com.AD.virtualmemory_2.0_arm64.deb
 Size: 2016
 MD5sum: aa070c198272795e7f0a03d89639f7d9
 SHA1: 4a4d36f0b86a98e32493f0d4e4113542bc7a74e8
@@ -212,7 +212,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0)
-Filename: debs/com.Dopamine.themes_1.0_arm64.deb
+Filename: ./debs/com.Dopamine.themes_1.0_arm64.deb
 Size: 2132
 MD5sum: 03f8158afe61f05f580e38eea9e48271
 SHA1: 4e5b6c5b7bc4c79d96927490d32b1e461b696d94
@@ -228,7 +228,7 @@ Version: 1.0
 Architecture: all
 Maintainer: AD
 Depends: com.ad.theos
-Filename: debs/com.ad.Ev_1.0_all.deb
+Filename: ./debs/com.ad.Ev_1.0_all.deb
 Size: 1544
 MD5sum: 40079e0ba7d803f7a271736ddc00aca5
 SHA1: 49df3be06dd40466dfeb682f5b27b4cce9de0ca7
@@ -249,7 +249,7 @@ Version: 1.0
 Architecture: all
 Maintainer: AD
 Depends: firmware (>= 99999.0)
-Filename: debs/com.ad.System-TS_1.0_all.deb
+Filename: ./debs/com.ad.System-TS_1.0_all.deb
 Size: 844
 MD5sum: 7b01f7847b46abe1f30a7c4d9bebae14
 SHA1: 9a521c55532b205b5f184b4b7aee42f93dfcff29
@@ -267,7 +267,7 @@ Version: 7.3
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0)
-Filename: debs/com.ad.deb_7.3_arm64.deb
+Filename: ./debs/com.ad.deb_7.3_arm64.deb
 Size: 13600
 MD5sum: 0991db518d053a1f5603e04bfe62adc4
 SHA1: 4ac340a02faa534da8e7a0bc4571efba8501a860
@@ -290,7 +290,7 @@ Version: 1.1.1
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0)
-Filename: debs/com.ad.lamina_1.1.1_arm64.deb
+Filename: ./debs/com.ad.lamina_1.1.1_arm64.deb
 Size: 242632
 MD5sum: 5cc49c466dfc5d0ed9b8e422ec1416ea
 SHA1: 731a0e99a1512aa813ee53031e4277663ef75f7c
@@ -386,7 +386,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: com.ad.theos, firmware (>= 13.0)
-Filename: debs/com.ad.sdk13.7_1.0-2_arm64.deb
+Filename: ./debs/com.ad.sdk13.7_1.0-2_arm64.deb
 Size: 8590960
 MD5sum: d3f60f33b8ef316215a129bf1c6d341a
 SHA1: 5db4931f4e8864bbc784853deb70737414c13cf0
@@ -402,7 +402,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: com.ad.theos, firmware (>= 14.0)
-Filename: debs/com.ad.sdk14.5_1.0-2_arm64.deb
+Filename: ./debs/com.ad.sdk14.5_1.0-2_arm64.deb
 Size: 12844004
 MD5sum: 4651ccb72293366854cc9523d107dcd1
 SHA1: 7c5e2095445eb4435fcfe2c777ba31c7ef9520af
@@ -418,7 +418,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0), com.ad.theos
-Filename: debs/com.ad.sdk15.6_1.0-2_arm64.deb
+Filename: ./debs/com.ad.sdk15.6_1.0-2_arm64.deb
 Size: 16292432
 MD5sum: d88093464196fef05359082574e0bedd
 SHA1: 901dde69b4046714e709435881c435b48100399b
@@ -434,7 +434,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: com.ad.theos, firmware (>= 16.0)
-Filename: debs/com.ad.sdk16.5_1.0-2_arm64.deb
+Filename: ./debs/com.ad.sdk16.5_1.0-2_arm64.deb
 Size: 17420352
 MD5sum: 7afa62bbec5e5a0e72963111e5023a9f
 SHA1: 4aa82439b97702d0d080cb48f3fe03b8238917a5
@@ -449,7 +449,7 @@ Package: com.ad.theos
 Version: 1.0
 Architecture: all
 Maintainer: AD
-Filename: debs/com.ad.theos_1.0_all.deb
+Filename: ./debs/com.ad.theos_1.0_all.deb
 Size: 3256092
 MD5sum: f41f80ecaf44e8d6f7e41b44f90caf3c
 SHA1: 8a4585255b5206ffc85e93e37b471f4f2f2ae4fe
@@ -466,7 +466,7 @@ Version: 1.0
 Architecture: all
 Maintainer: AD
 Depends: firmware (>= 99999.0)
-Filename: debs/com.ad.theos-sdk_1.0_all.deb
+Filename: ./debs/com.ad.theos-sdk_1.0_all.deb
 Size: 992
 MD5sum: 7cffa8e9fb5362373d6bf3586814359e
 SHA1: 7e0fad24bc6303b80a1f6b1450a74817743ccbbe
@@ -487,7 +487,7 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Pre-Depends: openssh, zsh, unzip
 Depends: openssh, zsh, unzip, sudo, dpkg, apt, coreutils, less
-Filename: debs/com.adb.sct-ad_2.6-39_arm64.deb
+Filename: ./debs/com.adb.sct-ad_2.6-39_arm64.deb
 Size: 7932
 MD5sum: 3ee59bb73a3529e99e242908e7ef0d30
 SHA1: a73871958682cf8676ffda14b67a6ed2a86fb004
@@ -504,7 +504,7 @@ Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: mobilesubstrate
-Filename: debs/com.couhege1380.BatteryMaster_1.0.0_arm64.deb
+Filename: ./debs/com.couhege1380.BatteryMaster_1.0.0_arm64.deb
 Size: 39508
 MD5sum: d69daf655dec492cfbdd8e07b49c72af
 SHA1: 27d2d424d3460989b81bf4ae53a658c5f07b97ea
@@ -521,7 +521,7 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 21800
 Depends: firmware (>= 15.0), re.frida.server
-Filename: debs/com.Frida_arm64.deb
+Filename: ./debs/com.Frida_arm64.deb
 Size: 4446728
 MD5sum: 7946902c62f94908159c5a900012a51a
 SHA1: 418c8eb7a552b4f150cfad702243bca8ef341358
@@ -564,7 +564,7 @@ Architecture: iphoneos-arm64
 Maintainer: Netskao
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.netskao.BiliPurify_1.0.0_arm64.deb
+Filename: ./debs/com.netskao.BiliPurify_1.0.0_arm64.deb
 Size: 6708040
 MD5sum: b0c6b5edbf6cf113d21bb1f3a6ba2b01
 SHA1: 766a61f94c0886e3e0402df3b166c53c676bcd93
@@ -580,7 +580,7 @@ Version: 1.1-8
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0), filza
-Filename: debs/com.netskao.filzacrack_1.1-8_arm64.deb
+Filename: ./debs/com.netskao.filzacrack_1.1-8_arm64.deb
 Size: 5124
 MD5sum: bc69074adc027733ecaab7b8c830948b
 SHA1: ec08bdb95fcbc8377b388ddea89cb5e6c04c602e
@@ -596,7 +596,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0)
-Filename: debs/com.null.ad_1.0_arm64.deb
+Filename: ./debs/com.null.ad_1.0_arm64.deb
 Size: 3716
 MD5sum: ae2fb082919568a47526e9eff0b0183b
 SHA1: ac2424d05e32b629a76b5252af0d7baca0171129
@@ -612,7 +612,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0)
-Filename: debs/com.password-free.sudo.ad_1.0_arm64.deb
+Filename: ./debs/com.password-free.sudo.ad_1.0_arm64.deb
 Size: 1004
 MD5sum: 3f7530128c876e1b64c39001f2a65663
 SHA1: 30e2892b407107a27e21810cf5410cb3113f6672
@@ -628,7 +628,7 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Installed-Size: 3022
 Depends: mobilesubstrate
-Filename: debs/com.plicationsnext_4.0_arm64.deb
+Filename: ./debs/com.plicationsnext_4.0_arm64.deb
 Size: 657096
 MD5sum: 64229da073f576f3c8b283da3c305f06
 SHA1: a2b432613062406e9295662cfbeff3897c8e9d1c
@@ -652,7 +652,7 @@ Maintainer: TIGI Software
 Installed-Size: 23200
 Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
 Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Filename: debs/com.tigisoftware.filza64bit_4.0.1-4_arm64.deb
+Filename: ./debs/com.tigisoftware.filza64bit_4.0.1-4_arm64.deb
 Size: 6973368
 MD5sum: b7a7c51add52df2e3f2bcbbd4388030f
 SHA1: 1fc6f3bee973c68d0694c41dab79cfdff124bc00
@@ -668,7 +668,7 @@ Version: 1.7.8
 Architecture: iphoneos-arm64
 Maintainer: xybp888
 Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
-Filename: debs/com.xybp888.callassist16.dopamine_1.7.8_arm64.deb
+Filename: ./debs/com.xybp888.callassist16.dopamine_1.7.8_arm64.deb
 Size: 2860944
 MD5sum: 95ef1785777b238412b80537d7b541b7
 SHA1: c5950b30f3626c353f067050f6565b3f32520db1
@@ -691,7 +691,7 @@ Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmd
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Filename: debs/cydia_1.1.37-3_arm64.deb
+Filename: ./debs/cydia_1.1.37-3_arm64.deb
 Size: 1234204
 MD5sum: 207f742fc389b70dd64ab62a909695c9
 SHA1: f947a737522a4430df061794d43c2ea176afcf44
@@ -710,7 +710,7 @@ Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: com.spark.snowboard
-Filename: debs/iOS26e_1.1_arm64.deb
+Filename: ./debs/iOS26e_1.1_arm64.deb
 Size: 4003632
 MD5sum: 9d9b9561aab0999c200f98885db9023e
 SHA1: c527f9b97b5e7e60f10a704a9c6fc07786766b38
@@ -726,7 +726,7 @@ Version: 1.0.0Beta
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: bash
-Filename: debs/iperformancetweak_1.0.0Beta_arm64.deb
+Filename: ./debs/iperformancetweak_1.0.0Beta_arm64.deb
 Size: 9076
 MD5sum: 9ae0b509cc725567298b3dbefbdfd137
 SHA1: c542b348f25976318e2e294f9898e2da2119ee5a
@@ -742,7 +742,7 @@ Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/itheosmaker_1.1_arm64.deb
+Filename: ./debs/itheosmaker_1.1_arm64.deb
 Size: 1219496
 MD5sum: 5a5e35176aca3294f8317898a970dd97
 SHA1: d9d1370f1975e284b90f581db9ce53972b38754c
@@ -759,7 +759,7 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Installed-Size: 4900
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
-Filename: debs/me.tomt000.stageduo_1.2_arm64.deb
+Filename: ./debs/me.tomt000.stageduo_1.2_arm64.deb
 Size: 3072460
 MD5sum: 7f34aad3db93a16b58775a44946f7ce0
 SHA1: 1bba3c431068f0a13aaebb0171b68f34b2e7c7ba
@@ -776,7 +776,7 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 8.5MB
 Depends: python3, python3.9
-Filename: debs/python-pip_1.0.0-1_arm64.deb
+Filename: ./debs/python-pip_1.0.0-1_arm64.deb
 Size: 1869496
 MD5sum: 78c73494ec88534edc5e39c589ad25eb
 SHA1: 672325a3436ab1172c0ca08264cb68af914c3f66
@@ -800,7 +800,7 @@ Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader
-Filename: debs/repofix.deb
+Filename: ./debs/repofix.deb
 Size: 1092
 MD5sum: 4336cbbf3793a33766421920a200bc00
 SHA1: 458c1a179029afc7b841241b826c176cea206750
@@ -815,7 +815,7 @@ Version: 0.4.5.2-Next
 Architecture: iphoneos-arm64
 Maintainer: alias20, LF, AD
 Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
-Filename: debs/vnodebypassnext_0.4.5.2-Next_iphoneos-arm64.deb
+Filename: ./debs/vnodebypassnext_0.4.5.2-Next_iphoneos-arm64.deb
 Size: 65112
 MD5sum: 6041c58da7bba2b85892cc428b583f48
 SHA1: 06e13ebb4ea3a3fb3803f34db409d1185e6e17cc
