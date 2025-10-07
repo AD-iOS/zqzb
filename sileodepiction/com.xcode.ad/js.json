@@ -1,0 +1,108 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://ios-gm.github.io/zqzb/sileodepiction/Default/top_0.png",
+    "tintColor": "#1DBBFF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "iOS Xcode 命令行工具 - iOS Xcode 命令行工具 - 適用於C/C++的編譯 - 0.2正式版版本有問題QQ反饋: 3897069329 <br> 來源: - iOS Theos 來源: https://github.com/theos/theos - iOS SDK 來源: https://github.com/xybp888/iOS-SDKs <br> 使用方法: - 添加環境變量: <br> export THEOS=/var/jb/theos <br> export THEOS_SDK_ROOT=${THEOS}/sdks/iPhoneOS.sdk <br> export SYSROOT=${THEOS_SDK_ROOT} <br> export ARCHS=arm64  <br> export TARGET=iphone:clang:latest:14.0 - 終端輸入 sdk-switch 後開始選擇iOS SDK 選擇一個和你iOS版本一樣或者接近的iOS SDK - 輸入: xcode或者xcode++ --help查看命令幫助 <br> 如果有問題可以添加QQ: 3897069329來反饋 <br> 想要快速獲取xcode正式版即beta版的可以添加QQ群: 1030152896獲取",
+                    "useRawFormat": false
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 346.4533333333333}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://raw.githubusercontent.com/ios-gm/zqzb/main/sileodepiction/com.xcode.ad/Screenshot_01.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "AD",
+                    "title": "创作者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "AD",
+                    "title": "维护者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "0.2-14",
+                    "title": "最新版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "15-16.6.1",
+                    "title": "理论支持系统范围"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2025 年 10 月 07 日",
+                    "title": "最后更新日期"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2-14",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "添加iOS theos 和 iOS SDK 添加AD的私有庫因為要依賴這個庫的hpp 添加SDK調用、添加iOS最低系統選擇",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "基礎版本",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ]
+}
