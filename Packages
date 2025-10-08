@@ -397,26 +397,6 @@ Description: iOS的theos可以进行开发用
 Author: AD
 Name: theos
 
-Package: com.ad.theos-sdk
-Version: 1.0
-Architecture: all
-Maintainer: AD
-Depends: firmware (>= 99999.0)
-Filename: debs/com.ad.theos-sdk_1.0_all.deb
-Size: 992
-MD5sum: 7cffa8e9fb5362373d6bf3586814359e
-SHA1: 7e0fad24bc6303b80a1f6b1450a74817743ccbbe
-SHA256: adf55578713128072cb47c739f807dd660f85d590d63d16a7d10be096ad17f5e
-Section: theos/SDK
-Description: theos/sdk分类的公告
-  -
-  theos/SDK分类的公告，如果各位发现SDK或者theos有问题、无法下载等等这些问题可以联系源主来修复。
-  - 如果您很着急的话也可以去其他源来安装使用或者使用git命令远程拉取theos和SDK
-  - 分类的其他插件比如配置环境变量的插件也无法使用或者配置失败的话可以自行配置环境变量
-Author: AD
-Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
-Name: theos/sdk分类的公告
-
 Package: com.adb.sct-ad
 Version: 2.6-39
 Architecture: iphoneos-arm64
