@@ -381,38 +381,6 @@ Author: AD
 Icon: https://ios-gm.github.io/zqzb/CydiaIcon.png
 Name: Lamina-iOS-CPP-1.1.1-Beta
 
-Package: com.ad.sdk13.7
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: AD
-Depends: com.ad.theos, firmware (>= 13.0)
-Filename: debs/com.ad.sdk13.7_1.0-2_arm64.deb
-Size: 8590960
-MD5sum: d3f60f33b8ef316215a129bf1c6d341a
-SHA1: 5db4931f4e8864bbc784853deb70737414c13cf0
-SHA256: 3001e02a04bebfe9ab7a0def1c640c1840ab394d1da65a556b9221c69fb4b7f7
-Section: theos/SDK
-Priority: optional
-Description: iOS 的 SDK 13.7，需要搭配 Theos 使用
-Author: AD
-Name: iOS-13.7-SDK
-
-Package: com.ad.sdk14.5
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: AD
-Depends: com.ad.theos, firmware (>= 14.0)
-Filename: debs/com.ad.sdk14.5_1.0-2_arm64.deb
-Size: 12844004
-MD5sum: 4651ccb72293366854cc9523d107dcd1
-SHA1: 7c5e2095445eb4435fcfe2c777ba31c7ef9520af
-SHA256: bcc5651f1be306d68f84d33b63f206455650045288a802fca01b1a44885663ab
-Section: theos/SDK
-Priority: optional
-Description: iOS 的 SDK 14.5，需要搭配 Theos 使用
-Author: AD
-Name: iOS-14.5-SDK
-
 Package: com.ad.sdk15.6
 Version: 1.0
 Architecture: iphoneos-arm64
