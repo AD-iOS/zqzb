@@ -7,8 +7,11 @@ Maintainer: AD
 Architectures: iphoneos-arm64 iphoneos-arm64e iphoneos-all
 Components: main
 Description: iOS-AD Repo — 提供越狱插件、自制工具及精选第三方插件
-Date: Fri, 05 Dec 2025 04:31:14 UTC
+Date: Sat, 06 Dec 2025 03:40:18 UTC
 MD5Sum:
+ a94aa8f081365790b5582e0821889afc 30936 Packages
+ 22ac3858b6f58cb5d609a0b7455c9561 13455 Packages.gz
+ 2e2bb11d194d21c72ccf2e365ad9171c 12057 Packages.bz2
  a94aa8f081365790b5582e0821889afc 30936 Packages
  b5b4a6a4afadabb78583d736b1f69729 13455 Packages.gz
  2e2bb11d194d21c72ccf2e365ad9171c 12057 Packages.bz2
