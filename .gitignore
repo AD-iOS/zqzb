@@ -7,7 +7,5 @@ sileodepiction-update.sh
 update_repo.sh
 md5_repo.sh
 *.sh
-Old/*
-*.old
 bak/*
 
