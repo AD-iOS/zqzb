@@ -8,15 +8,21 @@ Architectures: iphoneos-arm64 iphoneos-arm64e iphoneos-all
 Components: main
 <<<<<<< HEAD
 Description: iOS-AD Repo — 提供越狱插件、自制工具及精选第三方插件
-Date: Sun, 08 Feb 2026 05:24:19 UTC
+Date: Sun, 08 Feb 2026 06:21:11 UTC
 MD5Sum:
+ a94aa8f081365790b5582e0821889afc 30936 Packages
+ 3e561575c98d19a16cb5b9127287a512 13455 Packages.gz
+ 2e2bb11d194d21c72ccf2e365ad9171c 12057 Packages.bz2
  a94aa8f081365790b5582e0821889afc 30936 Packages
  5c8a420cbf948a6b5eaf48efec6ffb0e 13455 Packages.gz
  2e2bb11d194d21c72ccf2e365ad9171c 12057 Packages.bz2
 =======
 Description: iOS-AD Repo — 提供越狱插件、自制工具及精选第三方插件, 重新維護日期: 2026-2-8!
-Date: Sun, 08 Feb 2026 14:14:12 +0800
+Date: Sun, 08 Feb 2026 06:21:11 UTC
 MD5Sum:
+ a94aa8f081365790b5582e0821889afc 30936 Packages
+ 3e561575c98d19a16cb5b9127287a512 13455 Packages.gz
+ 2e2bb11d194d21c72ccf2e365ad9171c 12057 Packages.bz2
  ffa6638e0a4d148cfd4f7d1e7c832feb 31004 Packages
  e6ea6f23cebcb225de77f309bd6570df 12140 Packages.xz
  d9bcfeeb7cdfc12cd0119294316d63d7 12039 Packages.bz2
