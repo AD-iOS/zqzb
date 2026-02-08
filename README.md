@@ -4,6 +4,7 @@
 > 創作者: AD 維護者: AD
 - 本源已經停止維護, 留此作為紀念
 - 新源: https://ad-ios.github.io/ad
+- 停止維護是因為無盡的衝突而我已經沒有很多盡力來維護這個軟件源倉庫了,不過我打算重新維護
 
 ## 支持範圍
 - 支持iOS15~16
@@ -21,5 +22,5 @@
 - 頻道快捷鏈接:https://pd.qq.com/s/71lfm1icp?b=5
 
 ## 源地址：
-- https://ios-gm.github.io/zqzb
+- https://ad-ios.github.io/zqzb
 - 複製上方地址到sileo/Zebra/Saily即可添加本源
